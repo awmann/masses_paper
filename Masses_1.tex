@@ -65,8 +65,8 @@
 \author[0000-0003-4142-9842]{Megan Ansdell}%
 \affiliation{Department of Astronomy, University of California at Berkeley, Berkeley, CA 94720, USA}
 
-%\author{Jean-Luc Beuzit}
-%\affiliation{Observatoire de Grenoble, Institut de Planetologie et d'Astrophysique de Grenoble, BP 53, 38041 Grenoble Cedex 9, France}
+\author{Jean-Luc Beuzit}
+\affiliation{Observatoire de Grenoble, Institut de Planetologie et d'Astrophysique de Grenoble, BP 53, 38041 Grenoble Cedex 9, France}
 
 \author[0000-0001-7730-2240]{Jason Dittmann}
 \affiliation{Harvard-Smithsonian Center for Astrophysics, 60 Garden St., Cambridge, MA, 02138}
@@ -77,11 +77,11 @@
 \author[0000-0002-8332-8516]{Samuel Factor}
 \affiliation{Department of Astronomy, The University of Texas at Austin, Austin, TX 78712, USA}
 
-%\author[0000-0003-0536-4607]{Thierry Forveille}
-%\affiliation{Observatoire de Grenoble, Institut de Planetologie et d'Astrophysique de Grenoble, BP 53, 38041 Grenoble Cedex 9, France}
+\author[0000-0003-0536-4607]{Thierry Forveille}
+\affiliation{Observatoire de Grenoble, Institut de Planetologie et d'Astrophysique de Grenoble, BP 53, 38041 Grenoble Cedex 9, France}
 
-%\author{Michael Liu}
-%\affiliation{Institute for Astronomy, University of Hawai`i at M\={a}noa, Honolulu, HI 96822, USA}
+\author{Michael Liu}
+\affiliation{Institute for Astronomy, University of Hawai`i at M\={a}noa, Honolulu, HI 96822, USA}
 
 \author[0000-0001-6301-896X]{Raquel Martinez}
 \affiliation{Department of Astronomy, The University of Texas at Austin, Austin, TX 78712, USA}
@@ -144,15 +144,14 @@ The mass-luminosity relation for late-type stars has long been a critical tool f
 % without latex:
 %The mass-luminosity relation for late-type stars has been a critical tool for both measuring stellar masses and testing evolutionary models for decades. It is now possible to significantly improve on past relations thanks to new methods to measure the metallicity of M dwarfs, the availability of {\it Gaia} parallaxes, and an increasing number of benchmark binaries near the hydrogen burning limit. Here we present an empirical relation between \mks\ and $M_*$ calibrated using astrometric binaries from 0.70$M_\odot$ down to the hydrogen burning limit ($\simeq0.075M_\odot$). The relation is built from 61 nearby binary systems, whose orbits we determine using a a combination of our own monitoring with NIRC2 on Keck, archive adaptive optics data, and astrometry measurements in the literature. We use these data to determine total masses for each system and \mks\ magnitudes for each component, which we use to fit an empirical \mmk\ relation. System mass are determined to better than 1\% in the best cases (median precision of 6.4\%). The resulting relation can be used to predict masses to 2-3\% over for $M_*>0.18M_\odot$, and 3-6\% down to the hydrogen burning limit. Using empirically calibrated metallicities, we attempt to explore the role of [Fe/H] on the \mmk\. We find that the effect is likely small for the range of metallicities expected in the Solar neighborhood ($\simeq$1\% change in $M_*$), but may exceed uncertainties in the relation ($>3\%$) for dwarfs with [Fe/H]$\ll-0.5$. Our results also suggest that evolutionary models likely overestimate the role of [Fe/H] on the relation, but the difference is not significant at this point. Future studies including a sample of subdwarf binaries will be needed to better explore the role of [Fe/H].
 
-\section{To do list:}
-\begin{itemize}
-\item ORCIDs from Co-authors
-\item Giant table of all input astrometry.
-\item Full corner plot for one sample system
-\item personal corner plot instead of DFM's?
-\item Very long MCMC run (1 million)
-\item Check no even power fit?
-\end{itemize}
+%\section{To do list:}
+%\begin{itemize}
+%\item ORCIDs from Co-authors
+%\item Giant table of all input astrometry.
+%\item Full corner plot for one sample system
+%\item personal corner plot instead of DFM's?
+%\item Very long MCMC run (1 million)
+%\end{itemize}
 
 
 \section{Introduction}\label{sec:intro}
@@ -901,85 +900,85 @@ We did not see a significant difference in any derived correction based on the m
 
 \section{Orbits of binaries}\label{sec:orbitplots}
 
-Here we show diagnostic plots of each of the binaries analyzed in this paper. The three binaries shown in Figure~\ref{fig:orbits} are not repeated here. 
+Here we show diagnostic plots of each of the binaries analyzed in this paper. The three binaries shown in Figure~\ref{fig:orbits} are not repeated here. [FOR FILE SIZE REASONS I COMMENTED OUT THE ACTUAL FIGURES FOR NOW]
 
-\begin{figure*}[htp]
-\begin{center}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ22AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ65AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ234AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ340AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ416AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ570AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ600AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ623AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ661AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ748AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ1005AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ1038AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ1081AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ1210AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ1245AB.eps}
-\caption{Orbital fit for each binary fit in this paper in the reference frame of the primary. The black star marks the primary (always at 0, 0). The best-fit (highest likelihood) is shown as a black line, with 100 randomly selected orbit fits from the MCMC shown in grey. In many fits the thickness of the black line blocks much or all of the grey lines. Red points are individual measurements with adopted uncertainties. The dashed line is the line of nodes, the dotted line indicates periastron passage, and the arrow marks the direction of motion. }
-\label{fig:orbits1}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htp]
-\begin{center}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ2005AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ3412AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ3421AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ4024AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ4210AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ4287AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl54AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl125AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl190AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl263AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl277AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl310AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl330AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl381AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl473AB.eps}
-\caption{Figure~\ref{fig:orbits1} continued.}
-\label{fig:orbits2}
-\end{center}
-\end{figure*}
-
-
-\begin{figure*}[htp]
-\begin{center}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl494AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl660AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl695AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl747AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl7912AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl804AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl831AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl844AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl8934AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl913AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/HD15285AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/HD239960AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/HIP9724AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/HIP11542AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/HIP46706AB.eps}
-\caption{Figure~\ref{fig:orbits1} continued.}
-\label{fig:orbits3}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htp]
-\begin{center}
-\includegraphics[width=0.32\textwidth]{Orbits/HIP95995AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/HIP96656AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/LHS6167AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/PMJ02133+3648AB.eps}
-\caption{Figure~\ref{fig:orbits1} continued.}
-\label{fig:orbits4}
-\end{center}
-\end{figure*}
+%\begin{figure*}[htp]
+%\begin{center}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ22AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ65AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ234AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ340AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ416AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ570AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ600AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ623AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ661AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ748AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ1005AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ1038AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ1081AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ1210AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ1245AB.eps}
+%\caption{Orbital fit for each binary fit in this paper in the reference frame of the primary. The black star marks the primary (always at 0, 0). The best-fit (highest likelihood) is shown as a black line, with 100 randomly selected orbit fits from the MCMC shown in grey. In many fits the thickness of the black line blocks much or all of the grey lines. Red points are individual measurements with adopted uncertainties. The dashed line is the line of nodes, the dotted line indicates periastron passage, and the arrow marks the direction of motion. }
+%\label{fig:orbits1}
+%\end{center}
+%\end{figure*}
+%
+%\begin{figure*}[htp]
+%\begin{center}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ2005AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ3412AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ3421AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ4024AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ4210AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/GJ4287AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl54AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl125AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl190AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl263AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl277AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl310AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl330AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl381AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl473AB.eps}
+%\caption{Figure~\ref{fig:orbits1} continued.}
+%\label{fig:orbits2}
+%\end{center}
+%\end{figure*}
+%
+%
+%\begin{figure*}[htp]
+%\begin{center}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl494AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl660AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl695AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl747AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl7912AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl804AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl831AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl844AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl8934AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/Gl913AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/HD15285AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/HD239960AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/HIP9724AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/HIP11542AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/HIP46706AB.eps}
+%\caption{Figure~\ref{fig:orbits1} continued.}
+%\label{fig:orbits3}
+%\end{center}
+%\end{figure*}
+%
+%\begin{figure*}[htp]
+%\begin{center}
+%\includegraphics[width=0.32\textwidth]{Orbits/HIP95995AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/HIP96656AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/LHS6167AB.eps}
+%\includegraphics[width=0.32\textwidth]{Orbits/PMJ02133+3648AB.eps}
+%\caption{Figure~\ref{fig:orbits1} continued.}
+%\label{fig:orbits4}
+%\end{center}
+%\end{figure*}
 
 \end{document}
 
