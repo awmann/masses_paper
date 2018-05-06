@@ -46,7 +46,7 @@
 \affiliation{Columbia University, Department of Astronomy, 550 West 120th Street, New York, NY 10027}
 \affiliation{Department of Physics and Astronomy, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599-3255, USA}
 
-\author{Trent Dupuy}%[0000-0001-9823-1445]
+\author[0000-0001-9823-1445]{Trent Dupuy}
 \affiliation{Gemini Observatory, Northern Operations Center, 670 N. Aohoku Place, Hilo, HI 96720, USA}
  
 \author[0000-0001-9811-568X]{Adam Kraus}
@@ -55,11 +55,11 @@
 \author[0000-0002-5258-6846]{Eric Gaidos}
 \affiliation{Department of Geology \& Geophysics, University of Hawaii at M\={a}noa, Honolulu, Hawaii 96822 USA}
 
-\author{Aaron Rizzuto}
+\author[0000-0001-9982-1332]{Aaron Rizzuto}
 \altaffiliation{51 Peg b Fellow}
 \affiliation{Department of Astronomy, The University of Texas at Austin, Austin, TX 78712, USA}
 
-\author{Michael Ireland}%[0000-0002-6194-043X]
+\author[0000-0002-6194-043X]{Michael Ireland}%
 \affiliation{Research School of Astronomy \& Astrophysics, Australian National University, Canberra ACT 2611, Australia}
 
 \author[0000-0003-4142-9842]{Megan Ansdell}%
@@ -71,7 +71,7 @@
 \author[0000-0001-7730-2240]{Jason Dittmann}
 \affiliation{Harvard-Smithsonian Center for Astrophysics, 60 Garden St., Cambridge, MA, 02138}
 
-\author{Chao-Ling Hung}%[0000-0002-6879-3639]
+\author[0000-0002-6879-3639]{Chao-Ling Hung}
 \affiliation{Department  of  Physics, Manhattan  College,  4513  Manhattan College Parkway, Riverdale, NY 10471, USA}
 
 \author[0000-0002-8332-8516]{Samuel Factor}
@@ -80,7 +80,7 @@
 \author[0000-0003-0536-4607]{Thierry Forveille}
 \affiliation{Observatoire de Grenoble, Institut de Planetologie et d'Astrophysique de Grenoble, BP 53, 38041 Grenoble Cedex 9, France}
 
-\author{Michael Liu}
+\author[0000-0003-2232-7664]{Michael Liu}
 \affiliation{Institute for Astronomy, University of Hawai`i at M\={a}noa, Honolulu, HI 96822, USA}
 
 \author[0000-0001-6301-896X]{Raquel Martinez}
@@ -178,7 +178,7 @@ Our initial list of late-type binaries was built by cross-matching catalogs of n
 
 From here we selected those for which we expect to be able to obtain a precise orbit on a reasonable (few year) timescale. We assumed the average of available separation measurements represented the typical semi-major axis. We then identified systems for which we would have at least 30\% of the orbit within the two years of our orbital monitoring program with Keck. This cut accounted for existing data. As a result, long-period binaries with extensive previous observations were included, depending on the baseline available, while those with only a single epoch would generally need to have orbits of $\ll$10 years to be observed. After this cut we were left with 125 systems. With the exception of 38 systems in the far South ($\delta<-30^\circ$, outside the range of Keck), all of these were included in our initial observing queue.
 
-We removed 21 systems from our analysis because of an unresolved tertiary (or quaternary) component noted in the literature \citep[e.g.,][]{2010ApJ...720.1727L,2002A&A...382..118T,2018ApJS..235....6T}. In their current form, such systems are not useful for our analysis, as we have no $\Delta K$ magnitudes or mass ratios for the unresolved components. Since many of these are double- or triple-lined systems, it is possible to recover their parameters with multi-epoch radial velocities, and some systems already have the necessary data in the literature \citep[e.g.,][]{2000A&A...364..665S}. We are actively monitoring these systems with high-resolution near-infrared spectrographs \citep{2010SPIE.7735E..1MY,Park2014,2012SPIE.8446E..2CR}, but they are excluded from the analysis done here. Triples where the third component is more distant (and well resolved) were retained.
+We removed 21 systems from our analysis because of an unresolved tertiary (or quaternary) component noted in the literature \citep[e.g.,][]{2010ApJ...720.1727L,2002A&A...382..118T,2018ApJS..235....6T}. In their current form, such systems are not useful for our analysis, as we have no $\Delta K$ magnitudes or mass ratios for the unresolved components. Since many of these are double- or triple-lined systems, it is possible to recover their parameters with multi-epoch radial velocities, and some systems already have the necessary data in the literature \citep[e.g.,][]{Sgr2000}. We are actively monitoring these systems with high-resolution near-infrared spectrographs \citep{2010SPIE.7735E..1MY,Park2014,2012SPIE.8446E..2CR}, but they are excluded from the analysis done here. Triples where the third component is more distant (and well resolved) were retained.
 
 A total of 18 systems were flagged as young, all of which were tagged to nearby young moving groups or clusters \citep{Shkolnik2012, Kraus2014, Gagne2014, Malo2014a, Gagne2015, 2017AJ....153...95R, 2017AJ....154...69S, Rizzuto2017,2018MNRAS.475.2955L}. We continued to monitor these targets even after flagging them as young, but they were not included in the analysis for this paper. Many of these are expected to be pre-main-sequence stars and hence will not follow the same mass-luminosity relation. Even for those that are on the main-sequence, such young M dwarfs may have higher luminosities for a given mass \citep[e.g.,][]{2015ApJ...807....3K,Stassun2012,Somers2017}. These young systems will be the subject of a future study into the effects of age and activity on the parameters of M dwarfs. 
 
@@ -231,7 +231,9 @@ Extracting separations and position angle measurements followed a similar multi-
 
 We first cross-correlated each image with a model Gaussian PSF to identify the most significant peaks. The cross-correlation peak occasionally centers on instrumental artifacts, often struggles to separate out partially overlapping binaries, and can easily identify the wrong source for triple systems. So this step was checked by eye and manually updated as needed. The eye-check phase also allowed us to manually remove data of poor quality: e.g., no or poor AO correction, saturated data, or an unresolved system. We used these centers as the initial guess for the position in the next phase. 
 
-We then fit for the center of the PSFs on each image (separately) by either: 1) fitting the PSF with two triple 2D Gaussians using the least-squared code {\textit MPFIT} \citep{Markwart2009}, or 2) running \textit{Starfinder}, as described in \citet{2000A&AS..147..335D}. Although the results of these two methods generally agreed, \textit{Starfinder} was preferred, as it used a more realistic model of the PSF and worked even with mediocre AO correction provided the component PSFs were well-separated. \textit{Starfinder}, however, struggled with the tightest binaries, as it failed to build a realistic PSF. So the Gaussian fit was used for any case where \textit{Starfinder} failed. A subset of the data (10 targets) were analyzed using both methods to confirm consistency between the techniques. Both methods included an estimate for the flux of each component as part of the fit, from which we determined the contrast ratio. 
+We then fit for the center of the PSFs on each image (separately) by either: 1) fitting the PSF with two triple 2D Gaussians using the least-squared code {\textit MPFIT} \citep{Markwart2009}, or 2) running \textit{Starfinder}, as described in \citet{2000A&AS..147..335D}. Although the results of these two methods generally agreed, \textit{Starfinder} was preferred, as it used a more realistic model of the PSF and worked even with mediocre AO correction provided the component PSFs were well-separated. \textit{Starfinder}, however, struggled with the tightest binaries, as it failed to build a realistic PSF. So the Gaussian fit was used for any case where \textit{Starfinder} failed. A subset of the data (10 targets) were analyzed using both methods to confirm consistency between the techniques. 
+
+As part of the PSF fit, both methods yielded an measurement of the total flux of each star, as well as an estimate of the local background levels. We used this to measure $\Delta m$ in the relevant band. Data from all filters are used for astrometry, although only $\Delta K$ magnitude measurements were used in the estimate of \mks\ (Section~\ref{sec:mags}).
 
 The measured pixel positions were converted into separations and position angles based on the distortion correction (for NIRC2), measured pixel scale, and relevant header information. For the NIRC2 narrow camera, we used the \citet{Yelda2010} distortion solution for data taken before April 2015, and \citet{2016PASP..128i5004S} for data taken after 2015. This also included an estimate of the pixel scale and orientation of 9.952$\pm$0.002 mas\,pixel$^{-1}$ and $0.252\pm0.009^\circ$ for the former, and 9.952$\pm$0.004 mas\,pixel$^{-1}$ and $0.262\pm0.020^\circ$ for the latter. For the NIRC2 wide camera we used the solution from Fu et al. (2012, priv. comm.)\footnote{\href{http://homepage.physics.uiowa.edu/~haifu/idl/nirc2wide/}{http://homepage.physics.uiowa.edu/$\sim$haifu/idl/nirc2wide/}}, with a pixel scale of $39.686\pm0.008$ mas\,pixel$^{-1}$ and the same orientation as the narrow camera. 
 
@@ -262,7 +264,7 @@ All literature astrometry used in this paper is listed alongside our own measure
 %
 %Details of the SNIFS data reduction can be found in \citet{Bacon2001}, and \citet{Mann2015b}, which we briefly summarize here. The pipeline detailed in \citet{Bacon2001} performed dark, bias, and flat-field corrections, cleaned the data of bad pixels and cosmic rays, then fit and extracted the integral field unit spaniels into a one-dimensional (1D) spectrum. The \citet{Mann2015b} reduction takes the 1D spectrum and performs flux calibration and telluric correction based on white dwarf and hot star standards taken throughout the night and a model of the atmosphere above Mauna Kea built from a similar set of standards observed over a multi-year baseline with SNIFS. The resulting spectra have a typical signal-to-noise ratio (SNR) of $>$200 at 6000\,\AA, and spectrophotometric calibration reliable to $\simeq$1-2\% on the red end \citep{Mann2015a}.
 %
-%Three additional targets (2M1017+13, 2M1047+40, and 2M0746+20) have optical spectra from the Sloan Digital Sky Survey \citep{2013AJ....145...10D,2017arXiv170709322A}. GJ2005 has resolved spectra of the components from {\it HST} \citep{2012A&A...545A..85R}. Gl 54 has a spectrum in the Palomar/Michigan State University Spectroscopic Survey \citep{1995AJ....110.1838R,1996AJ....112.2799H}. We have no optical spectra for the remaining four targets.
+%Three additional targets (2M1017+13, 2M1047+40, and 2M0746+20) have optical spectra from the Sloan Digital Sky Survey \citep{2013AJ....145...10D,2018ApJS..235...42A}. GJ2005 has resolved spectra of the components from {\it HST} \citep{2012A&A...545A..85R}. Gl 54 has a spectrum in the Palomar/Michigan State University Spectroscopic Survey \citep{1995AJ....110.1838R,1996AJ....112.2799H}. We have no optical spectra for the remaining four targets.
 
 
 \subsection{Near-infrared Spectra with IRTF/SpeX}
@@ -277,7 +279,7 @@ The only target missing a SpeX spectrum was Gl 54, which was too far south to ob
 
 \section{Orbit Fitting}\label{sec:orbit}
 
-We fit the astrometry with the Monte Carlo Markov Chain (MCMC) software \textit{emcee} \citep{Foreman-Mackey2013},  a python implementation of the affine-invariant ensemble sampler \citep{goodman2010}. For each system, we fit for seven orbital elements: the orbital period ($P$), combined angular semi-major axis ($a\arcsec$), eccentricity ($e$), inclination ($i$), epoch of periastron passage ($T_0$), argument of periastron ($\omega$), and position angle of the line of nodes ($\Omega$). Parameters were limited by physical constraints, e.g., $P>0$, $0<e<1$, and $0<i<\pi$, but were given no additional boundaries. %Exploring the two angles can create complications for values near 0 or 2$\pi$ radians. Instead, we had the MCMC explore in $\omega-\Omega$ and $\Omega+\omega$. 
+We fit the astrometry with the Monte Carlo Markov Chain (MCMC) software \textit{emcee} \citep{Foreman-Mackey2013},  a python implementation of the affine-invariant ensemble sampler \citep{goodman2010}. For each system, we fit for seven orbital elements: the orbital period ($P$), combined angular semi-major axis ($a\arcsec$), eccentricity ($e$), inclination ($i$), epoch of periastron passage ($T_0$), argument of periastron ($\omega$), and position angle of the line of nodes ($\Omega$). Parameters were limited by physical constraints, e.g., $P>0$, $0<e<1$, and $0<i<\pi$, but were given no additional boundaries. 
 
 We applied priors of 1/$P$, 1/$a\arcsec$, and $\sin(i)$ to $P$, $a\arcsec$, and $i$, respectively. All other parameters evolved under uniform priors. Walkers were initialized with the best-fit orbit determined using \textit{MPFIT} \citep{Markwart2009} with a spread in starting values based on the \textit{MPFIT} estimated errors. Each MCMC chain was initially run for $10^5$ steps with 100 walkers.  We tested to see if a chain converged using the autocorrelation time \citep{2010CAMCS...5...65G}. In about 1/3 of the systems the fit did not converge after the initial $10^5$ steps, so we ran these for $10^6$ total steps. Those that did not converge after $10^6$ steps were not included in our final sample (these are not counted in the 61 system count, see Section~\ref{sec:targets}), as these were also the least-well characterized systems. We saved every 100 steps in the chain, and the first 5\% of each chain was removed for burn-in. 
 
@@ -296,7 +298,11 @@ We show some example orbital fits in Figure~\ref{fig:orbits} (with the full set 
 \end{center}
 \end{figure*}
 
-Resulting fits all have $0.1<\chi^2_\nu<2$, within the expected distribution given the number measurements per orbit. This was in part a consequence of our method of assigning errors to literature data (Section~\ref{sec:litas}). However, we achieved reasonable $\chi^2_\nu$ values even when all or nearly all the data were from our own measurements, indicating that our astrometry measurements have reasonable assigned errors.
+Our orbital fits made heavy use of literature astrometry, many of which had no reported errors. Our method for assigning or correcting errors assumed that all measurements have a common missing error term per data source (Section~\ref{sec:litas}). It is more likely that errors depend on the separation and contrast ratio, as well as quantities that were not consistently reported, like weather, setup, and observational strategy. Further, this technique assumed an uncorrelated error term. In the case of an erroneous pixel scale or imperfectly aligned instrument, all measurements from a common instrument may be off in the same direction. In practice, it is difficult to correct for these effects without access to the raw data. The data suggests this does not impact our results; the final $\chi^2_\nu$ values for the best-fit orbits shows no correlation with the fraction of data from the literature versus our own measurements, and measurements taken on the same target and epoch but from different sources agree within errors. Further, many issues that might arise from a single source of data were mitigated by using a wide range of data sources, each of which were subject to different systematics. 
+
+As an additional test, we tried refitting a subset of 10 randomly selected binaries twice, first doubling the error term added to the literature, then halving it. With the exception of one system that failed to converge with the doubled input errors, overall parameters and errors did not change significantly (although the final $\chi^2_\nu$ values changed). The main reason for this is that our measurements are generally far more more precise (with the exception of measurements from {\it HST}) and disproportionately weigh on the final solution. Further, in the case of significantly underestimated errors, the MCMC usually explores a range of solutions to result in a similarly broad posterior as the one derived using larger input errors. We conclude this treatment of errors does not significantly impact our final orbital fits. 
+
+%Resulting fits all have $0.1<\chi^2_\nu<2$, within the expected distribution given the number measurements per orbit. This was in part a consequence of our method of assigning errors to literature data (Section~\ref{sec:litas}). However, we achieved reasonable $\chi^2_\nu$ values even when all or nearly all the data were from our own measurements, indicating that our astrometry measurements have reasonable assigned errors.
 
 The nine systems from \citet{Dupuy2017} are labeled separately in Table~\ref{tab:sample}.
 
@@ -333,12 +339,12 @@ Two targets (HIP 95995 and HIP 96656) are too warm (earlier than K5) for the cal
 
 We initially adopted unresolved $K_S$ magnitudes from the Two Micron All Sky Survey \citep[2MASS,][]{Skrutskie2006}. For the brightest stars in our sample, some 2MASS magnitudes were saturated, and others may have systematically underestimated errors as they are near saturation. For these targets we recalculated $K_S$ magnitudes using available optical and NIR spectra, following the method of \citet{Mann2015a} and \citet{Mann2015b}. Optical spectra were taken from \citet{Gaidos2014}. Synthetic magnitudes were broadly consistent with 2MASS $K_S$ magnitudes (and at similar precision) for fainter targets ($K_S>7$). We only updated $K_S$ magnitudes for bright systems where where our synthetic photometry differed from the 2MASS value by more than 2$\sigma$ (five systems). We mark these systems in Table~\ref{tab:sample}. 
 
-To compute $\Delta K_S$, we calculated the robust weighted mean of all contrast ratios derived from our AO data (Section~\ref{sec:astrometry}) taken with filters centered somewhere within the $K$ band. Errors on contrasts for a given epoch were based on the scatter in flux measurements between consecutive measurements. This may have underestimated errors arising from imperfect flat-fielding, uncorrected non-linearities in the detector, or wavelength-dependent flux losses from the optics or atmosphere, as well as intrinsic variability of the star. We compared $\Delta$m measurements of the same star using the same filter and instrument but on different nights (Figure~\ref{fig:magnitudes}). The comparison suggessted a missing error term of 0.017\,magnitudes. There were not enough data to test this for all filters and instruments, but we get a consistent value across all filters with sufficient data for a test, suggesting the problem is relatively independent of the filter used. We included this term as an additional error term in our computation of $\Delta K_S$.
+To compute $\Delta K_S$, we calculated the robust weighted mean of all contrast ratios derived from our AO data (Section~\ref{sec:astrometry}). For $\Delta K_S$, we used all data centered somewhere within the $K$ band (for astrometry we had no wavelength restriction). Errors on contrasts for a given epoch were based on the scatter in flux measurements between consecutive measurements. This may have underestimated errors arising from imperfect flat-fielding, uncorrected non-linearities in the detector, or wavelength-dependent flux losses from the optics or atmosphere, as well as intrinsic variability of the star. We compared $\Delta$m measurements of the same star using the same filter and instrument but on different nights (Figure~\ref{fig:magnitudes}). The comparison suggessted a missing error term of 0.017\,magnitudes. There were not enough data to test this for all filters and instruments, but we get a consistent value across all filters with sufficient data for a test, suggesting the problem is relatively independent of the filter used. We included this term as an additional error term in our computation of $\Delta K_S$.
 
 \begin{figure}[htb]
 \begin{center}
 \includegraphics[width=0.47\textwidth]{errors.eps}
-\caption{Distribution of contrast ratio differences (in units of standard deviations) for data taken on the same targets but in different nights. The red line is before adding a missing error term of 0.017 magnitudes, while the blue line shows the distribution after adding this. The histograms are offset slightly for clarity, although identical bins are used as input.}
+\caption{Distribution of contrast ratio differences (in units of standard deviations) for data taken on the same targets but in different nights. The red line is before adding a missing error term of 0.017 magnitudes, while the blue line shows the distribution after adding this. The grey dashed line shows the expected Normal distribution. The histograms are offset slightly for clarity, although identical bins are used as input.}
 \label{fig:magnitudes}
 \end{center}
 \end{figure}
@@ -511,7 +517,7 @@ To estimate the uncertainty the relation we computed the standard deviation in t
 \label{tab:err}
 \tablecomments{This table assumes \mks\ (and [Fe/H]) are known perfectly. Total errors on $M_*$ should take into account errors in the measured parameters and the relation. }
 \tablenotetext{$a$}{The uncertainty in the resulting $M_*$ at a given $M_{K_S}$}
-\tablenotetext{$b$}{Spectral types are given for reference, but are extremely rough because of a significant dependence on metallicity. It is not recommended to use this table as a means to compute \mks\ or $M_*$ from a spectral type or vise-versa. }
+\tablenotetext{$b$}{Spectral types are given for reference, but are extremely rough because of a significant dependence on metallicity. It is not recommended to use this table as a means to compute \mks\ or $M_*$ from a spectral type. }
 \end{deluxetable}
 
 The values in Table~\ref{tab:err} can be used as an approximate reference for estimating errors on the output mass for a given \mks\ if combined with errors from the distance and $K_S$ magnitude. However, this can be misleading, as the posterior is not Gaussian or symmetric over much of the mass range. It is better to sample the posterior at a given \mks\ to produce a posterior in mass. To facilitate use of our \mmk\ and help provide realistic uncertainties, we include the fit posteriors and provide a simple code that provides output $M_*$ posteriors\footnote{\href{https://github.com/awmann/M_-M_K-}{https://github.com/awmann/M\_-M\_K-}} given an \mks\ and error. 
@@ -584,9 +590,9 @@ To compare to the models, we fit the MIST grid points in the same manner as the 
 
 \subsubsection{\citet{Delfosse2000}}
 
-\citet{Delfosse2000} is one of the most commonly used \mmk\ relations, covering $0.1M_\odot<M_*0.6M_\odot$. Like our work, the calibration was build primarily on astrometric binaries. Nearly all the targets in \citet{Delfosse2000} were included in our sample, with the exception of triple systems and eclipsing binaries, both of which we intentionally avoided because of the complexity of computing total masses in the first scenario and estimating \mks\ in the latter. Because of the sample overlap, consistency is expected. However, a comparison can be useful to see how past use of \citet{Delfosse2000} may change with the updated relation. 
+\citet{Delfosse2000} provided one of the most commonly used \mmk\ relations, covering $0.1M_\odot<M_*0.6M_\odot$. Like our work, the calibration was build primarily on astrometric binaries. Nearly all the targets in \citet{Delfosse2000} were included in our sample, with the exception of triple systems and eclipsing binaries, both of which we intentionally avoided because of the complexity of computing total masses in the first scenario and estimating \mks\ in the latter. Because of the sample overlap, consistency is expected. However, a comparison can be useful to see how past use of \citet{Delfosse2000} may change with our more precise results.
 
-We show the comparison in Figure~\ref{fig:delfosse}, including the points used in the \citet{Delfosse2000} calibration as well as the two fit lines. The relations are in agreement to better than 10\% over the full mass range considered, and within 5\% over most of the calibration region ($0.15M_\odot \lesssim M_* \lesssim 0.5M_\odot$). Given errors often quoted for the \citet{Delfosse2000} relation (5-10\%) the relations are extremely consistent.
+We show the comparison in Figure~\ref{fig:delfosse}, including the points used in the \citet{Delfosse2000} calibration as well as the two fit lines. The relations are in agreement to better than 10\% over the full mass range considered, and within 5\% over most of the calibration region ($0.15M_\odot \lesssim M_* \lesssim 0.5M_\odot$). Given errors often quoted for the \citet{Delfosse2000} relation (5-10\%) the relations are consistent within errors. However, the relation presented here is a factor of 2-3 more precise over the whole mass regime. 
 
 \begin{figure}[htb]
 \begin{center}
@@ -598,14 +604,14 @@ We show the comparison in Figure~\ref{fig:delfosse}, including the points used i
 
 \subsubsection{\citet{Mann2015b}}
 
-\citet{Mann2015b} built a catalog of 183 M dwarfs with precision \teff\ and $R_*$, constructed by calibrating methods using empirical radii measurements from long-baseline optical interferometry \citep{Boyajian2012} and precision bolometric fluxes \citep[e.g.,][]{Mann2015a,2015MNRAS.447..846B}. Masses were measured for these stars by interpolating the parameters onto an updated version of the DSEP models as described in \citet{Feiden2013,Feiden2014} and \citet{Muirhead2014}. Although these masses were model-dependent, when combined with the more empirical radii, they precise reproduced the mass-radius relation from low-mass eclipsing binaries. The consistency between these relations and the empirical determinations from eclipsing binaries suggested that the model-based masses were accurate to $\simeq$3\% or better, and motivated the development of a \mmk\ relation from the \citet{Mann2015b}. sample. A comparison to our relation can be seen in part as a test on the updated DSEP models, in addition to the results given in \citet{Mann2015b}. 
+\citet{Mann2015b} built a catalog of 183 M dwarfs with precise \teff\ and $R_*$, calibrated against radii measurements from long-baseline optical interferometry \citep{Boyajian2012} and precision bolometric fluxes \citep[e.g.,][]{Mann2015a,2015MNRAS.447..846B}. Masses were measured for these stars by interpolating the parameters onto an updated version of the DSEP models as described in \citet{Feiden2013,Feiden2014} and \citet{Muirhead2014}. Although these masses were model-dependent, when combined with the more empirical radii, they precise reproduced the mass-radius relation from low-mass eclipsing binaries. The consistency between these relations and the empirical determinations from eclipsing binaries suggested that the model-based masses were accurate to $\simeq$3\% or better, and motivated the development of a \mmk\ relation from the \citet{Mann2015b}. sample. A comparison to our relation can be seen in part as a test on the updated DSEP models, in addition to the results given in \citet{Mann2015b}. 
 
 We show our fit with uncertainties alongside \citet{Mann2015b}'s in Figure~\ref{fig:mann}. The two fits track each other extremely well, with a maximum divergence of $\simeq$5\%. Given the quoted 2-3\% uncertainties from \citet{Mann2015b} and the 2-3\% scatter in our relation, this difference is not significant. There is a hint of tension at the high-mass end, where our MCMC posterior is asymmetric, and at 0.2-0.3$M_\odot$ where the difference is the largest, but never does the the offset exceed the estimated uncertainties. 
 
 \begin{figure}[htb]
 \begin{center}
 \includegraphics[width=0.47\textwidth]{Mann_comp.eps}
-\caption{Comparison of $M_*$-\mks\ from \citet{Mann2015b}, shown as a teal dashed line, to that from this paper, which is shown in black, with 100 randomly selected realizations of the MCMC (as with Figures \ref{fig:relation} and \ref{fig:benedict}). Individual points from \citet{Mann2015b} on which the calibration is based are not shown (for clarity), but they follow a tight sequence around the teal line. Only the range of masses covered by \citet{Mann2015b} are shown. }
+\caption{Comparison of $M_*$-\mks\ from \citet{Mann2015b}, shown as a teal dashed line, to that from this paper, which is shown in black, with 100 randomly selected realizations of the MCMC (as with Figures \ref{fig:relation} and \ref{fig:delfosse}). Residual is shown in the bottom panel. Individual points from \citet{Mann2015b} on which the calibration is based are not shown (for clarity), but they follow a tight sequence around the teal line. Only the range of masses covered by \citet{Mann2015b} are shown. }
 \label{fig:mann}
 \end{center}
 \end{figure}
@@ -616,7 +622,7 @@ We show our fit with uncertainties alongside \citet{Mann2015b}'s in Figure~\ref{
 \subsubsection{\citet{Benedict2016}}
 Like our work, the \citet{Benedict2016} relation was also based primarily on masses derived from M dwarf astrometric binaries. The \citet{Benedict2016} uses absolute astrometry from {\it HST} fine guidance sensors and radial velocities for a subset of systems. In addition to the exquisite precision provided by {\it HST}, this combination yields individual masses, and independent constraints on the systems parallax. So although our sample is larger and contains most of the targets in \citet{Benedict2016}, their analysis is not subject to many of the complications of our own. Differences between the two results could therefore shed light on complications with our use of total masses and perhaps reveal complications with our input parallaxes.
 
-We compare our \mmk\ relation \citet{Benedict2016}'s in Figure~\ref{fig:benedict}. The two relations are in excellent agreement for $0.09M_\odot\lesssim M_* \lesssim 0.25M_\odot$. Below this regime, the \citet{Benedict2016} fit is anchored by the one star, GJ1245C. They have only two other stars in this low-mass regime (GJ 2005B and C) and were poorly characterized compared to the rest of their sample. GJ1245AC is in our sample, but we use a parallax from \citet{GaiaDr2} on GJ 1245B for this system, which places it $5.5\sigma$ more distant that the parallax adopted by \citet{Benedict2016}. Our parallax-free orbital parameters for this system are in excellent agreement with \citet{Benedict2016}, but the \citet{GaiaDr2} parallax makes the final parameters more consistent with our overall relation. Since the \citet{Benedict2016} parallax accounted for the binarity of this system, the origin of difference between these two parallaxes unclear. If GJ 1245B is itself an unresolved binary, this could explain the discrepant parallax. If the \citet{Benedict2016} parallax is correct, we also need to explain why GJ 1245C is significantly more luminous than similar-mass stars.
+We compare our \mmk\ relation \citet{Benedict2016}'s in Figure~\ref{fig:benedict}. The two relations are in excellent agreement for $0.09M_\odot\lesssim M_* \lesssim 0.25M_\odot$. Below this regime, the \citet{Benedict2016} fit is anchored by the one star, GJ1245C. They have only two other stars in this low-mass regime (GJ 2005B and C), which had large errors when compared to rest of their sample. GJ1245AC is in our sample, but we use a parallax from \citet{GaiaDr2} on GJ 1245B for this system, which places it $5.5\sigma$ more distant that the parallax adopted by \citet{Benedict2016}. Our parallax-free orbital parameters for this system are in excellent agreement with \citet{Benedict2016}, but the \citet{GaiaDr2} parallax makes the final parameters more consistent with our overall relation. Since the \citet{Benedict2016} parallax accounted for the binarity of this system, the origin of difference between these two parallaxes unclear. If GJ 1245B is itself an unresolved binary, this could explain the discrepant parallax. If the \citet{Benedict2016} parallax is correct, we also need to explain why GJ 1245C is significantly more luminous than similar-mass stars.
 
 %It is possible that GJ1245 is young, which would help explain its luminosity. GJ1245ABC (B is $\simeq$7\arcsec\ away) all have sub-day rotation periods and show significant flaring \citep{2015ApJ...800...95L,2017ApJ...834...85N}. Late-M dwarfs lose their initial rotation slowly, so such short rotation periods and flare rates are not uncommon at this mass \citep{Newton2016,2018arXiv180307708P}. We can only conclude that GJ1245 is likely $<2$\,Gyr, which cannot necessarily explain its luminosity. Further, GJ1245A ($M_*=0.117M_\odot$, \mks=8.890) lands slightly {\it below} our relation, showing no evidence of overluminosity. The system would need to land in a narrow range of ages where A is solidly on the main-sequence, but C is still contracting \citep[$\simeq$400-600\,Myr based on Lyon models, ][]{BHAC15}. 
 
@@ -626,7 +632,7 @@ We compare our \mmk\ relation \citet{Benedict2016}'s in Figure~\ref{fig:benedict
 \begin{figure}[htb]
 \begin{center}
 \includegraphics[width=0.47\textwidth]{Benedict_comp.eps}
-\caption{Absolute $K_S$-band magnitude as a function of $M_*$ for astrometric binaries analyzed by \citet{Benedict2016} (red circles) and those used in the \citet{Benedict2016} relation, but pulled from the literature (blue circles). The resulting $M_*$-\mks\ relation from \citet{Benedict2016} is shown as a teal dashed line, while the best-fit relation from this paper is as a blacked dashed line (with random samplings in grey as in Figure~\ref{fig:relation}). The bottom panel shows the residual of the \citet{Benedict2016} points compared to our relation, with the \citet{Benedict2016} relation in teal for reference. Errors in the residuals only reflect errors in $M_*$ and \mks, and do not account for errors in our $M_*$-\mks\ relation.  }
+\caption{Absolute $K_S$-band magnitude as a function of $M_*$ for astrometric binaries analyzed by \citet{Benedict2016} (red circles) and those used in the \citet{Benedict2016} relation, but pulled from the literature (blue circles). The resulting $M_*$-\mks\ relation from \citet{Benedict2016} is shown as a teal dashed line, while the best-fit relation from this paper is as a blacked dashed line (with random samplings in grey as in earlier figures). The bottom panel shows the residual of the \citet{Benedict2016} points compared to our relation, with the \citet{Benedict2016} relation in teal for reference. Errors in the residuals only reflect errors in $M_*$ and \mks, and do not account for errors in our $M_*$-\mks\ relation.  }
 \label{fig:benedict}
 \end{center}
 \end{figure}
@@ -641,11 +647,11 @@ Inspection of the literature data incorporated by \citet{Benedict2016} makes the
 \section{Conclusions \& Discussion}\label{sec:discussion} 
 
 \subsection{Summary}
-The mass-luminosity has proven to be a critical tool for estimating masses of cool stars for decades, and has applications from studying extrasolar planets to measuring the initial mass function and mass-to-light ratio in galaxies. The \mmk\ relation has been particularly useful because \mks\ is easily measured if the stellar distance is known, and because it mitigates the effect of metallicity compared to other bands. With the arrival of {\it Gaia} parallaxes combined with existing 2MASS photometry, nearly all the early M-dwarfs out to $\simeq$100\,pc and late M-dwarfs out to $\simeq$50\,pc have precise ($\lesssim1\%$) parallaxes and \mks\ magnitudes, massively increasing the utility of this relation. 
+The mass-luminosity relation has proven to be a critical tool for estimating masses of cool stars for decades, and has applications from studying extrasolar planets to measuring the initial mass function and mass-to-light ratio in galaxies. The \mmk\ relation has been particularly useful because \mks\ is easily measured if the stellar distance is known, and because it mitigates the effect of metallicity compared to other bands. With the arrival of {\it Gaia} parallaxes combined with existing 2MASS photometry, nearly all the early M-dwarfs out to $\simeq$100\,pc and late M-dwarfs out to $\simeq$50\,pc have precise ($\lesssim1\%$) parallaxes and \mks\ magnitudes, massively increasing the utility of this relation. 
 
 We endeavored to improve on existing \mmk\ relations and explore the reliability of model predictions by expanding the sample of calibrators and exploring the role of [Fe/H]. As part of this effort, we have been monitoring a set of nearby late K and M dwarf visual binaries using adaptive optics imaging. We combined these data with similar data from Keck, CFHT, Gemini, and VLT archives, as well as astrometric measurements from the literature. The literature astrometry was particularly important to provide the baseline on long-period systems. We used these data and parallaxes from the literature or derived from MEarth astrometry to measure the total masses of a set of 52 binaries. We combined this with nine ultracool binaries from \citep{Dupuy2017}, which were analyzed in a nearly identical way to the procedure used in this paper and provide significantly improved coverage near the hydrogen burning limit. 
 
-Following the formalism in Section~\ref{sec:relation}, we used our dynamical total masses and resolved \mks\ magnitudes to fit for the empirical \mmk\ relation. The result can provide masses precise to 2-3\% from $0.3-0.6M_\odot$ and $<5$\% over the whole M dwarf sequence. The relation also covers almost an order of magnitude in $M_*$, from $\simeq0.7M\odot$ down to the hydrogen burning limit ($\simeq0.075M_\odot$). The scatter around the best-fit is larger than expected from the mass uncertainties, especially when considering that errors in \mks\ and $M_*$ are correlated. This might be due to underestimated errors in the parallaxes due to centroid motion of the binary, or intrinsic scatter from additional physics (e.g., metallicity and age). 
+Following the formalism in Section~\ref{sec:relation}, we used our dynamical total masses and resolved \mks\ magnitudes to fit for the empirical \mmk\ relation. The result can provide masses precise to 2-3\% from $0.3-0.6M_\odot$ and $<5$\% over the whole M dwarf sequence. The relation also covers almost an order of magnitude in $M_*$, from $\simeq0.7M\odot$ down to the hydrogen burning limit ($\simeq0.075M_\odot$). The scatter around the best-fit relation is larger than expected from the mass uncertainties, especially when considering that errors in \mks\ and $M_*$ are correlated. This might be due to underestimated errors in the parallaxes due to centroid motion of the binary, or intrinsic scatter from additional physics (e.g., metallicity and age). 
 
 Using empirically calibrated spectroscopic abundances, we explored the role of [Fe/H] on the \mmk\ relation, comparing our results to expectations from evolutionary models as a guide. While the MIST models follow our empirical data relatively well, there is some evidence (96\% chance) that the models are overestimating the effect of [Fe/H]. We consider this suggestive, but not conclusive at this time, as the narrow metallicity range of our sample limits our ability to explore this further. 
 
@@ -654,14 +660,7 @@ We compared our relation to recent similar relations in the literature. Given qu
 Our results agreed well with the systems analyzed by \citet{Benedict2016}, but our relation diverges from \citet{Benedict2016} above $\simeq0.35M_\odot$. We attribute this difference to literature points included in the \citet{Benedict2016} fit (mostly eclipsing binaries) with uncertain distances and $\Delta K_S$ magnitudes. Increasing availability of {\it Gaia} parallaxes for these systems as well as ongoing efforts to measure their eclipses in range of wavelengths \citep[e.g.,][]{2017AJ....154..100H} should significantly improve their utility for studying the mass-luminosity relation of M dwarfs.
 
 
-\subsection{Complicating factors}
-
-Our analysis made heavy use of literature astrometry (positions and separations). Many of these measurements had either no reported uncertainties, or underestimated uncertainties due to uncorrected systematics (e.g., image distortion). Our method for assigning or correcting errors assumed that all measurements have a common missing error term per data source. It is more likely that errors depend on the separation and contrast ratio, as well as quantities that were not consistently reported, like weather, setup, and observational strategy. For references with reported errors, these effects were likely be taken into account already (and were preserved by adding a term in quadrature with reported errors). However, for those with no errors, we may have overestimated errors for well-resolved binaries, and underestimated it for marginally or unresolved systems. Further, this technique assumed an uncorrelated error term. In the case of an erroneous pixel scale or imperfectly aligned instrument, all measurements from a common instrument may be off in the same direction. In practice, it is difficult to correct for these effects, especially in cases where multiple instruments or instrumental setups are used. The number of binaries with sufficiently well-characterized orbits was too small for deriving more robust error terms. So we adopted this as the best possible option to take full advantage of the long-baseline provided by the decades of data. 
-
-As a test of this method, we tried refitting a subset of 10 randomly selected binaries twice, first doubling the error term we added, then halving it. With the exception of one system that failed to converge with the doubled input errors, overall parameters and errors did not change significantly (although the final $\chi^2_\nu$ values changed). The main reason for this is that our measurements are generally far more more precise  (with the exception of measurements from {\it HST}) and disproportionately weigh on the final solution. Further, in the case of significantly underestimated errors, the MCMC usually explores a range of solutions to result in a similarly broad posterior as the one derived using larger input errors. The problem with this case is that MCMC will underweight more precise points (e.g., those from NIRC2/NaCo). Overall, many issues that might arise from a single source of data were mitigated because we used a wide range of data sources, each of which were subject to different systematics. We conclude this treatment of literature errors does not significantly impact our final result. 
-
-
-The presence of unresolved tight companions (triples or quadruples) could bias the overall relation. For the longest-period systems, a close-in (orbital period of $<$10 days) third star could be stable, and would not have been detected in our AO data. An unseen companion would drive the total mass of the system higher, but has much smaller effect on the total luminosity. So unresolved triples will sit {\it low} in Figure~\ref{fig:relation} (higher mass for a fixed \mks). A few stars do sit seemingly well below the fit, but no more so than expected given their mass uncertainties. The closest systems have radial velocity data, which rules out the presence of all companions massive enough to impact our results. Such triples are relatively rare \citep{Fischer1992,Raghavan2010}, especially those with a companion low-mass enough to avoid perturbing the orbits (which would be detected as a high $\chi^2_\nu$ value in our fits). We consider it unlikely that higher-order systems are significantly impacting our results.  
+%\subsection{Complicating factors}
 
 
 %%something about systematics in the AO data we analyzed?
@@ -669,7 +668,6 @@ The presence of unresolved tight companions (triples or quadruples) could bias t
 %A more troubling scenario would be a mix of very low-mass objects (brown dwarfs) around a subset of the targets, such that no individual object appears as an outlier but the relation is statistically biased. We tested this by randomly adding companions to stars, assuming a conservative $\simeq20\%$ of M dwarf binaries are in triple systems \citep{Fischer1992}. Masses to the added companions were assigned assuming a uniform companion distribution, and periods following a log-normal distribution from \citet{Raghavan2010} and requiring a stability criterion of a 10:1 period ratio. We then excluded systems where the third star would have been detected, the resulting mass would make it $>3\sigma$ outlier in the \mmk\ relation, and those that would be detected using existing radial velocity data \citep{1999A&A...344..897D,2004A&A...425..997B,Benedict2016} and show no evidence of an undetected triple. Further 
 
 %% I think we should comment on how Dupuy stars at the HBL were selected. 
-We endeavored to select stars that land above the hydrogen burning limit, as stars below this range should not follow a strict mass-luminosity relation. Most of our objects near this boundary came from \citet{Dupuy2017}, and we adopted their classification as stellar or substellar. Although this classification has some uncertainty, and is model-dependent. It is possible that some objects near the low-mass edge of our sample are brown dwarfs. Inclusion of any such substellar (old) systems would  bias the fit towards higher $M_*$ for a given \mks. Objects just below this limit lose luminosity slowly, and still may follow the same relation on $\simeq$Gyr timescales, so we expect this bias, if present, to be small. Further, the excellent agreement between all points $<0.85M_\odot$ suggests all objects are obeying the same \mmk\ relation (Figure~\ref{fig:relation}).
 
 %Based on our selection criteria and lack of activity in the late K and early M dwarfs, we expect $>90\%$ of our sample to be older than 1-2\,Gyr \citep{2017ApJ...834...85N}. Many of the coolest stars in our sample are rapidly rotating and/or show H$\alpha$ emission \citep{Gaidos2014,2015ApJ...800...95L}, but not at atypical levels for even old stars in this mass range \citep{2015AJ....149..158S}. 
 
@@ -683,9 +681,9 @@ To help users interested in using \mks\ to compute a realistic $M_*$ and $\sigma
 
 \item Our relation is only valid for main-sequence stars, and the role of youth and activity is untested. Based on the Lyon models \citep{BHAC15}, we advise restricting use to $>$100\,Myr above $0.4M_\odot$, $>$300\,Myr to $0.2M_\odot$, $>$500\,Myr to $0.1M_\odot$, and $>1$\,Gyr below 0.1$M_\odot$. A safer cut would be to only use this on stars $>$1 Gyr, similar to the input calibration sample.
 
-\item The result is only tested over $-0.60<\rm{[Fe/H]}<+0.45$. We provide a fit that attempts to take into account changes due to [Fe/H], but the effect is poorly constrained (fractional change of $0.06\pm0.06$ in $M_*$ per dex in [Fe/H]). Assuming the target is within the metallicity range of M dwarfs in the Solar neighborhood \citep[$-0.05\pm0.18$,][]{Gaidos2014} then the $M_*$ uncertainty introduced by the unknown [Fe/H] value is $\simeq$1\%. However, when targeting more metal-poor populations like the thick disk or halo ([Fe/H]$\lesssim-0.5$) or the effect on the derived $M_*$ will be $>$5\%. We advise avoiding this relation for stars or populations with [Fe/H]$<-0.5$. The effect of more detailed abundances (e.g., [$\alpha$/Fe]) are completely untested.
+\item The result is only tested over $-0.60<\rm{[Fe/H]}<+0.45$. We provide a fit that attempts to take into account changes due to [Fe/H], but the effect is poorly constrained (fractional change of $0.06\pm0.06$ in $M_*$ per dex in [Fe/H]). Assuming the target is within the metallicity range of M dwarfs in the Solar neighborhood \citep[$-0.05\pm0.18$,][]{Gaidos2014} then the $M_*$ uncertainty introduced by the unknown [Fe/H] value is $\simeq$1\%. However, when targeting more metal-poor populations like the thick disk or halo ([Fe/H]$\lesssim-0.5$) the effect on the derived $M_*$ will be $>$5\%. We advise avoiding this relation for stars or populations with [Fe/H]$<-0.5$. The effects of more detailed abundances (e.g., [$\alpha$/Fe]) are completely untested.
 
-\item Objects just below the hydrogen burning limit age slowly, so this relation may give reasonable results. But the uncertainties assume the target is a star. Since the boundary likely depends on metallicity \citep{2001RvMP...73..719B}, it is not possible to use a simple $M_{K_S}$ cut even if the target is known to be old. So we do not recommend using this relation for \mks$>10.5$ without independent information that an object is stellar. 
+\item The relation is only tested above the hydrogen burning limit. Since the boundary likely depends on metallicity \citep{2001RvMP...73..719B}, it is also not possible to use a simple $M_{K_S}$ cut even if the target is known to be old. Objects just below the hydrogen burning limit age slowly \citep{BHAC15}, so the relation given here may give reasonable results for many of these, but we do not recommend using this relation for \mks$>10.5$ without independent information that an object is stellar. 
 
 \end{itemize}
 
@@ -696,9 +694,14 @@ We intentionally selected targets that had $\Delta K$ measurements, as \mks\ was
 
 Our sample was limited mostly to stars in the Solar neighborhood, and hence was heavily biased towards the narrow [Fe/H] distribution of nearby stars. We identified five additional [Fe/H]$<-0.5$ systems including two subdwarf binaries. However all systems had short baselines in the literature compared to their expected orbital periods. It may take 1-2 more years to complete their orbits at the required precision for this kind of analysis. The availability of {\it Gaia} parallaxes will also help improve the precision of the known metal-poor systems and aid in the identification of new ones. 
 
-Although the sample studied here contained 122 stars, we only had half that many data points (61) constraining the fit, as the mass ratios were not known. This also can add complications to the fit at the bottom of the sequence, where the relation is steeper. Here, small changes in the shape can have a significant impact on the implied mass ratio for a given system, providing a means to generate many reasonable solutions to the same set of system masses. This can be seen in Figure~\ref{fig:relation} as a spread in the range of possible solutions \mks$>10$. The solution to this problem is to add in radial velocity observations for amenable systems, which provides a direct constraint on the mass ratio. These data can also be used to simultaneously fit for the parallax, which may turn out to be crucial given existing problems with {\it Gaia} parallaxes of binaries (see Section~\ref{sec:plx}).
+Although the sample studied here contained 122 stars, we only had half that many data points (61) constraining the fit, as the mass ratios were not known. This complicates to the fit at the bottom of the sequence, where the relation is steeper. Here, small changes in the shape can have a significant impact on the implied mass ratio for a given system, providing a means to generate many reasonable solutions to the same set of system masses. This can be seen in Figure~\ref{fig:relation} as a spread in the range of possible solutions \mks$>10$. The solution to this problem is to add in radial velocity observations for amenable systems, which provides a direct constraint on the mass ratio. These data can also be used to simultaneously fit for the parallax, which may turn out to be crucial given existing problems with {\it Gaia} parallaxes of binaries (see Section~\ref{sec:plx}).
 
-We intentionally tried to avoid young stars when selecting the sample considered here. The ages of our input sample is not know, preventing any study into the effects of age on the \mmk. However, our larger sample of binaries contains a range of known members of nearby young moving groups and the Hyades cluster. Many of these have complete or nearly complete orbital solutions, and will soon provide a powerful set of mass benchmarks with known ages. These systems also span ages from 10-650\,Myr, offering the chance to both test pre-main-sequence models of M dwarfs \citep{2015ApJ...813L..11M,2016ApJ...817..164R,2016ApJ...818..156C,2016AJ....152..175N} and explore the role of activity on M dwarf parameters \citep[e.g.,][]{Spada2013,2018arXiv180404133K}. The current sample can be included in such work when combined with optical activity indicators and rotation periods like those expected from the Transiting Exoplanet Survey Satellite \citep[{\it TESS},][]{2014SPIE.9143E..20R}. 
+The presence of unresolved tight companions (triples or quadruples) could bias the overall relation. A close-in third star orbiting one of the two binary components might be stable, and would not have been detected in our AO data. An unseen companion would drive the total mass of the system higher, but has much smaller effect on the total luminosity. So unresolved triples will sit {\it low} in Figure~\ref{fig:relation} (higher mass for a fixed \mks). A few stars do sit seemingly well below the fit, but no more so than expected given their mass uncertainties. Such triples are rare \citep{Fischer1992,Raghavan2010}, but since the effect is systematic, only a handful are needed to noticeably bias the result. In addition to providing mass ratios, adding radial velocity observations will help rule out the presence of tight companions in these (presumed) binaries.    
+
+We intentionally tried to avoid young stars when selecting the sample considered here. The ages of our binary sample are not know, preventing any study into the effects of age on the \mmk. However, our larger sample of binaries contains a range of known members of nearby young moving groups and the Hyades cluster. Many of these have complete or nearly complete orbital solutions, and will soon provide a powerful set of mass benchmarks with known ages. These systems also span ages from 10-650\,Myr, offering the chance to both test pre-main-sequence models of M dwarfs \citep{2015ApJ...813L..11M,2016ApJ...817..164R,2016ApJ...818..156C,2016AJ....152..175N} and explore the role of activity on M dwarf parameters \citep[e.g.,][]{Spada2013,2018arXiv180404133K}. The current sample can be included in such work when combined with optical activity indicators and rotation periods like those expected from the Transiting Exoplanet Survey Satellite \citep[{\it TESS},][]{2014SPIE.9143E..20R}. 
+
+%We endeavored to select stars that land above the hydrogen burning limit, as stars below this range should not follow a strict mass-luminosity relation. Most of our objects near this boundary came from \citet{Dupuy2017}, and we adopted their classification as stellar or substellar. It is possible that some objects near the low-mass edge of our sample are brown dwarfs. Inclusion of any such substellar (old) systems would  bias the fit towards higher $M_*$ for a given \mks. Objects just below this limit decline in luminosity slowly, and still may follow the same relation on $\simeq$Gyr timescales, so we expect this bias, if present, to be small. Further, the excellent agreement between all points $<0.85M_\odot$ suggests all objects are obeying the same \mmk\ relation (Figure~\ref{fig:relation}).
+
 
 \acknowledgements
 AWM was supported through Hubble Fellowship grant 51364 awarded by the Space Telescope Science Institute, which is operated by the Association of Universities for Research in Astronomy, Inc., for NASA, under contract NAS 5-26555. 
@@ -726,6 +729,75 @@ This work presents results from the European Space Agency (ESA) space mission Ga
 \bibliography{$HOME/Dropbox/fullbiblio}
 
 \clearpage
+\startlongtable
+\begin{deluxetable*}{l l l l l l l l r r}
+\tablecaption{Input Astrometry and Photometry \label{tab:astrom} }
+\tablehead{
+     \colhead{$Date$\tablenotemark{a}} & \colhead{$\rho$} & \colhead{$\theta$} & \colhead{filter} 
+ & \colhead{$\Delta$m} & \colhead{Source}  \\
+    \colhead{UT} & \colhead{(mas)} & \colhead{(degrees)} & \colhead{} & \colhead{(mag)} & 
+\colhead{}
+}
+\startdata
+\multicolumn{6}{c}{Gl913}  \\
+\hline
+2004-10-27 & $  62.0\pm  5.0$ & $  74.20\pm   1.00$ & \nodata & \nodata & \citep{Bag2007b}\\
+2015-06-22 & $ 140.6\pm  0.1$ & $ 310.49\pm   0.10$ & Kcon & $   1.38\pm   0.03$ & NIRC2/Keck\\
+2015-11-18 & $ 134.6\pm  0.5$ & $ 295.97\pm   0.03$ & Kcon & $   1.36\pm   0.03$ & NIRC2/Keck\\
+2016-08-03 & $  71.7\pm  0.2$ & $ 102.47\pm   0.17$ & Kcon & $   1.37\pm   0.01$ & NIRC2/Keck\\
+2016-08-03 & $  70.2\pm  1.6$ & $ 102.80\pm   0.50$ & \nodata & \nodata & NIRC2/Keck (NRM)\\
+2016-09-20 & $  67.6\pm  2.3$ & $  82.60\pm   2.20$ & \nodata & \nodata & NIRC2/Keck (NRM)\\
+\hline
+\multicolumn{6}{c}{Gl831}  \\
+\hline
+1994-04-10 & $190.0\pm4.0$ & $161.40\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1994-05-14 & $177.0\pm4.0$ & $167.50\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1994-06-15 & $158.0\pm4.0$ & $175.40\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1995-10-21 & $185.0\pm4.0$ & $137.70\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1995-11-03 & $191.0\pm4.0$ & $140.70\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1996-04-27 & $173.0\pm4.0$ & $170.40\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1996-06-07 & $146.0\pm4.0$ & $179.10\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1996-10-14 & $88.0\pm4.0$ & $254.20\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1997-05-24 & $113.0\pm4.0$ & $102.30\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1997-06-15 & $132.0\pm4.0$ & $111.10\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1997-11-24 & $201.0\pm4.0$ & $147.40\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1997-12-27 & $196.0\pm4.0$ & $154.20\pm2.80$ & H2 & $1.17\pm0.01$ & PUEO/CFHT\\
+1998-06-02 & $134.0\pm4.0$ & $183.90\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1998-10-14 & $82.0\pm4.0$ & $279.90\pm0.90$ & \nodata & \nodata & \citet{Benedict2016}\\
+1999-08-24 & $187.0\pm4.0$ & $134.40\pm0.80$ & \nodata & \nodata & \citet{Sgr2000}\\
+1999-11-25 & $198.0\pm2.9$ & $149.40\pm0.60$ & \nodata & \nodata & \citet{Sgr2000}\\
+2000-06-19 & $109.0\pm5.0$ & $203.10\pm0.60$ & \nodata & \nodata & \citet{Sgr2000}\\
+2000-08-20 & $79.0\pm3.0$ & $250.40\pm0.70$ & \nodata & \nodata & \citet{Benedict2016}\\
+2000-09-20 & $82.0\pm3.0$ & $281.20\pm0.70$ & \nodata & \nodata & \citet{Benedict2016}\\
+2000-10-19 & $92.0\pm3.0$ & $305.70\pm0.70$ & \nodata & \nodata & \citet{Benedict2016}\\
+2000-11-07 & $86.0\pm3.0$ & $323.30\pm0.70$ & \nodata & \nodata & \citet{Benedict2016}\\
+2000-11-18 & $88.0\pm3.0$ & $331.60\pm0.70$ & \nodata & \nodata & \citet{Benedict2016}\\
+2001-07-08 & $179.7\pm1.6$ & $132.10\pm2.50$ & BrGa & $1.22\pm0.04$ & PUEO/CFHT\\
+2001-08-05 & $189.6\pm1.6$ & $137.50\pm2.50$ & Jcon & $1.42\pm0.04$ & PUEO/CFHT\\
+2001-08-05 & $191.2\pm2.2$ & $137.50\pm2.50$ & BrGa & $1.20\pm0.01$ & PUEO/CFHT\\
+2001-11-02 & $198.8\pm1.8$ & $151.30\pm2.50$ & Kpri & $1.24\pm0.06$ & PUEO/CFHT\\
+2001-11-03 & $199.0\pm3.0$ & $153.00\pm3.00$ & Kpri & $1.24\pm0.15$ & PUEO/CFHT\\
+2001-11-03 & $204.0\pm4.0$ & $154.60\pm2.60$ & J & $1.30\pm0.24$ & PUEO/CFHT\\
+2003-10-15 & $200.1\pm2.1$ & $149.50\pm2.60$ & H2v & $1.19\pm0.08$ & PUEO/CFHT\\
+2003-10-15 & $203.2\pm1.7$ & $149.00\pm2.50$ & Jcon & $1.36\pm0.07$ & PUEO/CFHT\\
+2003-12-10 & $188.6\pm0.8$ & $160.20\pm0.40$ & FeII & $1.29\pm0.03$ & NaCo/VLT\\
+2003-12-10 & $188.1\pm0.7$ & $160.40\pm0.40$ & H & $1.27\pm0.01$ & NaCo/VLT\\
+2003-12-10 & $188.6\pm1.0$ & $160.40\pm0.40$ & NB1.26 & $1.28\pm0.02$ & NaCo/VLT\\
+2004-09-24 & $89.2\pm0.6$ & $325.30\pm0.70$ & NB1.26 & $1.14\pm0.03$ & NaCo/VLT\\
+2004-09-24 & $89.0\pm0.5$ & $325.60\pm1.00$ & FeII & $1.13\pm0.01$ & NaCo/VLT\\
+2005-05-02 & $168.9\pm0.7$ & $126.20\pm0.40$ & FeII & $1.24\pm0.02$ & NaCo/VLT\\
+2005-05-02 & $169.5\pm0.9$ & $126.30\pm0.40$ & NB1.26 & $1.24\pm0.03$ & NaCo/VLT\\
+2005-10-13 & $192.0\pm3.0$ & $156.60\pm2.50$ & H2v & $0.93\pm0.20$ & PUEO/CFHT\\
+2009-06-30 & $201.1\pm0.4$ & $145.96\pm0.16$ & J & $1.24\pm0.01$ & NIRC2/Keck\\
+2009-06-30 & $200.3\pm0.3$ & $146.14\pm0.04$ & Lp & $1.17\pm0.01$ & NIRC2/Keck\\
+2015-06-22 & $194.4\pm0.3$ & $156.91\pm0.06$ & Kcon & $1.18\pm0.01$ & NIRC2/Keck\\
+2015-11-18 & $118.8\pm0.6$ & $195.55\pm0.13$ & Kcon & $1.20\pm0.01$ & NIRC2/Keck\\
+2016-09-20 & $117.3\pm0.3$ & $102.75\pm0.10$ & Kcon & $1.22\pm0.01$ & NIRC2/Keck\\
+\enddata
+\tablecomments{Table \ref{tab:astrom} is published in its entirety in the electronic edition of the Publications of the AAS. A portion is shown here for guidance regarding its form and content.}
+\tablenotetext{a}{Due to inconsistency in the literature on date reporting format, all reported epochs have a $\pm$1\,day error. }
+\end{deluxetable*}
+
 
 
 \startlongtable
@@ -879,6 +951,7 @@ Gl 913 & \phantom{0}2.3912$^{+0.0012}_{-0.0012}$ & \phantom{0}116.95$^{+0.28}_{-
 \enddata
 \end{deluxetable*}
 \end{longrotatetable}
+
 
 
 \clearpage
