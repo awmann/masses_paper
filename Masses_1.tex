@@ -94,21 +94,13 @@
 \watermark{Draft}
 
 \begin{abstract}
-The mass-luminosity relation for late-type stars has long been a critical tool for estimating masses of late-type stars. Recent advancements in techniques to measure [Fe/H] for M dwarfs, an increaseing number of benchmark sytems near the hydrogen burning limit, the availability of {\it Gaia} parallaxes, and the need for higher-precision masses of cool stars motivate an update to existing empirical mass-luminosity relations. Here we present an empirical relation between \mks\ and $M_*$ spanning 0.70$M_\odot$ down to the hydrogen burning limit ($\simeq0.075M_\odot$). The relation is calibrated from 62 nearby binary systems, whose orbits we determine using a a combination of our own monitoring with NIRC2 on Keck, archival adaptive optics data, and astrometry from the literature. Using these orbits and Kepler's law, we determine total masses of each system to better than 1\% in the best cases (median precision of 6.4\%). We join our mass determinations with resolved \mks\ magnitudes for binary component stars to derive an empirical \mmk\ relation, which yields masses of single stars to 2-3\% for $0.18M_\odot<M_*<0.70M_\odot$, and 3-6\% for $0.075M_\odot<M_*<0.18M_\odot$. Our relation is mostly consistent with earlier work, with differences attributable to issues with the input sample. We find [Fe/H] has a weak effect on the \mmk\ for the range of metallicities expected in the Solar neighborhood ($\simeq$1\% change in $M_*$), but may exceed uncertainties in the relation ($>3\%$) for subdwarfs. Our results also suggest that evolutionary models likely overestimate the role of [Fe/H] on the \mmk\ relation, but the difference is not significant with the current sample. Future studies can build on this sample to further explore the role of [Fe/H], as well as the effects that activity and youth have on the mass-luminosity relation.
+The mass-luminosity relation for late-type stars has long been a critical tool for estimating masses of late-type stars. Recent advancements in techniques to measure [Fe/H] for M dwarfs, an increaseing number of benchmark sytems near the hydrogen burning limit, the availability of {\it Gaia} parallaxes, and the need for higher-precision masses of cool stars motivate an update to existing empirical mass-luminosity relations. Here we present an empirical relation between \mks\ and $M_*$ spanning 0.70$M_\odot$ down to the hydrogen burning limit ($\simeq0.075M_\odot$). The relation is calibrated from 62 nearby binary systems, whose orbits we determine using a a combination of our own monitoring with NIRC2 on Keck, archival adaptive optics data, and astrometry from the literature. Using these orbits and Kepler's law, we determine total masses of each system to better than 1\% in the best cases (median precision of 6.1\%). We join our mass determinations with resolved \mks\ magnitudes for binary component stars to derive an empirical \mmk\ relation, which yields masses of single stars to 2-3\% for $0.18M_\odot<M_*<0.70M_\odot$, and 3-6\% for $0.075M_\odot<M_*<0.18M_\odot$. Our relation is mostly consistent with earlier work, with differences attributable to issues with the input sample. We find [Fe/H] has a weak effect on the \mmk\ for the range of metallicities expected in the Solar neighborhood ($\simeq$1\% change in $M_*$), but may exceed uncertainties in the relation ($>3\%$) for subdwarfs. Our results also suggest that evolutionary models likely overestimate the role of [Fe/H] on the \mmk\ relation, but the difference is not significant with the current sample. Future studies can build on this sample to further explore the role of [Fe/H], as well as the effects that activity and youth have on the mass-luminosity relation.
 \end{abstract}
 
 \keywords{stars: fundamental parameters; stars: low-mass; stars: luminosity function, mass function}
 \NewPageAfterKeywords
 
 % without latex:
-
-
-%% to do list:
-%% comments from all authors
-%% make software on github work
-%% More proofreading
-%% cross-check names for all tables (might be some issues)
-
 
 \section{Introduction}\label{sec:intro}
 Over the past decade, M dwarfs have become critically important across a wide range of astrophysics. On the small scale, M dwarfs have become attractive targets for the identification and characterization of exoplanets. The small size, low mass, and low luminosity of late-type dwarfs facilitates the discovery of small \citep[e.g.][]{Muirhead2012,Martinez:2017aa,Mann:2018} and habitable-zone  \citep[e.g.,][]{Tarter2007,Shields:2016aa,2017Natur.544..333D}. Close-in, rocky planets are also significantly more common around M dwarfs than their Sun-like counterparts \citep{Dressing2013,2013PNAS..11019273P,Mulders2015,Gaidos2016b}, and are more likely to harbor close-in multi-planet systems \citep[e.g.,][]{Muirhead2015,Ballard2016}.
@@ -117,7 +109,7 @@ The properties of both Milky Way and more distant galaxies are inexorably linked
 
 %Late-type stars also play an important role on extragalactic and potentially cosmological scales. Recent non-detection of Type Ia supernovae progenitors have shifted the field from single-degenerate origins (evolved star and a white dwarf) towards a double-degenerate model (two white dwarfs), however, single degenerate models with an M dwarf and a white dwarf are still plausible . 
 
-For all these areas, it is essential that we have a method to estimate the fundamental parameters of late-type dwarfs. Spectra, photometry, and distances of stars provide a relatively direct means to measure \teff\ \citep[e.g.,][]{Mann2013c}, luminosity \citep[e.g.,][]{2002AJ....124.2721R}, metallicity \citep[e.g.,][]{2005A&A...442..635B,2010ApJ...720L.113R}, and radii \citep[e.g., via Stefan-Boltzmann, ][]{Newton2015A,2018arXiv180404133K}. Masses, however, are much more difficult to infer from observational data alone. 
+For all these areas, it is essential that we have a method to estimate the fundamental parameters of late-type dwarfs. Spectra, photometry, and distances of stars provide a relatively direct means to measure \teff\ \citep[e.g.,][]{Rojas-Ayala:2012uq,Mann2013c}, luminosity \citep[e.g.,][]{2002AJ....124.2721R}, metallicity \citep[e.g.,][]{2005A&A...442..635B,2010ApJ...720L.113R}, and radii \citep[e.g., via Stefan-Boltzmann, ][]{Newton2015A,2018arXiv180404133K}. Masses, however, are much more difficult to infer from observational data alone. 
 
 In the case of a binary, it is possible to directly determine the mass of a star through Kepler's laws, provided the orbit can be mapped out on reasonable timescales. For shot-period systems, this can be done by monitoring the radial velocity variation of binary components, which can yield a measurement of individual component masses, but is limited by constraints on the orbital inclination. In systems where binary components can be spatially resolved, monitoring of the position and separation of the binary can yield a measurement of the total system mass, assuming the parallax is known or measurable from the same astrometry. 
 
@@ -581,7 +573,7 @@ We show our fit with uncertainties alongside \citet{Mann2015b}'s in Figure~\ref{
 \subsubsection{\citet{Benedict2016}}
 Like our work, the \citet{Benedict2016} relation was also based primarily on masses derived from M dwarf astrometric binaries. \citet{Benedict2016} sample uses absolute astrometry from {\it HST} fine guidance sensors and radial velocities for a subset of systems. In addition to the precision provided by {\it HST}, this combination yields individual (component) masses, and, in many cases, independent constraints on the systems parallax. So although our sample is larger and contains most of the targets in \citet{Benedict2016}, their analysis is not subject to many of the complications of our own. Differences between the two results could therefore shed light on complications with our use of total masses and perhaps reveal complications with our input parallaxes.
 
-We compare our \mmk\ relation \citet{Benedict2016}'s in Figure~\ref{fig:benedict}. The two relations are in excellent agreement for $0.09M_\odot\lesssim M_* \lesssim 0.25M_\odot$. Below this regime, the \citet{Benedict2016} fit is anchored by one star, GJ1245C. They have only two other stars in this low-mass regime (GJ 2005B and C), which had large errors when compared to rest of their sample. GJ1245AC is in our sample, but we use a parallax from \citet{GaiaDr2} on GJ 1245B for this system, which places it $5.5\sigma$ more distant that the parallax adopted by \citet{Benedict2016}. Our parallax-free orbital parameters for this system are in excellent agreement with \citet{Benedict2016}, but the \citet{GaiaDr2} parallax makes the final parameters more consistent with our overall relation. Since the \citet{Benedict2016} parallax accounted for the binarity of this system, the origin of difference between these two parallaxes is unclear. If GJ 1245B is itself an unresolved binary, this could explain the discrepant parallax (although there is no evidence of this in the literature). If the \citet{Benedict2016} parallax is correct, we need to explain why GJ 1245C is significantly more luminous than similar-mass stars.
+We compare our \mmk\ relation \citet{Benedict2016}'s in Figure~\ref{fig:benedict}. The two relations are in excellent agreement for $0.09M_\odot\lesssim M_* \lesssim 0.25M_\odot$. Below this regime, the \citet{Benedict2016} fit is anchored by one star, GJ1245C. They have only two other stars in this low-mass regime (GJ 2005B and C), which had large errors when compared to rest of their sample. GJ1245AC is in our sample, but we use a parallax from \citet{GaiaDr2} on GJ 1245B for this system, which places it $5.5\sigma$ more distant that the parallax adopted by \citet{Benedict2016}. Our parallax-free orbital parameters for this system are in excellent agreement with \citet{Benedict2016}, but the \citet{GaiaDr2} parallax makes the final parameters more consistent with our overall relation. Since the \citet{Benedict2016} parallax accounted for the binarity of this system, the origin of difference between these two parallaxes is unclear. If GJ 1245B is itself an unresolved binary, this could explain the discrepant parallax (although there is no evidence of this in the literature). If the \citet{Benedict2016} parallax is correct, we need to explain why GJ 1245C is significantly more luminous than similar-mass stars, such as youth \citep{2015ApJ...800...95L,2017ApJ...834...85N}.
 
 %It is possible that GJ1245 is young, which would help explain its luminosity. GJ1245ABC (B is $\simeq$7\arcsec\ away) all have sub-day rotation periods and show significant flaring \citep{2015ApJ...800...95L,2017ApJ...834...85N}. Late-M dwarfs lose their initial rotation slowly, so such short rotation periods and flare rates are not uncommon at this mass \citep{Newton2016,2018arXiv180307708P}. We can only conclude that GJ1245 is likely $<2$\,Gyr, which cannot necessarily explain its luminosity. Further, GJ1245A ($M_*=0.117M_\odot$, \mks=8.890) lands slightly {\it below} our relation, showing no evidence of overluminosity. The system would need to land in a narrow range of ages where A is solidly on the main-sequence, but C is still contracting \citep[$\simeq$400-600\,Myr based on Lyon models, ][]{BHAC15}. 
 
@@ -689,31 +681,31 @@ This work presents results from the European Space Agency (ESA) space mission Ga
 
 \clearpage
 
-%\input{astrom_table.tex}
-%\clearpage
+\input{astrom_table.tex}
+\clearpage
 
-\startlongtable
-\begin{deluxetable*}{l l l l l l l l r r}
-\tablecaption{Input Astrometry and Photometry \label{tab:astrom} }
-\tablehead{
-     \colhead{$Date$\tablenotemark{a}} & \colhead{$\rho$} & \colhead{$\theta$} & \colhead{filter} 
- & \colhead{$\Delta$m} & \colhead{Source}  \\
-    \colhead{UT} & \colhead{(mas)} & \colhead{(degrees)} & \colhead{} & \colhead{(mag)} & 
-\colhead{}
-}
-\startdata
-\multicolumn{6}{c}{Gl913}  \\
-\hline
-2004-10-27 & $  62.0\pm  5.0$ & $  74.20\pm   1.00$ & \nodata & \nodata & \citep{Bag2007b}\\
-2015-06-22 & $ 140.6\pm  0.1$ & $ 310.49\pm   0.10$ & Kcon & $   1.38\pm   0.03$ & NIRC2/Keck\\
-2015-11-18 & $ 134.6\pm  0.5$ & $ 295.97\pm   0.03$ & Kcon & $   1.36\pm   0.03$ & NIRC2/Keck\\
-2016-08-03 & $  71.7\pm  0.2$ & $ 102.47\pm   0.17$ & Kcon & $   1.37\pm   0.01$ & NIRC2/Keck\\
-2016-08-03 & $  70.2\pm  1.6$ & $ 102.80\pm   0.50$ & \nodata & \nodata & NIRC2/Keck (NRM)\\
-2016-09-20 & $  67.6\pm  2.3$ & $  82.60\pm   2.20$ & \nodata & \nodata & NIRC2/Keck (NRM)\\
-\enddata
-\tablecomments{Table \ref{tab:astrom} is published in its entirety in the electronic edition of the Publications of the AAS. A portion is shown here for guidance regarding its form and content.}
-\tablenotetext{a}{Due to inconsistency in the literature on date reporting format, all reported epochs have a $\pm$1\,day error. }
-\end{deluxetable*}
+%\startlongtable
+%\begin{deluxetable*}{l l l l l l l l r r}
+%\tablecaption{Input Astrometry and Photometry \label{tab:astrom} }
+%\tablehead{
+%     \colhead{$Date$\tablenotemark{a}} & \colhead{$\rho$} & \colhead{$\theta$} & \colhead{filter} 
+% & \colhead{$\Delta$m} & \colhead{Source}  \\
+%    \colhead{UT} & \colhead{(mas)} & \colhead{(degrees)} & \colhead{} & \colhead{(mag)} & 
+%\colhead{}
+%}
+%\startdata
+%\multicolumn{6}{c}{Gl913}  \\
+%\hline
+%2004-10-27 & $  62.0\pm  5.0$ & $  74.20\pm   1.00$ & \nodata & \nodata & \citep{Bag2007b}\\
+%2015-06-22 & $ 140.6\pm  0.1$ & $ 310.49\pm   0.10$ & Kcon & $   1.38\pm   0.03$ & NIRC2/Keck\\
+%2015-11-18 & $ 134.6\pm  0.5$ & $ 295.97\pm   0.03$ & Kcon & $   1.36\pm   0.03$ & NIRC2/Keck\\
+%2016-08-03 & $  71.7\pm  0.2$ & $ 102.47\pm   0.17$ & Kcon & $   1.37\pm   0.01$ & NIRC2/Keck\\
+%2016-08-03 & $  70.2\pm  1.6$ & $ 102.80\pm   0.50$ & \nodata & \nodata & NIRC2/Keck (NRM)\\
+%2016-09-20 & $  67.6\pm  2.3$ & $  82.60\pm   2.20$ & \nodata & \nodata & NIRC2/Keck (NRM)\\
+%\enddata
+%\tablecomments{Table \ref{tab:astrom} is published in its entirety in the electronic edition of the Publications of the AAS. A portion is shown here for guidance regarding its form and content.}
+%\tablenotetext{a}{Due to inconsistency in the literature on date reporting format, all reported epochs have a $\pm$1\,day error. }
+%\end{deluxetable*}
 
 
 \input{sample.tex}
