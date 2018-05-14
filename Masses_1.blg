@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Masses_1.aux
+The style file: apj.bst
+Reallocated field_info (elt_size=4) to 10616 items from 5000.
+Database file #1: $HOME/Dropbox/fullbiblio.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 216 entries,
+            3085 wiz_defined-function locations,
+            2198 strings with 67622 characters,
+and the built_in function-call counts, 115114 in all, are:
+= -- 9194
+> -- 9784
+< -- 42
++ -- 3322
+- -- 3657
+* -- 10479
+:= -- 22049
+add.period$ -- 216
+call.type$ -- 216
+change.case$ -- 1665
+chr.to.int$ -- 213
+cite$ -- 216
+duplicate$ -- 4151
+empty$ -- 6051
+format.name$ -- 3822
+if$ -- 22338
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 208
+newline$ -- 652
+num.names$ -- 867
+pop$ -- 1781
+preamble$ -- 1
+purify$ -- 1665
+quote$ -- 0
+skip$ -- 3323
+stack$ -- 0
+substring$ -- 4214
+swap$ -- 60
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1938
+warning$ -- 0
+while$ -- 797
+width$ -- 0
+write$ -- 2181
