@@ -105,7 +105,6 @@ The mass-luminosity relation for late-type stars has long been a critical tool f
 %% compare mass ratios
 %% forward modeling metallicity
 %% fit with an extra error term
-%% change rchi^2 to chi^2 and dof
 %% a"^3/P^2 in the table
 %% Applications section (Trappist-1, etc.)
 %% general improvement of plots in appendix
@@ -245,8 +244,7 @@ All literature astrometry used in this paper is listed alongside our own measure
 
 \subsection{Summary of input astrometry}
 
-In total we measured or gathered 1100 unique separation and position angle measurements, approximately half of which were from the literature. The number of individual measurements makes it appear astrometry from our monitoring program with Keck/NIRC2 was a minor component of the orbits (154 datasets). However, the NIRC2 points are typically 1-2 orders of magnitude more precise than those from the literature. If we instead compared the total number of measurements weighted by their uncertainties, the NIRC2 data contributed $\gtrsim10\times$ more total astrometric information than the literature data. Measurements from CFHT/PUEO had a comparable total contribution to the literature data, which had $\simeq2\times$ the effect of all NaCo measurements and $\simeq3\times$ that of data from NIRI. This is only a rough proxy for the relative role of each data source, since literature data also tended to be heavily concentrated on the best-characterized systems, and the usefulness of a given measurement also depends on where in the orbit it was taken. 
-
+In total we measured or gathered 1100 unique datasets, approximately half of which we measured from adaptive optics images and the other half were from the literature. Most of the astrometry measurements done in this paper came from either NIRC2 (194 points) or PUEO (226), with a smaller contribution from NaCo (70) and NIRI (39). Although they represent only $\simeq$20\% of the total astrometric measurements, the NIRC2 measurements are the most critical in constraining orbital parameters. This is because NIRC2 astrometry was 1-2 orders of magnitude more precise than those from the literature, and a factor of 3-8$\times$ more precise than those from PUEO, NIRI, and NaCo. We characterized the relative importance of each data source using the total number of separation measurements weighted by their uncertainties. Under this metric, the NIRC2 points contributed $\gtrsim10\times$ more total orbital information than the literature data. Measurements from CFHT/PUEO had a comparable total contribution to the literature data, each of which had $\simeq2\times$ the impact of NaCo measurements, and $\simeq3\times$ that of data from NIRI. This metric likely underestimated the importance of the NIRC2 data, particularly that from our own program; literature and archive images tended to be concentrated on the best-characterized systems, while our NIRC2 observations were specifically coordinated to complete orbits and cover under- or un-sampled regions of binary orbits. 
 
 \section{Orbit Fitting}\label{sec:orbit}
 
@@ -428,14 +426,14 @@ The final fit was tightly constrained over most of the sequence which we show in
 \begin{deluxetable*}{l l l l l l l}
 \tablecaption{Best-fit Coefficients for Equations~\ref{eqn:mmk2} and \ref{eqn:mmk3}}
 \tablehead{
-\colhead{$a_0$} & \colhead{$a_1$} & \colhead{$a_2$} & \colhead{$a_3$} & \colhead{$a_4$} & \colhead{f} & $\chi^2_\nu$ 
+\colhead{$a_0$} & \colhead{$a_1$} & \colhead{$a_2$} & \colhead{$a_3$} & \colhead{$a_4$} & \colhead{f} %& \colhead{$\chi^2$ }
 }
 \startdata
--0.644537 &  -0.199364 &  2.384413$\times10^{-5}$ &  4.809947$\times10^{-3}$ & -3.287834$\times10^{-5}$ & \nodata & 1.42 \\ 
--0.638246 &  -0.203070 & -3.023017$\times10^{-3}$ &  4.639837$\times10^{-3}$ & \nodata & \nodata & 1.86 \\
+-0.644537 &  -0.199364 &  2.384413$\times10^{-5}$ &  4.809947$\times10^{-3}$ & -3.287834$\times10^{-5}$ & \nodata \\%& 1.42 \\ 
+-0.638246 &  -0.203070 & -3.023017$\times10^{-3}$ &  4.639837$\times10^{-3}$ & \nodata & \nodata \\%& 1.86 \\
 \hline
--0.646133 &  -0.195170 &  2.365097$\times10^{-3}$ &  4.469372$\times10^{-3}$ & -1.032628$\times10^{-4}$  & 0.045 & 1.34 \\
- -0.642451 &  -0.197349 &  1.579457$\times10^{-4}$ &  4.668038$\times10^{-3}$ & \nodata & 0.039 & 1.76 \\
+-0.646133 &  -0.195170 &  2.365097$\times10^{-3}$ &  4.469372$\times10^{-3}$ & -1.032628$\times10^{-4}$  & 0.045 \\%& 1.34 \\
+ -0.642451 &  -0.197349 &  1.579457$\times10^{-4}$ &  4.668038$\times10^{-3}$ & \nodata & 0.039 \\%& 1.76 \\
  \enddata
 \label{tab:coeff}
 \tablecomments{The first row is the preferred fit, as the $f$ parameter is not significant. Note that values presented here are the highest likelihood, while Figures~\ref{fig:fitpost} and \ref{fig:fitpost_feh} note the median coefficient values.}
@@ -613,6 +611,9 @@ We compare our \mmk\ relation \citet{Benedict2016}'s in Figure~\ref{fig:benedict
 %% GJ 570 B GJ 570 C: This is in our sample. We get total mass of 0.833±0.053, they get 0.976±0.012. They report delk~1.18, while we get 0.995. 
 %% GJ 2069 A GJ 2069 C: Junky (bolometric correction) parallax and K 
 %% GU Boo A GU Boo B: Crappy parallax and K
+
+%\subsection{Testing mass ratio predictions}
+%One drawback of our ana
 
 \section{Conclusions \& Discussion}\label{sec:discussion} 
 
