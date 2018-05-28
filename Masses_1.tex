@@ -102,10 +102,10 @@ The mass-luminosity relation for late-type stars has long been a critical tool f
 % without latex:
 
 %% To do:
-%% compare mass ratios
-%% fit with an extra error term
+%% compare mass ratios (ARGHHHH!!)
+%% fit with an extra error term 
 %% Applications section (Trappist-1, etc.)
-%% general improvement of plots in appendix
+%% general improvement of plots in appendix (almost done)
 
 
 \section{Introduction}\label{sec:intro}
@@ -259,7 +259,7 @@ Overall the quality of the fits is extremely good, with $\chi^2_\nu$ values rang
 \includegraphics[width=0.32\textwidth]{Orbits/Gl301AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/Gl469AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/GJ3454AB.eps}
-\caption{Example results of our orbit fitting procedure for Gl301AB (left), Gl469AB (middle), and GJ3454AB (right). Red points are individual measurements of the separation and position angle. Black solid line shows the best-fit (highest likelihood). Grey lines are drawn by randomly sampling 100 orbit fits from the MCMC chain to display an estimate of the errors. The dotted line connects periastron passage, with an arrow pointing in the orbital direction, and the dashed-line indicates the line of nodes. For Gl301AB, there are no data for a small section orbit, but the fit was relatively well constrained. For Gl469AB, high-quality astrometry is available for the full orbit, and the resulting errors on orbital parameters are so small that the grey lines cannot be seen. All other orbits are shown in Appendix~\ref{sec:a1}.}
+\caption{Example results of our orbit fitting procedure for Gl 301AB (left), Gl 469AB (middle), and GJ 3454AB (right). Points are individual measurements of the separation and position angle, color-coded by the data source. Black solid line shows the best-fit (highest likelihood). Dark grey lines are drawn by randomly sampling 50 orbit fits from the MCMC chain to display an estimate of the errors. The dotted line connects periastron passage, with an arrow pointing in the orbital direction, and the dashed-line showing the line of nodes. For Gl469AB, high-quality astrometry is available for the full orbit, and the resulting errors on orbital parameters are so small that the grey lines cannot be seen. All orbits are shown in Appendix~\ref{sec:a1}.}
 \label{fig:orbits}
 \end{center}
 \end{figure*}
@@ -750,69 +750,69 @@ Here we show diagnostic plots of each of the binaries in our sample.
 \includegraphics[width=0.32\textwidth]{Orbits/GJ1081AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/GJ1210AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/GJ1245AB.eps}
-\caption{Orbital fit for each binary fit in this paper in the reference frame of the primary. The black star marks the primary (always at 0, 0). The best-fit (highest likelihood) is shown as a black line, with 100 randomly selected orbit fits from the MCMC shown in grey. In many fits the thickness of the black line blocks much or all of the grey lines. Red points are individual measurements with adopted uncertainties. The dashed line is the line of nodes, the dotted line indicates periastron passage, and the arrow marks the direction of motion. }
+\caption{Orbital fit for each binary fit in this paper. The black star marks the primary (always at 0, 0). The best-fit (highest likelihood) is shown as a black line, with 50 randomly selected orbit fits from the MCMC shown in grey to provide an estimate of the uncertainties. In some fits the errors are small enough that the grey lines are not visible underneath the best-fit black line. Points are individual measurements with adopted uncertainties color-coded by the data source (Gemini/NIRI in green, VLT/NaCo in blue, CFHT/PUEO in light red, Keck/NIRC2 in dark red, and literature data in light blue). The dashed line is the line of nodes, the dotted line indicates periastron passage, and the arrow marks the direction of motion. }
 \label{fig:orbits1}
 \end{center}
 \end{figure*}
 
-%\begin{figure*}[htp]
-%\begin{center}
-%\includegraphics[width=0.32\textwidth]{Orbits/GJ2005AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/GJ3412AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/GJ3421AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/GJ4024AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/GJ4210AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/GJ4287AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl54AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl125AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl190AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl263AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl277AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl310AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl330AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl381AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl473AB.eps}
-%\caption{Figure~\ref{fig:orbits1} continued.}
-%\label{fig:orbits2}
-%\end{center}
-%\end{figure*}
-%
-%
-%\begin{figure*}[htp]
-%\begin{center}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl494AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl660AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl695AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl747AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl7912AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl804AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl831AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl844AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl8934AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl913AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/HD15285AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/HD239960AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/HIP9724AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/HIP11542AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/HIP46706AB.eps}
-%\caption{Figure~\ref{fig:orbits1} continued.}
-%\label{fig:orbits3}
-%\end{center}
-%\end{figure*}
-%
-%\begin{figure*}[htp]
-%\begin{center}
-%\includegraphics[width=0.32\textwidth]{Orbits/HIP95995AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/HIP96656AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/LHS6167AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/PMJ02133+3648AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl301AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/Gl469AB.eps}
-%\includegraphics[width=0.32\textwidth]{Orbits/GJ3454AB.eps}
-%\caption{Figure~\ref{fig:orbits1} continued.}
-%\label{fig:orbits4}
-%\end{center}
-%\end{figure*}
+\begin{figure*}[htp]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ2005AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ3412AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ3421AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ4024AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ4210AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ4287AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl54AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl125AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl190AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl263AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl277AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl310AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl330AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl381AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl473AB.eps}
+\caption{Figure~\ref{fig:orbits1} continued.}
+\label{fig:orbits2}
+\end{center}
+\end{figure*}
+
+
+\begin{figure*}[htp]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl494AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl660AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl695AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl747AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl7912AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl804AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl831AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl844AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl8934AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl913AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/HD15285AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/HD239960AB.eps} 
+\includegraphics[width=0.32\textwidth]{Orbits/HIP9724AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/HIP11542AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/HIP46706AB.eps}
+\caption{Figure~\ref{fig:orbits1} continued.}
+\label{fig:orbits3}
+\end{center}
+\end{figure*}
+
+\begin{figure*}[htp]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Orbits/HIP95995AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/HIP96656AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/LHS6167AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/PMJ02133+3648AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl301AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl469AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ3454AB.eps}
+\caption{Figure~\ref{fig:orbits1} continued.}
+\label{fig:orbits4}
+\end{center}
+\end{figure*}
 
 \end{document}
 
