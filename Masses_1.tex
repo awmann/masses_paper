@@ -102,9 +102,9 @@ The mass-luminosity relation for late-type stars has long been a critical tool f
 % without latex:
 
 %% To do:
-%% compare mass ratios (ARGHHHH!!)
-%% fit with an extra error term 
 %% Applications section (Trappist-1, etc.)
+%% compare mass ratios (ARGHHHH!!) We are going to punt this for now
+%% fit with an extra error term  (this is almost done,I hope!)
 %% general improvement of plots in appendix (almost done)
 
 
@@ -729,49 +729,42 @@ We repeated this process with 5000 unique combinations of the 183 stars for 12 d
 
 We did not see a significant difference in any derived correction based on the metallicity of the component stars, as expected based on how [Fe/H] changes $K$-band flux levels (Figure~\ref{fig:metal}). Thus we did not attempt to include [Fe/H] in these relations. We also found no significant effect as a function of the mass of the primary. However, this was difficult to test due to limitations of the input sample. The \citet{Mann2015b} spectral sample covers K7 to M7, but is poorly populated on the extreme ends. While we can make a wide range of combinations of low-contrast systems (M0+M0 to M6+M6), we have limited options for high-contrast (where primary can only be $\sim$ K7-M1) systems where temperature effects would be most clear.
 
+\clearpage
+
 \section{Orbits of binaries}\label{sec:orbitplots}
 
 Here we show diagnostic plots of each of the binaries in our sample. 
 
 \begin{figure*}[htp]
 \begin{center}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ22AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ65AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ234AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ340AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ416AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ570AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ600AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ623AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ661AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ748AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/GJ1005AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ2005AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ22AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl54AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/GJ1038AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ1081AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ1210AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ1245AB.eps}
-\caption{Orbital fit for each binary fit in this paper. The black star marks the primary (always at 0, 0). The best-fit (highest likelihood) is shown as a black line, with 50 randomly selected orbit fits from the MCMC shown in grey to provide an estimate of the uncertainties. In some fits the errors are small enough that the grey lines are not visible underneath the best-fit black line. Points are individual measurements with adopted uncertainties color-coded by the data source (Gemini/NIRI in green, VLT/NaCo in blue, CFHT/PUEO in light red, Keck/NIRC2 in dark red, and literature data in light blue). The dashed line is the line of nodes, the dotted line indicates periastron passage, and the arrow marks the direction of motion. }
+\includegraphics[width=0.32\textwidth]{Orbits/GJ65AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/HIP9724AB.eps} %%Gl 84
+\includegraphics[width=0.32\textwidth]{Orbits/PMJ02133+3648AB.eps} 
+\includegraphics[width=0.32\textwidth]{Orbits/HD15285AB.eps} %% Gl98
+\caption{Orbital fit for each binary fit in this paper. The black star marks the primary (always at 0, 0). The best-fit (highest likelihood) is shown as a black line, with 50 randomly selected orbit fits from the MCMC shown in grey to provide an estimate of the uncertainties. In some fits, the range of orbital solutions is so small that the grey lines are not visible underneath the best-fit black line. Points are individual separation and position angle measurements with adopted uncertainties, color-coded by the data source (Gemini/NIRI in green, VLT/NaCo in blue, CFHT/PUEO in light red, Keck/NIRC2 in dark red, and literature data in light blue). The dashed line is the line of nodes, the dotted line indicates periastron passage, and the arrow marks the direction of motion. }
 \label{fig:orbits1}
 \end{center}
 \end{figure*}
 
 \begin{figure*}[htp]
 \begin{center}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ2005AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ3412AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ3421AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ4024AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ4210AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ4287AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl54AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/HIP11542AB.eps} %% Gl99
 \includegraphics[width=0.32\textwidth]{Orbits/Gl125AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/Gl190AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ1081AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ234AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ3412AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ3421AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/Gl263AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/Gl277AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ3454AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl301AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/Gl310AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl330AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl381AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl473AB.eps}
 \caption{Figure~\ref{fig:orbits1} continued.}
 \label{fig:orbits2}
 \end{center}
@@ -780,21 +773,18 @@ Here we show diagnostic plots of each of the binaries in our sample.
 
 \begin{figure*}[htp]
 \begin{center}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl330AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/LHS6167AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ340AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/HIP46706AB.eps}%% Gl352
+\includegraphics[width=0.32\textwidth]{Orbits/Gl381AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ416AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl469AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl473AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/Gl494AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl660AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl695AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl747AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl7912AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl804AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl831AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl844AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl8934AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl913AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/HD15285AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/HD239960AB.eps} 
-\includegraphics[width=0.32\textwidth]{Orbits/HIP9724AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/HIP11542AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/HIP46706AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ570AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ600AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ623AB.eps}
 \caption{Figure~\ref{fig:orbits1} continued.}
 \label{fig:orbits3}
 \end{center}
@@ -802,18 +792,40 @@ Here we show diagnostic plots of each of the binaries in our sample.
 
 \begin{figure*}[htp]
 \begin{center}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ1210AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl660AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ661AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ4024AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl695AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl747AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ748AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/HIP95995AB.eps}
 \includegraphics[width=0.32\textwidth]{Orbits/HIP96656AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/LHS6167AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/PMJ02133+3648AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl301AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/Gl469AB.eps}
-\includegraphics[width=0.32\textwidth]{Orbits/GJ3454AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ1245AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl7912AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl804AB.eps}
 \caption{Figure~\ref{fig:orbits1} continued.}
 \label{fig:orbits4}
 \end{center}
 \end{figure*}
 
+
+
+
+\begin{figure*}[htp]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl831AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/GJ4210AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl844AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/HD239960AB.eps} 
+\includegraphics[width=0.32\textwidth]{Orbits/GJ4287AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl8934AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl900AB.eps}
+\includegraphics[width=0.32\textwidth]{Orbits/Gl913AB.eps}
+\caption{Figure~\ref{fig:orbits1} continued.}
+\label{fig:orbits5}
+\end{center}
+\end{figure*}
 \end{document}
 
 
