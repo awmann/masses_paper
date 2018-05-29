@@ -314,7 +314,7 @@ To compute $\Delta K_S$, we calculated the robust weighted mean of contrast rati
 \end{center}
 \end{figure}
 
-We did not use literature contrast ratios (even those in $K$-band), as we cannot perform and the same corrections applied to those from our own analysis. The exception was Gl 762.1, for which we have no AO data. For this target we adopt the value from \citet{CIA2010}.
+%We did not use literature contrast ratios (even those in $K$-band), as we cannot perform and the same corrections applied to those from our own analysis. The exception was Gl 762.1, for which we have no AO data. For this target we adopt the value from \citet{CIA2010}.
 
 For GJ 2005BC and Gl 900BC, the 2MASS PSF includes flux from the A component. In both cases we use our AO data to measure $\Delta K$ between all three components. The total $K_S$ magnitude given in Table~\ref{tab:sample} already have the A component removed. 
 
@@ -355,9 +355,9 @@ Because Equation~\ref{eqn:mass} does not provide component masses, when fitting 
 M_{tot} &=& 10^{b_1} + 10^{b_2},\\
 b_j &=& \sum_{i=0}^{n} a_i(M_{K_S,j}-zp)^i, \label{eqn:mmk2_b}
 \end{eqnarray}
-where \mks$_{,1}$ and \mks$_{,2}$ are the primary and companion absolute $K$-band magnitudes, which were calculated from our measured $\Delta K_S$ and unresolved $K_S$ magnitudes (Section~\ref{sec:mags}). Equation~\ref{eqn:mmk2} could easily be modified for higher-order star systems, providing individual \mks\ magnitudes and the total mass of the system are known. %Additionally, in the case where the mass ratio is known for some systems (e.g., from radial velocities), we could trivially add this in as an additional constraint. 
+where \mks$_{,1}$ and \mks$_{,2}$ are the primary and companion absolute $K$-band magnitudes, which were calculated from our measured $\Delta K_S$ and unresolved $K_S$ magnitudes (Section~\ref{sec:mags}). Equation~\ref{eqn:mmk2} could easily be modified for higher-order star systems, providing individual \mks\ magnitudes and the total mass of the system are known. 
 
-We fit for the $a_i$ terms in Equation~\ref{eqn:mmk2} using the MCMC code \textit{emcee}, which lets us fit for the strong covariance between coefficients. Each coefficient evolved under uniform priors without limits, and was initialized to the best-fit value derived from \textit{MPFIT}. We ran the MCMC chain with 600 walkers for $10^6$ steps after a burn-in of 50,000 steps. We tested values of $n$ (number of $a_i$ terms) from three to six. %THIS NEEDS CHECKING We found significant improvement in both $\chi^2$ and the Bayes factor for the best-fit relation using up to five constants, but both metrics gave negligible improvement when we move to a sixth. 
+We fit for the $a_i$ terms in Equation~\ref{eqn:mmk2} using the MCMC code \textit{emcee}, which lets us fit for the strong covariance between coefficients. Each coefficient evolved under uniform priors without limits, and was initialized to the best-fit value derived from \textit{MPFIT}. We ran the MCMC chain with 600 walkers for $10^6$ steps after a burn-in of 75,000 steps. We tested values of $n$ (number of $a_i$ terms) from three to seven. % We found significant improvement in both $\chi^2$ and the Bayes factor for the best-fit relation using up to five constants, but both metrics gave negligible improvement when we move to a sixth. 
 
 Errors on the dynamical mass are correlated to the errors on \mks. The system mass scales with the cube of the semi-major axis, which depends linearly with the parallax. As a result, the parallax was a major, if not the largest, source of uncertainty on the mass for most systems. Similarly, our $K_S$ magnitudes had relatively small errors (0.01-0.03\,mag), so \mks\ errors tended to be dominated by the parallax. Because this correlation is usually along (parallel to) the direction of the \mmk\ relation, it can tighten the fit if properly taken into account (when compared to assuming uncorrelated errors). 
 
@@ -375,7 +375,7 @@ Our strategy was to treat distances of each system as a free parameter, letting 
 %\end{center}
 %\end{figure*}
 
-For computational efficiency we assumed Gaussian errors on $a\arcsec^3/P^2$. Although $a\arcsec$ and $P$ were often correlated and non-Gaussian, posteriors of $a\arcsec^3/P^2$ were well-described by a Gaussian (Figure~\ref{fig:correlated}). The only deviations were the systems with the worst parameters overall, which tended to have somewhat asymmetric posteriors, but also had a relatively small impact on the final fit. %However, these systems had little influence over the final fit.
+For computational efficiency we assumed Gaussian errors on $a\arcsec^3/P^2$. Although $a\arcsec$ and $P$ were often correlated and non-Gaussian, posteriors of $a\arcsec^3/P^2$ were well-described by a Gaussian (Figure~\ref{fig:correlated}). The only deviations were the systems with the worst parameters overall, which tended to have somewhat asymmetric posteriors, but also had a relatively small impact on the final fit. 
 
 \begin{figure}[htb]
 \begin{center}
@@ -387,9 +387,9 @@ For computational efficiency we assumed Gaussian errors on $a\arcsec^3/P^2$. Alt
 
 For main-sequence dwarfs at fixed metallicity, more massive stars should always be brighter. Thus we required that the resulting fit have a negative derivative (higher \mks\ always gives lower mass) over the full range of input objects considered. We tested running without this constraint, and found similar results over most of the parameter range considered. The major difference was near the edges of the input sample. Without the negative derivative constraint, the fit would often become double valued where there were few points to constrain the fit.
 
-\subsection{Results and Uncertainties}
+To handle the any missing scatter beyond what is accounted for in Equations~\ref{eqn:mmk}-\ref{eqn:mmk2}, we fit an additional parameter, which increased the errors of all total masses by a common percentage ($\sigma_e$). This parameter can be interpreted as missing physics (e.g., age, detailed abundances, and/or activity/rotation) that increases the intrinsic scatter, or underestimated uncertainties in our input parallaxes or orbital parameters (and hence the final assigned mass). Underestimated errors could arise from unaccounted binarity in the parallaxes or systematic errors in the astrometry, such as a missing or erroneous distortion solution or orientation for one or more of the instruments (including from the literature points) that could impact a large subset of the data. We tested implementing similar missing error terms on the assigned $K$-band magnitudes (in case of stellar variability) or directly on the parallax priors, and found broadly consistent results. We opted to keep $\sigma_e$ as a fractional error on the total mass, which we feel is more physically motivated.
 
-Our initial fit was extremely tight, suggesting mass errors $<1\%$ over the the entire $M_*$ range considered. However, this fit yielded a $\chi^2$ of (57 degrees of freedom). The larger scatter could be due to missing physics, such as metallicity (which we discuss in Section~\ref{sec:metal}). It is also possible that errors on individual mass determinations are underestimated. This could be due to uncorrected systematic errors in the orbital solutions, stellar variability, and/or underestimated errors on %% come back to this later
+\subsection{Results and Uncertainties}
 
 We show the output coefficient posteriors in Figure~\ref{fig:fitpost}. The spread in the posteriors for individual coefficients is rather large, suggesting significant errors on each coefficient. However, the coefficients are also highly correlated; for a given value assigned to four of the five fit coefficients, there is a relatively narrow set of solutions for the final constant. 
 
@@ -699,8 +699,6 @@ This work presents results from the European Space Agency (ESA) space mission Ga
 
 \bibliography{$HOME/Dropbox/fullbiblio}
 
-\input{astrom_table.tex}
-%\clearpage
 
 \input{sample.tex}
 
@@ -735,7 +733,7 @@ We did not see a significant difference in any derived correction based on the m
 
 \section{Orbits of binaries}\label{sec:orbitplots}
 
-Here we show diagnostic plots of each of the binaries in our sample. 
+Here we show diagnostic plots of each of the binaries in our sample. Details of the input points data can be found in Section~\ref{sec:ao} for data analyzed in this paper and in Section~\ref{sec:litas} for astrometry from the literature. The orbital fitting method is described in Section~\ref{sec:orbit}.
 
 \begin{figure*}[htp]
 \begin{center}
@@ -830,4 +828,5 @@ Here we show diagnostic plots of each of the binaries in our sample.
 \end{figure*}
 \end{document}
 
-
+\clearpage
+\input{astrom_table.tex}
