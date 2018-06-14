@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.21)  11 JUN 2018 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.21)  12 JUN 2018 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -21,7 +21,7 @@ gridlines, draft watermark,
  
   on input line 105.
 \bibbaselineskip=\skip41
-(/usr/local/texlive/2017/texmf-dist/tex/latex/revtex/revtex4-1.cls
+(/usr/local/texlive/2016/texmf-dist/tex/latex/revtex/revtex4-1.cls
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -81,7 +81,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 \widetext@top=\box39
 \widetext@bot=\box40
 Class revtex4-1 Info: Selecting society aps on input line 7542.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/revtex/aps4-1.rtx
+(/usr/local/texlive/2016/texmf-dist/tex/latex/revtex/aps4-1.rtx
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -89,19 +89,19 @@ Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 Class revtex4-1 Info: Selecting journal pra on input line 7544.
 Class revtex4-1 Info: APS journal PRA selected on input line 7545.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+(/usr/local/texlive/2016/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
 File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -110,45 +110,45 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup5
@@ -158,16 +158,17 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Info: Redefining \frak on input line 111.
 LaTeX Info: Redefining \Bbb on input line 113.
 ))
-(/Users/amann/Library/texmf/tex/latex/epsf.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
 \epsffilein=\read1
-\epsfxsize=\dimen104
-\epsfysize=\dimen105
-\epsftsize=\dimen106
-\epsfrsize=\dimen107
-\epsftmp=\dimen108
-\pspoints=\dimen109
-\epsfhbpsize=\dimen110
-\epsfvbpsize=\dimen111
+\epsfframemargin=\dimen104
+\epsfframethickness=\dimen105
+\epsfrsize=\dimen106
+\epsftmp=\dimen107
+\epsftsize=\dimen108
+\epsfxsize=\dimen109
+\epsfysize=\dimen110
+\pspoints=\dimen111
 )
 \rptnum=\count95
 \rptloopnum=\count96
@@ -194,8 +195,7 @@ LaTeX Info: Redefining \Bbb on input line 113.
 \DT@p@ftn=\toks18
 \pt@column=\count105
 \pt@ncol=\count106
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip55
 \LTright=\skip56
@@ -213,10 +213,10 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count111
 \LT@p@ftn=\toks19
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -230,14 +230,14 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -276,25 +276,25 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen117
 \Hy@linkcounter=\count112
 \Hy@pagecounter=\count113
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count114
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarks' set `false' on input line 4383.
@@ -330,19 +330,19 @@ LaTeX Info: Redefining \pageref on input line 6443.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count120
 \c@bookmark@seq@number=\count121
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip59
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen121
 \extrarowheight=\dimen122
@@ -379,7 +379,7 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \refchangenumber=\count139
 \listchangenum=\count140
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ulem/ulem.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box51
 \UL@hyphenbox=\box52
 \UL@skip=\skip62
@@ -398,26 +398,26 @@ Package: ulem 2012/05/18
 \widetext@top=\box54
 \widetext@bot=\box55
 ) (./setup.tex
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip63
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
 \ex@=\dimen129
 )
 LaTeX Info: Redefining \text on input line 28.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen130
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count146
@@ -458,12 +458,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen138
 \epsfysize=\dimen139
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count158
 \output=\toks27
@@ -481,17 +481,17 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box58
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(/Users/amann/Library/texmf/tex/latex/bigints.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bigints/bigints.sty
 Package: bigints 2010/02/15 Writing big integrals
 Package bigints Info: This is Bigints by Merciadri Luca. on input line 5.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -501,18 +501,18 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks28
 \MT@count=\count165
@@ -521,7 +521,7 @@ LaTeX Info: Redefining \textls on input line 793.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
 \MT@listname@count=\count166
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 913.
@@ -530,10 +530,10 @@ LaTeX Info: Redefining \lslig on input line 913.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count167
 
@@ -549,7 +549,7 @@ Package etoolbox Warning: Patching '\end' failed!
 Package etoolbox Warning: Patching '\end' failed!
 (etoolbox)                '\AfterEndEnvironment' will not work.
 
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup7
 )
@@ -581,7 +581,7 @@ LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count168
 \scratchdimen=\dimen146
@@ -597,10 +597,10 @@ LaTeX Font Info:    ... okay on input line 32.
 )
 \AtBeginShipoutBox=\box60
 Package hyperref Info: Link coloring ON on input line 32.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count174
@@ -619,7 +619,7 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -629,35 +629,35 @@ Class revtex4-1 Info: Line numbering not turned on yet on input line 32.
 Class revtex4-1 Info: Overriding \@LN@LLerror on input line 32.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 43.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 43.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 43.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 111--111
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 112--112
 [][] 
  []
 
-[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
 Package epstopdf Info: Source file: <Model_age2.eps>
 (epstopdf)                    date: 2018-05-29 15:22:25
@@ -667,27 +667,27 @@ Package epstopdf Info: Source file: <Model_age2.eps>
 (epstopdf)                    size: 8572 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Model_age2-eps-converted
 -to.pdf Model_age2.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
 <./Model_age2-eps-converted-to.pdf, id=165, 426.59375pt x 426.59375pt>
 File: ./Model_age2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Model_age2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Model_age2-eps-converted-to.pdf  used on input line 
-136.
+137.
 (pdftex.def)             Requested size: 241.16582pt x 241.16911pt.
- [3 <./Model_age2-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 164.
+ [3 <./Model_age2-eps-converted-to.pdf>] [4]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 165.
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [4] [5] [6]
-[7] [8]
+ [5] [6] [7]
+[8]
 Package epstopdf Info: Source file: <Orbits/Gl301BAB.eps>
 (epstopdf)                    date: 2018-06-10 13:58:07
 (epstopdf)                    size: 448071 bytes
@@ -696,13 +696,13 @@ Package epstopdf Info: Source file: <Orbits/Gl301BAB.eps>
 (epstopdf)                    size: 337252 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl301BAB-eps-converted-t
 o.pdf Orbits/Gl301BAB.eps>
-(epstopdf)             \includegraphics on input line 253.
+(epstopdf)             \includegraphics on input line 256.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl301BAB-eps-converted-to.pdf, id=399, 426.59375pt x 426.59375pt>
+<./Gl301BAB-eps-converted-to.pdf, id=398, 426.59375pt x 426.59375pt>
 File: ./Gl301BAB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl301BAB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl301BAB-eps-converted-to.pdf  used on input line 25
-3.
+6.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl469AB.eps>
 (epstopdf)                    date: 2018-06-10 13:58:40
@@ -712,12 +712,12 @@ Package epstopdf Info: Source file: <Orbits/Gl469AB.eps>
 (epstopdf)                    size: 325435 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl469AB-eps-converted-to
 .pdf Orbits/Gl469AB.eps>
-(epstopdf)             \includegraphics on input line 254.
+(epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl469AB-eps-converted-to.pdf, id=400, 426.59375pt x 426.59375pt>
+<./Gl469AB-eps-converted-to.pdf, id=399, 426.59375pt x 426.59375pt>
 File: ./Gl469AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl469AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl469AB-eps-converted-to.pdf  used on input line 254
+Package pdftex.def Info: ./Gl469AB-eps-converted-to.pdf  used on input line 257
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ3454AB.eps>
@@ -728,13 +728,13 @@ Package epstopdf Info: Source file: <Orbits/GJ3454AB.eps>
 (epstopdf)                    size: 334208 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ3454AB-eps-converted-t
 o.pdf Orbits/GJ3454AB.eps>
-(epstopdf)             \includegraphics on input line 255.
+(epstopdf)             \includegraphics on input line 258.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ3454AB-eps-converted-to.pdf, id=401, 426.59375pt x 426.59375pt>
+<./GJ3454AB-eps-converted-to.pdf, id=400, 426.59375pt x 426.59375pt>
 File: ./GJ3454AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ3454AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ3454AB-eps-converted-to.pdf  used on input line 25
-5.
+8.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
  [9] [10 <./Gl301BAB-eps-converted-to.pdf> <./Gl469AB-eps-converted-to.pdf> <./
 GJ3454AB-eps-converted-to.pdf>]
@@ -746,29 +746,29 @@ Package epstopdf Info: Source file: <errors.eps>
 (epstopdf)                    size: 9530 bytes
 (epstopdf)             Command: <repstopdf --outfile=./errors-eps-converted-to.
 pdf errors.eps>
-(epstopdf)             \includegraphics on input line 303.
+(epstopdf)             \includegraphics on input line 308.
 Package epstopdf Info: Output file is already uptodate.
-<./errors-eps-converted-to.pdf, id=517, 505.89pt x 361.35pt>
+<./errors-eps-converted-to.pdf, id=519, 505.89pt x 361.35pt>
 File: ./errors-eps-converted-to.pdf Graphic file (type pdf)
 <use ./errors-eps-converted-to.pdf>
-Package pdftex.def Info: ./errors-eps-converted-to.pdf  used on input line 303.
+Package pdftex.def Info: ./errors-eps-converted-to.pdf  used on input line 308.
 
 (pdftex.def)             Requested size: 241.16582pt x 172.26057pt.
+ [11]
 
-Underfull \hbox (badness 1297) in paragraph at lines 323--324
-[]\T1/cmr/m/n/10 (+20) We rewrite Equa-tion [][]1[][] in terms of $\OML/cmm/m/i
-t/10 M[]$ \T1/cmr/m/n/10 (+20) (and
- []
-
-[11]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 324.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 318.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 324.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 318.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 328--329
+[]\T1/cmr/m/n/10 (+20) We rewrite Equa-tion [][]1[][] in terms of $\OML/cmm/m/i
+t/10 M[]$ \T1/cmr/m/n/10 (+20) (and
+ []
 
 Package epstopdf Info: Source file: <metallicity_effect.eps>
 (epstopdf)                    date: 2018-04-16 13:48:45
@@ -779,13 +779,13 @@ Package epstopdf Info: Source file: <metallicity_effect.eps>
 (epstopdf)                    size: 182126 bytes
 (epstopdf)             Command: <repstopdf --outfile=./metallicity_effect-eps-c
 onverted-to.pdf metallicity_effect.eps>
-(epstopdf)             \includegraphics on input line 327.
+(epstopdf)             \includegraphics on input line 332.
 Package epstopdf Info: Output file is already uptodate.
-<./metallicity_effect-eps-converted-to.pdf, id=540, 568.1225pt x 226.8475pt>
+<./metallicity_effect-eps-converted-to.pdf, id=539, 568.1225pt x 226.8475pt>
 File: ./metallicity_effect-eps-converted-to.pdf Graphic file (type pdf)
 <use ./metallicity_effect-eps-converted-to.pdf>
 Package pdftex.def Info: ./metallicity_effect-eps-converted-to.pdf  used on inp
-ut line 327.
+ut line 332.
 (pdftex.def)             Requested size: 513.11743pt x 204.90506pt.
 [12 <./errors-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <LHS6167_corner.eps>
@@ -796,20 +796,28 @@ Package epstopdf Info: Source file: <LHS6167_corner.eps>
 (epstopdf)                    size: 44053 bytes
 (epstopdf)             Command: <repstopdf --outfile=./LHS6167_corner-eps-conve
 rted-to.pdf LHS6167_corner.eps>
-(epstopdf)             \includegraphics on input line 362.
+(epstopdf)             \includegraphics on input line 367.
 Package epstopdf Info: Output file is already uptodate.
-<./LHS6167_corner-eps-converted-to.pdf, id=578, 568.1225pt x 568.1225pt>
+<./LHS6167_corner-eps-converted-to.pdf, id=583, 568.1225pt x 568.1225pt>
 File: ./LHS6167_corner-eps-converted-to.pdf Graphic file (type pdf)
 <use ./LHS6167_corner-eps-converted-to.pdf>
 Package pdftex.def Info: ./LHS6167_corner-eps-converted-to.pdf  used on input l
-ine 362.
+ine 367.
 (pdftex.def)             Requested size: 241.16582pt x 241.16711pt.
- [13 <./metallicity_effect-eps-converted-to.pdf> <./LHS6167_corner-eps-converte
-d-to.pdf>]
-<output_7_eMs.pdf, id=613, 1156.32pt x 1156.32pt>
+ [13 <./metallicity_effect-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 377.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 377.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+<output_7_eMs.pdf, id=607, 1156.32pt x 1156.32pt>
 File: output_7_eMs.pdf Graphic file (type pdf)
 <use output_7_eMs.pdf>
-Package pdftex.def Info: output_7_eMs.pdf  used on input line 378.
+Package pdftex.def Info: output_7_eMs.pdf  used on input line 383.
 (pdftex.def)             Requested size: 461.80255pt x 461.7964pt.
 Package epstopdf Info: Source file: <MK_mass_0_7_1.eps>
 (epstopdf)                    date: 2018-05-31 12:53:11
@@ -819,13 +827,13 @@ Package epstopdf Info: Source file: <MK_mass_0_7_1.eps>
 (epstopdf)                    size: 121108 bytes
 (epstopdf)             Command: <repstopdf --outfile=./MK_mass_0_7_1-eps-conver
 ted-to.pdf MK_mass_0_7_1.eps>
-(epstopdf)             \includegraphics on input line 386.
+(epstopdf)             \includegraphics on input line 391.
 Package epstopdf Info: Output file is already uptodate.
-<./MK_mass_0_7_1-eps-converted-to.pdf, id=618, 625.33624pt x 312.16624pt>
+<./MK_mass_0_7_1-eps-converted-to.pdf, id=612, 625.33624pt x 312.16624pt>
 File: ./MK_mass_0_7_1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./MK_mass_0_7_1-eps-converted-to.pdf>
 Package pdftex.def Info: ./MK_mass_0_7_1-eps-converted-to.pdf  used on input li
-ne 386.
+ne 391.
 (pdftex.def)             Requested size: 513.11743pt x 256.15422pt.
 Package epstopdf Info: Source file: <Mass_mass_7_0.eps>
 (epstopdf)                    date: 2018-05-31 09:06:38
@@ -835,16 +843,16 @@ Package epstopdf Info: Source file: <Mass_mass_7_0.eps>
 (epstopdf)                    size: 16190 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Mass_mass_7_0-eps-conver
 ted-to.pdf Mass_mass_7_0.eps>
-(epstopdf)             \includegraphics on input line 394.
+(epstopdf)             \includegraphics on input line 399.
 Package epstopdf Info: Output file is already uptodate.
-<./Mass_mass_7_0-eps-converted-to.pdf, id=621, 505.89pt x 361.35pt>
+<./Mass_mass_7_0-eps-converted-to.pdf, id=615, 505.89pt x 361.35pt>
 File: ./Mass_mass_7_0-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Mass_mass_7_0-eps-converted-to.pdf>
 Package pdftex.def Info: ./Mass_mass_7_0-eps-converted-to.pdf  used on input li
-ne 394.
+ne 399.
 (pdftex.def)             Requested size: 246.29417pt x 175.92722pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 394--395
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 399--400
  [] 
  []
 
@@ -856,15 +864,15 @@ Package epstopdf Info: Source file: <order.eps>
 (epstopdf)                    size: 12592 bytes
 (epstopdf)             Command: <repstopdf --outfile=./order-eps-converted-to.p
 df order.eps>
-(epstopdf)             \includegraphics on input line 407.
+(epstopdf)             \includegraphics on input line 412.
 Package epstopdf Info: Output file is already uptodate.
-<./order-eps-converted-to.pdf, id=626, 568.1225pt x 426.59375pt>
+<./order-eps-converted-to.pdf, id=620, 568.1225pt x 426.59375pt>
 File: ./order-eps-converted-to.pdf Graphic file (type pdf)
 <use ./order-eps-converted-to.pdf>
-Package pdftex.def Info: ./order-eps-converted-to.pdf  used on input line 407.
+Package pdftex.def Info: ./order-eps-converted-to.pdf  used on input line 412.
 (pdftex.def)             Requested size: 246.29417pt x 184.94188pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 407--408
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 412--413
  [] 
  []
 
@@ -872,16 +880,16 @@ Overfull \hbox (4.02765pt too wide) in paragraph at lines 407--408
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) detected at line 478
+Underfull \hbox (badness 10000) detected at line 483
 $$\T1/cmr/m/n/9 a$$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 480
+Underfull \hbox (badness 10000) detected at line 485
 $$\T1/cmr/m/n/9 c$$
  []
 
-[14]
+[14 <./LHS6167_corner-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Model_metal_0.eps>
 (epstopdf)                    date: 2018-05-31 09:29:41
 (epstopdf)                    size: 147700 bytes
@@ -890,13 +898,13 @@ Package epstopdf Info: Source file: <Model_metal_0.eps>
 (epstopdf)                    size: 105516 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Model_metal_0-eps-conver
 ted-to.pdf Model_metal_0.eps>
-(epstopdf)             \includegraphics on input line 497.
+(epstopdf)             \includegraphics on input line 502.
 Package epstopdf Info: Output file is already uptodate.
-<./Model_metal_0-eps-converted-to.pdf, id=666, 505.89pt x 361.35pt>
+<./Model_metal_0-eps-converted-to.pdf, id=665, 505.89pt x 361.35pt>
 File: ./Model_metal_0-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Model_metal_0-eps-converted-to.pdf>
 Package pdftex.def Info: ./Model_metal_0-eps-converted-to.pdf  used on input li
-ne 497.
+ne 502.
 (pdftex.def)             Requested size: 241.16582pt x 172.26057pt.
 Package epstopdf Info: Source file: <residual_metal7.eps>
 (epstopdf)                    date: 2018-05-31 10:40:11
@@ -906,29 +914,50 @@ Package epstopdf Info: Source file: <residual_metal7.eps>
 (epstopdf)                    size: 67008 bytes
 (epstopdf)             Command: <repstopdf --outfile=./residual_metal7-eps-conv
 erted-to.pdf residual_metal7.eps>
-(epstopdf)             \includegraphics on input line 507.
+(epstopdf)             \includegraphics on input line 512.
 Package epstopdf Info: Output file is already uptodate.
-<./residual_metal7-eps-converted-to.pdf, id=670, 426.59375pt x 426.59375pt>
+<./residual_metal7-eps-converted-to.pdf, id=669, 426.59375pt x 426.59375pt>
 File: ./residual_metal7-eps-converted-to.pdf Graphic file (type pdf)
 <use ./residual_metal7-eps-converted-to.pdf>
 Package pdftex.def Info: ./residual_metal7-eps-converted-to.pdf  used on input 
-line 507.
+line 512.
 (pdftex.def)             Requested size: 241.16582pt x 241.16911pt.
-<output_8feh_eMs.pdf, id=678, 1307.36427pt x 1307.36427pt>
-File: output_8feh_eMs.pdf Graphic file (type pdf)
-<use output_8feh_eMs.pdf>
-Package pdftex.def Info: output_8feh_eMs.pdf  used on input line 525.
-(pdftex.def)             Requested size: 497.72453pt x 497.72124pt.
  [15]
 
 Class revtex4-1 Warning: Dequeueing of floats stalled.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 532.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 525.
 
 [16 <./output_7_eMs.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 532.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 525.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+<output_8feh_eMs.pdf, id=807, 1307.36427pt x 1307.36427pt>
+File: output_8feh_eMs.pdf Graphic file (type pdf)
+<use output_8feh_eMs.pdf>
+Package pdftex.def Info: output_8feh_eMs.pdf  used on input line 530.
+(pdftex.def)             Requested size: 497.72453pt x 497.72124pt.
+[17 <./MK_mass_0_7_1-eps-converted-to.pdf> <./Mass_mass_7_0-eps-converted-to.pd
+f>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 537.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 537.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[18 <./order-eps-converted-to.pdf> <./Model_metal_0-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 539.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 539.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -941,31 +970,24 @@ Package epstopdf Info: Source file: <F_plot.eps>
 (epstopdf)                    size: 14270 bytes
 (epstopdf)             Command: <repstopdf --outfile=./F_plot-eps-converted-to.
 pdf F_plot.eps>
-(epstopdf)             \includegraphics on input line 537.
+(epstopdf)             \includegraphics on input line 542.
 Package epstopdf Info: Output file is already uptodate.
-<./F_plot-eps-converted-to.pdf, id=813, 505.89pt x 361.35pt>
+<./F_plot-eps-converted-to.pdf, id=851, 505.89pt x 361.35pt>
 File: ./F_plot-eps-converted-to.pdf Graphic file (type pdf)
 <use ./F_plot-eps-converted-to.pdf>
-Package pdftex.def Info: ./F_plot-eps-converted-to.pdf  used on input line 537.
+Package pdftex.def Info: ./F_plot-eps-converted-to.pdf  used on input line 542.
 
 (pdftex.def)             Requested size: 241.16582pt x 172.26057pt.
-[17 <./MK_mass_0_7_1-eps-converted-to.pdf> <./Mass_mass_7_0-eps-converted-to.pd
-f>]
+[19 <./residual_metal7-eps-converted-to.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 544.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 544.
+Class revtex4-1 Warning: Dequeueing of floats stalled.
 
 
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 561.
 
-[18 <./order-eps-converted-to.pdf> <./Model_metal_0-eps-converted-to.pdf>]
+[20 <./output_8feh_eMs.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 546.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 546.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 561.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -978,28 +1000,14 @@ Package epstopdf Info: Source file: <Delfosse_comp.eps>
 (epstopdf)                    size: 92295 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Delfosse_comp-eps-conver
 ted-to.pdf Delfosse_comp.eps>
-(epstopdf)             \includegraphics on input line 561.
+(epstopdf)             \includegraphics on input line 566.
 Package epstopdf Info: Output file is already uptodate.
-<./Delfosse_comp-eps-converted-to.pdf, id=869, 505.89pt x 361.35pt>
+<./Delfosse_comp-eps-converted-to.pdf, id=1035, 505.89pt x 361.35pt>
 File: ./Delfosse_comp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Delfosse_comp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Delfosse_comp-eps-converted-to.pdf  used on input li
-ne 561.
+ne 566.
 (pdftex.def)             Requested size: 241.16582pt x 172.26057pt.
-[19 <./residual_metal7-eps-converted-to.pdf>]
-
-Class revtex4-1 Warning: Dequeueing of floats stalled.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 570.
-
-[20 <./output_8feh_eMs.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 570.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
 Package epstopdf Info: Source file: <Mann_comp.eps>
 (epstopdf)                    date: 2018-05-31 21:52:25
 (epstopdf)                    size: 144315 bytes
@@ -1008,16 +1016,24 @@ Package epstopdf Info: Source file: <Mann_comp.eps>
 (epstopdf)                    size: 68974 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Mann_comp-eps-converted-
 to.pdf Mann_comp.eps>
-(epstopdf)             \includegraphics on input line 575.
+(epstopdf)             \includegraphics on input line 580.
 Package epstopdf Info: Output file is already uptodate.
-<./Mann_comp-eps-converted-to.pdf, id=1056, 505.89pt x 361.35pt>
+<./Mann_comp-eps-converted-to.pdf, id=1057, 505.89pt x 361.35pt>
 File: ./Mann_comp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Mann_comp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Mann_comp-eps-converted-to.pdf  used on input line 5
-75.
+80.
 (pdftex.def)             Requested size: 241.16582pt x 172.26057pt.
-[21 <./F_plot-eps-converted-to.pdf> <./Delfosse_comp-eps-converted-to.pdf> <./M
-ann_comp-eps-converted-to.pdf>]
+[21 <./F_plot-eps-converted-to.pdf> <./Delfosse_comp-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 591.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 591.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
 Package epstopdf Info: Source file: <Benedict_comp.eps>
 (epstopdf)                    date: 2018-05-31 21:52:24
 (epstopdf)                    size: 238059 bytes
@@ -1026,25 +1042,25 @@ Package epstopdf Info: Source file: <Benedict_comp.eps>
 (epstopdf)                    size: 121284 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Benedict_comp-eps-conver
 ted-to.pdf Benedict_comp.eps>
-(epstopdf)             \includegraphics on input line 592.
+(epstopdf)             \includegraphics on input line 597.
 Package epstopdf Info: Output file is already uptodate.
-<./Benedict_comp-eps-converted-to.pdf, id=1125, 505.89pt x 361.35pt>
+<./Benedict_comp-eps-converted-to.pdf, id=1119, 505.89pt x 361.35pt>
 File: ./Benedict_comp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Benedict_comp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Benedict_comp-eps-converted-to.pdf  used on input li
-ne 592.
+ne 597.
 (pdftex.def)             Requested size: 241.16582pt x 172.26057pt.
- [22 <./Benedict_comp-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 635.
+[22 <./Mann_comp-eps-converted-to.pdf> <./Benedict_comp-eps-converted-to.pdf>]
+[23]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 640.
 
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 635.
- [23] [24]
-Underfull \hbox (badness 1297) in paragraph at lines 677--678
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 640.
+ [24]
+Underfull \hbox (badness 1297) in paragraph at lines 682--683
 \T1/cmr/m/n/10 (+20) is pro-vided by na-tional in-sti-tu-tions, in par-tic-u-la
 r
  []
@@ -1162,12 +1178,12 @@ Package epstopdf Info: Source file: <NACO_Ks.eps>
 (epstopdf)                    size: 933335 bytes
 (epstopdf)             Command: <repstopdf --outfile=./NACO_Ks-eps-converted-to
 .pdf NACO_Ks.eps>
-(epstopdf)             \includegraphics on input line 704.
+(epstopdf)             \includegraphics on input line 709.
 Package epstopdf Info: Output file is already uptodate.
-<./NACO_Ks-eps-converted-to.pdf, id=1347, 505.89pt x 361.35pt>
+<./NACO_Ks-eps-converted-to.pdf, id=1350, 505.89pt x 361.35pt>
 File: ./NACO_Ks-eps-converted-to.pdf Graphic file (type pdf)
 <use ./NACO_Ks-eps-converted-to.pdf>
-Package pdftex.def Info: ./NACO_Ks-eps-converted-to.pdf  used on input line 704
+Package pdftex.def Info: ./NACO_Ks-eps-converted-to.pdf  used on input line 709
 .
 (pdftex.def)             Requested size: 241.16582pt x 172.26057pt.
 Package epstopdf Info: Source file: <NIRC2_BrG.eps>
@@ -1178,13 +1194,13 @@ Package epstopdf Info: Source file: <NIRC2_BrG.eps>
 (epstopdf)                    size: 938159 bytes
 (epstopdf)             Command: <repstopdf --outfile=./NIRC2_BrG-eps-converted-
 to.pdf NIRC2_BrG.eps>
-(epstopdf)             \includegraphics on input line 705.
+(epstopdf)             \includegraphics on input line 710.
 Package epstopdf Info: Output file is already uptodate.
-<./NIRC2_BrG-eps-converted-to.pdf, id=1348, 505.89pt x 361.35pt>
+<./NIRC2_BrG-eps-converted-to.pdf, id=1351, 505.89pt x 361.35pt>
 File: ./NIRC2_BrG-eps-converted-to.pdf Graphic file (type pdf)
 <use ./NIRC2_BrG-eps-converted-to.pdf>
 Package pdftex.def Info: ./NIRC2_BrG-eps-converted-to.pdf  used on input line 7
-05.
+10.
 (pdftex.def)             Requested size: 241.16582pt x 172.26057pt.
 Package epstopdf Info: Source file: <KIR_Kp.eps>
 (epstopdf)                    date: 2018-03-12 10:37:25
@@ -1194,12 +1210,12 @@ Package epstopdf Info: Source file: <KIR_Kp.eps>
 (epstopdf)                    size: 942908 bytes
 (epstopdf)             Command: <repstopdf --outfile=./KIR_Kp-eps-converted-to.
 pdf KIR_Kp.eps>
-(epstopdf)             \includegraphics on input line 706.
+(epstopdf)             \includegraphics on input line 711.
 Package epstopdf Info: Output file is already uptodate.
-<./KIR_Kp-eps-converted-to.pdf, id=1349, 505.89pt x 361.35pt>
+<./KIR_Kp-eps-converted-to.pdf, id=1352, 505.89pt x 361.35pt>
 File: ./KIR_Kp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./KIR_Kp-eps-converted-to.pdf>
-Package pdftex.def Info: ./KIR_Kp-eps-converted-to.pdf  used on input line 706.
+Package pdftex.def Info: ./KIR_Kp-eps-converted-to.pdf  used on input line 711.
 
 (pdftex.def)             Requested size: 241.16582pt x 172.26057pt.
 Package epstopdf Info: Source file: <NIRC2_Kcont.eps>
@@ -1210,13 +1226,13 @@ Package epstopdf Info: Source file: <NIRC2_Kcont.eps>
 (epstopdf)                    size: 919696 bytes
 (epstopdf)             Command: <repstopdf --outfile=./NIRC2_Kcont-eps-converte
 d-to.pdf NIRC2_Kcont.eps>
-(epstopdf)             \includegraphics on input line 707.
+(epstopdf)             \includegraphics on input line 712.
 Package epstopdf Info: Output file is already uptodate.
-<./NIRC2_Kcont-eps-converted-to.pdf, id=1350, 505.89pt x 361.35pt>
+<./NIRC2_Kcont-eps-converted-to.pdf, id=1353, 505.89pt x 361.35pt>
 File: ./NIRC2_Kcont-eps-converted-to.pdf Graphic file (type pdf)
 <use ./NIRC2_Kcont-eps-converted-to.pdf>
 Package pdftex.def Info: ./NIRC2_Kcont-eps-converted-to.pdf  used on input line
- 707.
+ 712.
 (pdftex.def)             Requested size: 241.16582pt x 172.26057pt.
  [35] [36 <./NACO_Ks-eps-converted-to.pdf> <./NIRC2_BrG-eps-converted-to.pdf> <
 ./KIR_Kp-eps-converted-to.pdf> <./NIRC2_Kcont-eps-converted-to.pdf>]
@@ -1228,13 +1244,13 @@ Package epstopdf Info: Source file: <Orbits/GJ1005AB.eps>
 (epstopdf)                    size: 344302 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ1005AB-eps-converted-t
 o.pdf Orbits/GJ1005AB.eps>
-(epstopdf)             \includegraphics on input line 723.
+(epstopdf)             \includegraphics on input line 728.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ1005AB-eps-converted-to.pdf, id=1406, 426.59375pt x 426.59375pt>
+<./GJ1005AB-eps-converted-to.pdf, id=1409, 426.59375pt x 426.59375pt>
 File: ./GJ1005AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ1005AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ1005AB-eps-converted-to.pdf  used on input line 72
-3.
+8.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ2005AB.eps>
 (epstopdf)                    date: 2018-06-10 13:54:52
@@ -1244,13 +1260,13 @@ Package epstopdf Info: Source file: <Orbits/GJ2005AB.eps>
 (epstopdf)                    size: 340521 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ2005AB-eps-converted-t
 o.pdf Orbits/GJ2005AB.eps>
-(epstopdf)             \includegraphics on input line 724.
+(epstopdf)             \includegraphics on input line 729.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ2005AB-eps-converted-to.pdf, id=1407, 426.59375pt x 426.59375pt>
+<./GJ2005AB-eps-converted-to.pdf, id=1410, 426.59375pt x 426.59375pt>
 File: ./GJ2005AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ2005AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ2005AB-eps-converted-to.pdf  used on input line 72
-4.
+9.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ22AB.eps>
 (epstopdf)                    date: 2018-06-10 13:55:02
@@ -1260,12 +1276,12 @@ Package epstopdf Info: Source file: <Orbits/GJ22AB.eps>
 (epstopdf)                    size: 342554 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ22AB-eps-converted-to.
 pdf Orbits/GJ22AB.eps>
-(epstopdf)             \includegraphics on input line 725.
+(epstopdf)             \includegraphics on input line 730.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ22AB-eps-converted-to.pdf, id=1408, 426.59375pt x 426.59375pt>
+<./GJ22AB-eps-converted-to.pdf, id=1411, 426.59375pt x 426.59375pt>
 File: ./GJ22AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ22AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ22AB-eps-converted-to.pdf  used on input line 725.
+Package pdftex.def Info: ./GJ22AB-eps-converted-to.pdf  used on input line 730.
 
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl54AB.eps>
@@ -1276,12 +1292,12 @@ Package epstopdf Info: Source file: <Orbits/Gl54AB.eps>
 (epstopdf)                    size: 337778 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl54AB-eps-converted-to.
 pdf Orbits/Gl54AB.eps>
-(epstopdf)             \includegraphics on input line 726.
+(epstopdf)             \includegraphics on input line 731.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl54AB-eps-converted-to.pdf, id=1409, 426.59375pt x 426.59375pt>
+<./Gl54AB-eps-converted-to.pdf, id=1412, 426.59375pt x 426.59375pt>
 File: ./Gl54AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl54AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl54AB-eps-converted-to.pdf  used on input line 726.
+Package pdftex.def Info: ./Gl54AB-eps-converted-to.pdf  used on input line 731.
 
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ1038AB.eps>
@@ -1292,13 +1308,13 @@ Package epstopdf Info: Source file: <Orbits/GJ1038AB.eps>
 (epstopdf)                    size: 318425 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ1038AB-eps-converted-t
 o.pdf Orbits/GJ1038AB.eps>
-(epstopdf)             \includegraphics on input line 727.
+(epstopdf)             \includegraphics on input line 732.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ1038AB-eps-converted-to.pdf, id=1410, 426.59375pt x 426.59375pt>
+<./GJ1038AB-eps-converted-to.pdf, id=1413, 426.59375pt x 426.59375pt>
 File: ./GJ1038AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ1038AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ1038AB-eps-converted-to.pdf  used on input line 72
-7.
+Package pdftex.def Info: ./GJ1038AB-eps-converted-to.pdf  used on input line 73
+2.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ65AB.eps>
 (epstopdf)                    date: 2018-06-10 13:57:13
@@ -1308,12 +1324,12 @@ Package epstopdf Info: Source file: <Orbits/GJ65AB.eps>
 (epstopdf)                    size: 348213 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ65AB-eps-converted-to.
 pdf Orbits/GJ65AB.eps>
-(epstopdf)             \includegraphics on input line 728.
+(epstopdf)             \includegraphics on input line 733.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ65AB-eps-converted-to.pdf, id=1411, 426.59375pt x 426.59375pt>
+<./GJ65AB-eps-converted-to.pdf, id=1414, 426.59375pt x 426.59375pt>
 File: ./GJ65AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ65AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ65AB-eps-converted-to.pdf  used on input line 728.
+Package pdftex.def Info: ./GJ65AB-eps-converted-to.pdf  used on input line 733.
 
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/HIP9724AB.eps>
@@ -1324,13 +1340,13 @@ Package epstopdf Info: Source file: <Orbits/HIP9724AB.eps>
 (epstopdf)                    size: 309894 bytes
 (epstopdf)             Command: <repstopdf --outfile=./HIP9724AB-eps-converted-
 to.pdf Orbits/HIP9724AB.eps>
-(epstopdf)             \includegraphics on input line 729.
+(epstopdf)             \includegraphics on input line 734.
 Package epstopdf Info: Output file is already uptodate.
-<./HIP9724AB-eps-converted-to.pdf, id=1412, 426.59375pt x 426.59375pt>
+<./HIP9724AB-eps-converted-to.pdf, id=1415, 426.59375pt x 426.59375pt>
 File: ./HIP9724AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HIP9724AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HIP9724AB-eps-converted-to.pdf  used on input line 7
-29.
+34.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/PMJ02133+3648AB.eps>
 (epstopdf)                    date: 2018-06-10 14:03:21
@@ -1340,13 +1356,13 @@ Package epstopdf Info: Source file: <Orbits/PMJ02133+3648AB.eps>
 (epstopdf)                    size: 326155 bytes
 (epstopdf)             Command: <repstopdf --outfile=./PMJ02133+3648AB-eps-conv
 erted-to.pdf Orbits/PMJ02133+3648AB.eps>
-(epstopdf)             \includegraphics on input line 730.
+(epstopdf)             \includegraphics on input line 735.
 Package epstopdf Info: Output file is already uptodate.
-<./PMJ02133+3648AB-eps-converted-to.pdf, id=1413, 426.59375pt x 426.59375pt>
+<./PMJ02133+3648AB-eps-converted-to.pdf, id=1416, 426.59375pt x 426.59375pt>
 File: ./PMJ02133+3648AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./PMJ02133+3648AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./PMJ02133+3648AB-eps-converted-to.pdf  used on input 
-line 730.
+line 735.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/HD15285AB.eps>
 (epstopdf)                    date: 2018-06-10 14:02:40
@@ -1356,13 +1372,13 @@ Package epstopdf Info: Source file: <Orbits/HD15285AB.eps>
 (epstopdf)                    size: 330966 bytes
 (epstopdf)             Command: <repstopdf --outfile=./HD15285AB-eps-converted-
 to.pdf Orbits/HD15285AB.eps>
-(epstopdf)             \includegraphics on input line 731.
+(epstopdf)             \includegraphics on input line 736.
 Package epstopdf Info: Output file is already uptodate.
-<./HD15285AB-eps-converted-to.pdf, id=1414, 426.59375pt x 426.59375pt>
+<./HD15285AB-eps-converted-to.pdf, id=1417, 426.59375pt x 426.59375pt>
 File: ./HD15285AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HD15285AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HD15285AB-eps-converted-to.pdf  used on input line 7
-31.
+36.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/HIP11542AB.eps>
 (epstopdf)                    date: 2018-06-10 14:02:57
@@ -1372,13 +1388,13 @@ Package epstopdf Info: Source file: <Orbits/HIP11542AB.eps>
 (epstopdf)                    size: 302951 bytes
 (epstopdf)             Command: <repstopdf --outfile=./HIP11542AB-eps-converted
 -to.pdf Orbits/HIP11542AB.eps>
-(epstopdf)             \includegraphics on input line 739.
+(epstopdf)             \includegraphics on input line 744.
 Package epstopdf Info: Output file is already uptodate.
-<./HIP11542AB-eps-converted-to.pdf, id=1415, 426.59375pt x 426.59375pt>
+<./HIP11542AB-eps-converted-to.pdf, id=1418, 426.59375pt x 426.59375pt>
 File: ./HIP11542AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HIP11542AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HIP11542AB-eps-converted-to.pdf  used on input line 
-739.
+744.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl125AB.eps>
 (epstopdf)                    date: 2018-06-10 13:57:43
@@ -1388,12 +1404,12 @@ Package epstopdf Info: Source file: <Orbits/Gl125AB.eps>
 (epstopdf)                    size: 316695 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl125AB-eps-converted-to
 .pdf Orbits/Gl125AB.eps>
-(epstopdf)             \includegraphics on input line 740.
+(epstopdf)             \includegraphics on input line 745.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl125AB-eps-converted-to.pdf, id=1416, 426.59375pt x 426.59375pt>
+<./Gl125AB-eps-converted-to.pdf, id=1419, 426.59375pt x 426.59375pt>
 File: ./Gl125AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl125AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl125AB-eps-converted-to.pdf  used on input line 740
+Package pdftex.def Info: ./Gl125AB-eps-converted-to.pdf  used on input line 745
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl190AB.eps>
@@ -1404,12 +1420,12 @@ Package epstopdf Info: Source file: <Orbits/Gl190AB.eps>
 (epstopdf)                    size: 346738 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl190AB-eps-converted-to
 .pdf Orbits/Gl190AB.eps>
-(epstopdf)             \includegraphics on input line 741.
+(epstopdf)             \includegraphics on input line 746.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl190AB-eps-converted-to.pdf, id=1417, 426.59375pt x 426.59375pt>
+<./Gl190AB-eps-converted-to.pdf, id=1420, 426.59375pt x 426.59375pt>
 File: ./Gl190AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl190AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl190AB-eps-converted-to.pdf  used on input line 741
+Package pdftex.def Info: ./Gl190AB-eps-converted-to.pdf  used on input line 746
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ1081AB.eps>
@@ -1420,13 +1436,13 @@ Package epstopdf Info: Source file: <Orbits/GJ1081AB.eps>
 (epstopdf)                    size: 339029 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ1081AB-eps-converted-t
 o.pdf Orbits/GJ1081AB.eps>
-(epstopdf)             \includegraphics on input line 742.
+(epstopdf)             \includegraphics on input line 747.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ1081AB-eps-converted-to.pdf, id=1418, 426.59375pt x 426.59375pt>
+<./GJ1081AB-eps-converted-to.pdf, id=1421, 426.59375pt x 426.59375pt>
 File: ./GJ1081AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ1081AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ1081AB-eps-converted-to.pdf  used on input line 74
-2.
+7.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ234AB.eps>
 (epstopdf)                    date: 2018-06-10 13:55:15
@@ -1436,12 +1452,12 @@ Package epstopdf Info: Source file: <Orbits/GJ234AB.eps>
 (epstopdf)                    size: 351738 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ234AB-eps-converted-to
 .pdf Orbits/GJ234AB.eps>
-(epstopdf)             \includegraphics on input line 743.
+(epstopdf)             \includegraphics on input line 748.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ234AB-eps-converted-to.pdf, id=1419, 426.59375pt x 426.59375pt>
+<./GJ234AB-eps-converted-to.pdf, id=1422, 426.59375pt x 426.59375pt>
 File: ./GJ234AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ234AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ234AB-eps-converted-to.pdf  used on input line 743
+Package pdftex.def Info: ./GJ234AB-eps-converted-to.pdf  used on input line 748
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ3412AB.eps>
@@ -1452,13 +1468,13 @@ Package epstopdf Info: Source file: <Orbits/GJ3412AB.eps>
 (epstopdf)                    size: 327629 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ3412AB-eps-converted-t
 o.pdf Orbits/GJ3412AB.eps>
-(epstopdf)             \includegraphics on input line 744.
+(epstopdf)             \includegraphics on input line 749.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ3412AB-eps-converted-to.pdf, id=1420, 426.59375pt x 426.59375pt>
+<./GJ3412AB-eps-converted-to.pdf, id=1423, 426.59375pt x 426.59375pt>
 File: ./GJ3412AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ3412AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ3412AB-eps-converted-to.pdf  used on input line 74
-4.
+9.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ3421AB.eps>
 (epstopdf)                    date: 2018-06-10 13:55:43
@@ -1468,13 +1484,13 @@ Package epstopdf Info: Source file: <Orbits/GJ3421AB.eps>
 (epstopdf)                    size: 337832 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ3421AB-eps-converted-t
 o.pdf Orbits/GJ3421AB.eps>
-(epstopdf)             \includegraphics on input line 745.
+(epstopdf)             \includegraphics on input line 750.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ3421AB-eps-converted-to.pdf, id=1421, 426.59375pt x 426.59375pt>
+<./GJ3421AB-eps-converted-to.pdf, id=1424, 426.59375pt x 426.59375pt>
 File: ./GJ3421AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ3421AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ3421AB-eps-converted-to.pdf  used on input line 74
-5.
+Package pdftex.def Info: ./GJ3421AB-eps-converted-to.pdf  used on input line 75
+0.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl263AB.eps>
 (epstopdf)                    date: 2018-06-10 14:03:28
@@ -1484,12 +1500,12 @@ Package epstopdf Info: Source file: <Orbits/Gl263AB.eps>
 (epstopdf)                    size: 313084 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl263AB-eps-converted-to
 .pdf Orbits/Gl263AB.eps>
-(epstopdf)             \includegraphics on input line 746.
+(epstopdf)             \includegraphics on input line 751.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl263AB-eps-converted-to.pdf, id=1422, 426.59375pt x 426.59375pt>
+<./Gl263AB-eps-converted-to.pdf, id=1425, 426.59375pt x 426.59375pt>
 File: ./Gl263AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl263AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl263AB-eps-converted-to.pdf  used on input line 746
+Package pdftex.def Info: ./Gl263AB-eps-converted-to.pdf  used on input line 751
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl277AB.eps>
@@ -1500,12 +1516,12 @@ Package epstopdf Info: Source file: <Orbits/Gl277AB.eps>
 (epstopdf)                    size: 303426 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl277AB-eps-converted-to
 .pdf Orbits/Gl277AB.eps>
-(epstopdf)             \includegraphics on input line 747.
+(epstopdf)             \includegraphics on input line 752.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl277AB-eps-converted-to.pdf, id=1423, 426.59375pt x 426.59375pt>
+<./Gl277AB-eps-converted-to.pdf, id=1426, 426.59375pt x 426.59375pt>
 File: ./Gl277AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl277AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl277AB-eps-converted-to.pdf  used on input line 747
+Package pdftex.def Info: ./Gl277AB-eps-converted-to.pdf  used on input line 752
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ3454AB.eps>
@@ -1516,12 +1532,12 @@ Package epstopdf Info: Source file: <Orbits/GJ3454AB.eps>
 (epstopdf)                    size: 334208 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ3454AB-eps-converted-t
 o.pdf Orbits/GJ3454AB.eps>
-(epstopdf)             \includegraphics on input line 748.
+(epstopdf)             \includegraphics on input line 753.
 Package epstopdf Info: Output file is already uptodate.
 File: ./GJ3454AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ3454AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ3454AB-eps-converted-to.pdf  used on input line 74
-8.
+Package pdftex.def Info: ./GJ3454AB-eps-converted-to.pdf  used on input line 75
+3.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl301BAB.eps>
 (epstopdf)                    date: 2018-06-10 13:58:07
@@ -1531,12 +1547,12 @@ Package epstopdf Info: Source file: <Orbits/Gl301BAB.eps>
 (epstopdf)                    size: 337252 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl301BAB-eps-converted-t
 o.pdf Orbits/Gl301BAB.eps>
-(epstopdf)             \includegraphics on input line 749.
+(epstopdf)             \includegraphics on input line 754.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Gl301BAB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl301BAB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl301BAB-eps-converted-to.pdf  used on input line 74
-9.
+Package pdftex.def Info: ./Gl301BAB-eps-converted-to.pdf  used on input line 75
+4.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl310AB.eps>
 (epstopdf)                    date: 2018-06-10 13:58:14
@@ -1546,17 +1562,17 @@ Package epstopdf Info: Source file: <Orbits/Gl310AB.eps>
 (epstopdf)                    size: 333683 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl310AB-eps-converted-to
 .pdf Orbits/Gl310AB.eps>
-(epstopdf)             \includegraphics on input line 750.
+(epstopdf)             \includegraphics on input line 755.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl310AB-eps-converted-to.pdf, id=1424, 426.59375pt x 426.59375pt>
+<./Gl310AB-eps-converted-to.pdf, id=1427, 426.59375pt x 426.59375pt>
 File: ./Gl310AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl310AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl310AB-eps-converted-to.pdf  used on input line 750
+Package pdftex.def Info: ./Gl310AB-eps-converted-to.pdf  used on input line 755
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 
 
-LaTeX Warning: Float too large for page by 35.74385pt on input line 754.
+LaTeX Warning: Float too large for page by 35.74385pt on input line 759.
 
 [37 <./GJ1005AB-eps-converted-to.pdf> <./GJ2005AB-eps-converted-to.pdf> <./GJ22
 AB-eps-converted-to.pdf> <./Gl54AB-eps-converted-to.pdf> <./GJ1038AB-eps-conver
@@ -1570,12 +1586,12 @@ Package epstopdf Info: Source file: <Orbits/Gl330AB.eps>
 (epstopdf)                    size: 338068 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl330AB-eps-converted-to
 .pdf Orbits/Gl330AB.eps>
-(epstopdf)             \includegraphics on input line 759.
+(epstopdf)             \includegraphics on input line 764.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl330AB-eps-converted-to.pdf, id=1514, 426.59375pt x 426.59375pt>
+<./Gl330AB-eps-converted-to.pdf, id=1517, 426.59375pt x 426.59375pt>
 File: ./Gl330AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl330AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl330AB-eps-converted-to.pdf  used on input line 759
+Package pdftex.def Info: ./Gl330AB-eps-converted-to.pdf  used on input line 764
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/LHS6167AB.eps>
@@ -1586,13 +1602,13 @@ Package epstopdf Info: Source file: <Orbits/LHS6167AB.eps>
 (epstopdf)                    size: 335876 bytes
 (epstopdf)             Command: <repstopdf --outfile=./LHS6167AB-eps-converted-
 to.pdf Orbits/LHS6167AB.eps>
-(epstopdf)             \includegraphics on input line 760.
+(epstopdf)             \includegraphics on input line 765.
 Package epstopdf Info: Output file is already uptodate.
-<./LHS6167AB-eps-converted-to.pdf, id=1515, 426.59375pt x 426.59375pt>
+<./LHS6167AB-eps-converted-to.pdf, id=1518, 426.59375pt x 426.59375pt>
 File: ./LHS6167AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./LHS6167AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./LHS6167AB-eps-converted-to.pdf  used on input line 7
-60.
+65.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ340AB.eps>
 (epstopdf)                    date: 2018-06-10 13:55:24
@@ -1602,12 +1618,12 @@ Package epstopdf Info: Source file: <Orbits/GJ340AB.eps>
 (epstopdf)                    size: 341189 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ340AB-eps-converted-to
 .pdf Orbits/GJ340AB.eps>
-(epstopdf)             \includegraphics on input line 761.
+(epstopdf)             \includegraphics on input line 766.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ340AB-eps-converted-to.pdf, id=1516, 426.59375pt x 426.59375pt>
+<./GJ340AB-eps-converted-to.pdf, id=1519, 426.59375pt x 426.59375pt>
 File: ./GJ340AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ340AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ340AB-eps-converted-to.pdf  used on input line 761
+Package pdftex.def Info: ./GJ340AB-eps-converted-to.pdf  used on input line 766
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/HIP46706AB.eps>
@@ -1618,13 +1634,13 @@ Package epstopdf Info: Source file: <Orbits/HIP46706AB.eps>
 (epstopdf)                    size: 341616 bytes
 (epstopdf)             Command: <repstopdf --outfile=./HIP46706AB-eps-converted
 -to.pdf Orbits/HIP46706AB.eps>
-(epstopdf)             \includegraphics on input line 762.
+(epstopdf)             \includegraphics on input line 767.
 Package epstopdf Info: Output file is already uptodate.
-<./HIP46706AB-eps-converted-to.pdf, id=1517, 426.59375pt x 426.59375pt>
+<./HIP46706AB-eps-converted-to.pdf, id=1520, 426.59375pt x 426.59375pt>
 File: ./HIP46706AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HIP46706AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HIP46706AB-eps-converted-to.pdf  used on input line 
-762.
+767.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl381AB.eps>
 (epstopdf)                    date: 2018-06-10 13:58:31
@@ -1634,12 +1650,12 @@ Package epstopdf Info: Source file: <Orbits/Gl381AB.eps>
 (epstopdf)                    size: 325003 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl381AB-eps-converted-to
 .pdf Orbits/Gl381AB.eps>
-(epstopdf)             \includegraphics on input line 763.
+(epstopdf)             \includegraphics on input line 768.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl381AB-eps-converted-to.pdf, id=1518, 426.59375pt x 426.59375pt>
+<./Gl381AB-eps-converted-to.pdf, id=1521, 426.59375pt x 426.59375pt>
 File: ./Gl381AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl381AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl381AB-eps-converted-to.pdf  used on input line 763
+Package pdftex.def Info: ./Gl381AB-eps-converted-to.pdf  used on input line 768
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ416AB.eps>
@@ -1650,12 +1666,12 @@ Package epstopdf Info: Source file: <Orbits/GJ416AB.eps>
 (epstopdf)                    size: 243431 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ416AB-eps-converted-to
 .pdf Orbits/GJ416AB.eps>
-(epstopdf)             \includegraphics on input line 764.
+(epstopdf)             \includegraphics on input line 769.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ416AB-eps-converted-to.pdf, id=1519, 426.59375pt x 426.59375pt>
+<./GJ416AB-eps-converted-to.pdf, id=1522, 426.59375pt x 426.59375pt>
 File: ./GJ416AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ416AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ416AB-eps-converted-to.pdf  used on input line 764
+Package pdftex.def Info: ./GJ416AB-eps-converted-to.pdf  used on input line 769
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl469AB.eps>
@@ -1666,11 +1682,11 @@ Package epstopdf Info: Source file: <Orbits/Gl469AB.eps>
 (epstopdf)                    size: 325435 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl469AB-eps-converted-to
 .pdf Orbits/Gl469AB.eps>
-(epstopdf)             \includegraphics on input line 765.
+(epstopdf)             \includegraphics on input line 770.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Gl469AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl469AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl469AB-eps-converted-to.pdf  used on input line 765
+Package pdftex.def Info: ./Gl469AB-eps-converted-to.pdf  used on input line 770
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl473AB.eps>
@@ -1681,12 +1697,12 @@ Package epstopdf Info: Source file: <Orbits/Gl473AB.eps>
 (epstopdf)                    size: 336158 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl473AB-eps-converted-to
 .pdf Orbits/Gl473AB.eps>
-(epstopdf)             \includegraphics on input line 766.
+(epstopdf)             \includegraphics on input line 771.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl473AB-eps-converted-to.pdf, id=1520, 426.59375pt x 426.59375pt>
+<./Gl473AB-eps-converted-to.pdf, id=1523, 426.59375pt x 426.59375pt>
 File: ./Gl473AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl473AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl473AB-eps-converted-to.pdf  used on input line 766
+Package pdftex.def Info: ./Gl473AB-eps-converted-to.pdf  used on input line 771
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl494AB.eps>
@@ -1697,12 +1713,12 @@ Package epstopdf Info: Source file: <Orbits/Gl494AB.eps>
 (epstopdf)                    size: 341126 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl494AB-eps-converted-to
 .pdf Orbits/Gl494AB.eps>
-(epstopdf)             \includegraphics on input line 767.
+(epstopdf)             \includegraphics on input line 772.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl494AB-eps-converted-to.pdf, id=1521, 426.59375pt x 426.59375pt>
+<./Gl494AB-eps-converted-to.pdf, id=1524, 426.59375pt x 426.59375pt>
 File: ./Gl494AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl494AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl494AB-eps-converted-to.pdf  used on input line 767
+Package pdftex.def Info: ./Gl494AB-eps-converted-to.pdf  used on input line 772
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ570AB.eps>
@@ -1713,12 +1729,12 @@ Package epstopdf Info: Source file: <Orbits/GJ570AB.eps>
 (epstopdf)                    size: 336077 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ570AB-eps-converted-to
 .pdf Orbits/GJ570AB.eps>
-(epstopdf)             \includegraphics on input line 768.
+(epstopdf)             \includegraphics on input line 773.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ570AB-eps-converted-to.pdf, id=1522, 426.59375pt x 426.59375pt>
+<./GJ570AB-eps-converted-to.pdf, id=1525, 426.59375pt x 426.59375pt>
 File: ./GJ570AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ570AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ570AB-eps-converted-to.pdf  used on input line 768
+Package pdftex.def Info: ./GJ570AB-eps-converted-to.pdf  used on input line 773
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ600AB.eps>
@@ -1729,12 +1745,12 @@ Package epstopdf Info: Source file: <Orbits/GJ600AB.eps>
 (epstopdf)                    size: 341617 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ600AB-eps-converted-to
 .pdf Orbits/GJ600AB.eps>
-(epstopdf)             \includegraphics on input line 769.
+(epstopdf)             \includegraphics on input line 774.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ600AB-eps-converted-to.pdf, id=1523, 426.59375pt x 426.59375pt>
+<./GJ600AB-eps-converted-to.pdf, id=1526, 426.59375pt x 426.59375pt>
 File: ./GJ600AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ600AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ600AB-eps-converted-to.pdf  used on input line 769
+Package pdftex.def Info: ./GJ600AB-eps-converted-to.pdf  used on input line 774
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ623AB.eps>
@@ -1745,17 +1761,17 @@ Package epstopdf Info: Source file: <Orbits/GJ623AB.eps>
 (epstopdf)                    size: 340358 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ623AB-eps-converted-to
 .pdf Orbits/GJ623AB.eps>
-(epstopdf)             \includegraphics on input line 770.
+(epstopdf)             \includegraphics on input line 775.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ623AB-eps-converted-to.pdf, id=1524, 426.59375pt x 426.59375pt>
+<./GJ623AB-eps-converted-to.pdf, id=1527, 426.59375pt x 426.59375pt>
 File: ./GJ623AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ623AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ623AB-eps-converted-to.pdf  used on input line 770
+Package pdftex.def Info: ./GJ623AB-eps-converted-to.pdf  used on input line 775
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 
 
-LaTeX Warning: Float too large for page by 35.74385pt on input line 774.
+LaTeX Warning: Float too large for page by 35.74385pt on input line 779.
 
 Package epstopdf Info: Source file: <Orbits/GJ1210AB.eps>
 (epstopdf)                    date: 2018-06-10 13:54:29
@@ -1765,13 +1781,13 @@ Package epstopdf Info: Source file: <Orbits/GJ1210AB.eps>
 (epstopdf)                    size: 335552 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ1210AB-eps-converted-t
 o.pdf Orbits/GJ1210AB.eps>
-(epstopdf)             \includegraphics on input line 778.
+(epstopdf)             \includegraphics on input line 783.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ1210AB-eps-converted-to.pdf, id=1526, 426.59375pt x 426.59375pt>
+<./GJ1210AB-eps-converted-to.pdf, id=1529, 426.59375pt x 426.59375pt>
 File: ./GJ1210AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ1210AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ1210AB-eps-converted-to.pdf  used on input line 77
-8.
+Package pdftex.def Info: ./GJ1210AB-eps-converted-to.pdf  used on input line 78
+3.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl660AB.eps>
 (epstopdf)                    date: 2018-06-10 13:59:41
@@ -1781,12 +1797,12 @@ Package epstopdf Info: Source file: <Orbits/Gl660AB.eps>
 (epstopdf)                    size: 347448 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl660AB-eps-converted-to
 .pdf Orbits/Gl660AB.eps>
-(epstopdf)             \includegraphics on input line 779.
+(epstopdf)             \includegraphics on input line 784.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl660AB-eps-converted-to.pdf, id=1527, 426.59375pt x 426.59375pt>
+<./Gl660AB-eps-converted-to.pdf, id=1530, 426.59375pt x 426.59375pt>
 File: ./Gl660AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl660AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl660AB-eps-converted-to.pdf  used on input line 779
+Package pdftex.def Info: ./Gl660AB-eps-converted-to.pdf  used on input line 784
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ661AB.eps>
@@ -1797,12 +1813,12 @@ Package epstopdf Info: Source file: <Orbits/GJ661AB.eps>
 (epstopdf)                    size: 345351 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ661AB-eps-converted-to
 .pdf Orbits/GJ661AB.eps>
-(epstopdf)             \includegraphics on input line 780.
+(epstopdf)             \includegraphics on input line 785.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ661AB-eps-converted-to.pdf, id=1528, 426.59375pt x 426.59375pt>
+<./GJ661AB-eps-converted-to.pdf, id=1531, 426.59375pt x 426.59375pt>
 File: ./GJ661AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ661AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ661AB-eps-converted-to.pdf  used on input line 780
+Package pdftex.def Info: ./GJ661AB-eps-converted-to.pdf  used on input line 785
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ4024AB.eps>
@@ -1813,13 +1829,13 @@ Package epstopdf Info: Source file: <Orbits/GJ4024AB.eps>
 (epstopdf)                    size: 330634 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ4024AB-eps-converted-t
 o.pdf Orbits/GJ4024AB.eps>
-(epstopdf)             \includegraphics on input line 781.
+(epstopdf)             \includegraphics on input line 786.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ4024AB-eps-converted-to.pdf, id=1529, 426.59375pt x 426.59375pt>
+<./GJ4024AB-eps-converted-to.pdf, id=1532, 426.59375pt x 426.59375pt>
 File: ./GJ4024AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ4024AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ4024AB-eps-converted-to.pdf  used on input line 78
-1.
+6.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl695AB.eps>
 (epstopdf)                    date: 2018-06-10 13:59:49
@@ -1829,12 +1845,12 @@ Package epstopdf Info: Source file: <Orbits/Gl695AB.eps>
 (epstopdf)                    size: 341597 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl695AB-eps-converted-to
 .pdf Orbits/Gl695AB.eps>
-(epstopdf)             \includegraphics on input line 782.
+(epstopdf)             \includegraphics on input line 787.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl695AB-eps-converted-to.pdf, id=1530, 426.59375pt x 426.59375pt>
+<./Gl695AB-eps-converted-to.pdf, id=1533, 426.59375pt x 426.59375pt>
 File: ./Gl695AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl695AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl695AB-eps-converted-to.pdf  used on input line 782
+Package pdftex.def Info: ./Gl695AB-eps-converted-to.pdf  used on input line 787
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl747AB.eps>
@@ -1845,12 +1861,12 @@ Package epstopdf Info: Source file: <Orbits/Gl747AB.eps>
 (epstopdf)                    size: 314412 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl747AB-eps-converted-to
 .pdf Orbits/Gl747AB.eps>
-(epstopdf)             \includegraphics on input line 783.
+(epstopdf)             \includegraphics on input line 788.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl747AB-eps-converted-to.pdf, id=1531, 426.59375pt x 426.59375pt>
+<./Gl747AB-eps-converted-to.pdf, id=1534, 426.59375pt x 426.59375pt>
 File: ./Gl747AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl747AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl747AB-eps-converted-to.pdf  used on input line 783
+Package pdftex.def Info: ./Gl747AB-eps-converted-to.pdf  used on input line 788
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ748AB.eps>
@@ -1861,12 +1877,12 @@ Package epstopdf Info: Source file: <Orbits/GJ748AB.eps>
 (epstopdf)                    size: 335497 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ748AB-eps-converted-to
 .pdf Orbits/GJ748AB.eps>
-(epstopdf)             \includegraphics on input line 784.
+(epstopdf)             \includegraphics on input line 789.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ748AB-eps-converted-to.pdf, id=1532, 426.59375pt x 426.59375pt>
+<./GJ748AB-eps-converted-to.pdf, id=1535, 426.59375pt x 426.59375pt>
 File: ./GJ748AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ748AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ748AB-eps-converted-to.pdf  used on input line 784
+Package pdftex.def Info: ./GJ748AB-eps-converted-to.pdf  used on input line 789
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/HIP95995AB.eps>
@@ -1877,13 +1893,13 @@ Package epstopdf Info: Source file: <Orbits/HIP95995AB.eps>
 (epstopdf)                    size: 347651 bytes
 (epstopdf)             Command: <repstopdf --outfile=./HIP95995AB-eps-converted
 -to.pdf Orbits/HIP95995AB.eps>
-(epstopdf)             \includegraphics on input line 785.
+(epstopdf)             \includegraphics on input line 790.
 Package epstopdf Info: Output file is already uptodate.
-<./HIP95995AB-eps-converted-to.pdf, id=1533, 426.59375pt x 426.59375pt>
+<./HIP95995AB-eps-converted-to.pdf, id=1536, 426.59375pt x 426.59375pt>
 File: ./HIP95995AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HIP95995AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HIP95995AB-eps-converted-to.pdf  used on input line 
-785.
+790.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/HIP96656AB.eps>
 (epstopdf)                    date: 2018-06-10 14:03:45
@@ -1893,13 +1909,13 @@ Package epstopdf Info: Source file: <Orbits/HIP96656AB.eps>
 (epstopdf)                    size: 332901 bytes
 (epstopdf)             Command: <repstopdf --outfile=./HIP96656AB-eps-converted
 -to.pdf Orbits/HIP96656AB.eps>
-(epstopdf)             \includegraphics on input line 786.
+(epstopdf)             \includegraphics on input line 791.
 Package epstopdf Info: Output file is already uptodate.
-<./HIP96656AB-eps-converted-to.pdf, id=1534, 426.59375pt x 426.59375pt>
+<./HIP96656AB-eps-converted-to.pdf, id=1537, 426.59375pt x 426.59375pt>
 File: ./HIP96656AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HIP96656AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HIP96656AB-eps-converted-to.pdf  used on input line 
-786.
+791.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ1245AB.eps>
 (epstopdf)                    date: 2018-06-10 13:54:40
@@ -1909,13 +1925,13 @@ Package epstopdf Info: Source file: <Orbits/GJ1245AB.eps>
 (epstopdf)                    size: 341807 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ1245AB-eps-converted-t
 o.pdf Orbits/GJ1245AB.eps>
-(epstopdf)             \includegraphics on input line 787.
+(epstopdf)             \includegraphics on input line 792.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ1245AB-eps-converted-to.pdf, id=1535, 426.59375pt x 426.59375pt>
+<./GJ1245AB-eps-converted-to.pdf, id=1538, 426.59375pt x 426.59375pt>
 File: ./GJ1245AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ1245AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./GJ1245AB-eps-converted-to.pdf  used on input line 78
-7.
+Package pdftex.def Info: ./GJ1245AB-eps-converted-to.pdf  used on input line 79
+2.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl7912AB.eps>
 (epstopdf)                    date: 2018-06-10 14:00:51
@@ -1925,13 +1941,13 @@ Package epstopdf Info: Source file: <Orbits/Gl7912AB.eps>
 (epstopdf)                    size: 335480 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl7912AB-eps-converted-t
 o.pdf Orbits/Gl7912AB.eps>
-(epstopdf)             \includegraphics on input line 788.
+(epstopdf)             \includegraphics on input line 793.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl7912AB-eps-converted-to.pdf, id=1536, 426.59375pt x 426.59375pt>
+<./Gl7912AB-eps-converted-to.pdf, id=1539, 426.59375pt x 426.59375pt>
 File: ./Gl7912AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl7912AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl7912AB-eps-converted-to.pdf  used on input line 78
-8.
+Package pdftex.def Info: ./Gl7912AB-eps-converted-to.pdf  used on input line 79
+3.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl804AB.eps>
 (epstopdf)                    date: 2018-06-10 14:01:01
@@ -1941,16 +1957,16 @@ Package epstopdf Info: Source file: <Orbits/Gl804AB.eps>
 (epstopdf)                    size: 338302 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl804AB-eps-converted-to
 .pdf Orbits/Gl804AB.eps>
-(epstopdf)             \includegraphics on input line 789.
+(epstopdf)             \includegraphics on input line 794.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl804AB-eps-converted-to.pdf, id=1537, 426.59375pt x 426.59375pt>
+<./Gl804AB-eps-converted-to.pdf, id=1540, 426.59375pt x 426.59375pt>
 File: ./Gl804AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl804AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl804AB-eps-converted-to.pdf  used on input line 789
+Package pdftex.def Info: ./Gl804AB-eps-converted-to.pdf  used on input line 794
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 
-LaTeX Warning: Float too large for page by 35.74385pt on input line 793.
+LaTeX Warning: Float too large for page by 35.74385pt on input line 798.
 
 Package epstopdf Info: Source file: <Orbits/Gl831AB.eps>
 (epstopdf)                    date: 2018-06-10 14:01:13
@@ -1960,12 +1976,12 @@ Package epstopdf Info: Source file: <Orbits/Gl831AB.eps>
 (epstopdf)                    size: 346846 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl831AB-eps-converted-to
 .pdf Orbits/Gl831AB.eps>
-(epstopdf)             \includegraphics on input line 798.
+(epstopdf)             \includegraphics on input line 803.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl831AB-eps-converted-to.pdf, id=1539, 426.59375pt x 426.59375pt>
+<./Gl831AB-eps-converted-to.pdf, id=1542, 426.59375pt x 426.59375pt>
 File: ./Gl831AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl831AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl831AB-eps-converted-to.pdf  used on input line 798
+Package pdftex.def Info: ./Gl831AB-eps-converted-to.pdf  used on input line 803
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl844AB.eps>
@@ -1976,12 +1992,12 @@ Package epstopdf Info: Source file: <Orbits/Gl844AB.eps>
 (epstopdf)                    size: 341073 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl844AB-eps-converted-to
 .pdf Orbits/Gl844AB.eps>
-(epstopdf)             \includegraphics on input line 799.
+(epstopdf)             \includegraphics on input line 804.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl844AB-eps-converted-to.pdf, id=1540, 426.59375pt x 426.59375pt>
+<./Gl844AB-eps-converted-to.pdf, id=1543, 426.59375pt x 426.59375pt>
 File: ./Gl844AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl844AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl844AB-eps-converted-to.pdf  used on input line 799
+Package pdftex.def Info: ./Gl844AB-eps-converted-to.pdf  used on input line 804
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/HD239960AB.eps>
@@ -1992,13 +2008,13 @@ Package epstopdf Info: Source file: <Orbits/HD239960AB.eps>
 (epstopdf)                    size: 346428 bytes
 (epstopdf)             Command: <repstopdf --outfile=./HD239960AB-eps-converted
 -to.pdf Orbits/HD239960AB.eps>
-(epstopdf)             \includegraphics on input line 800.
+(epstopdf)             \includegraphics on input line 805.
 Package epstopdf Info: Output file is already uptodate.
-<./HD239960AB-eps-converted-to.pdf, id=1541, 426.59375pt x 426.59375pt>
+<./HD239960AB-eps-converted-to.pdf, id=1544, 426.59375pt x 426.59375pt>
 File: ./HD239960AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HD239960AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HD239960AB-eps-converted-to.pdf  used on input line 
-800.
+805.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/GJ4287AB.eps>
 (epstopdf)                    date: 2018-06-10 13:56:34
@@ -2008,13 +2024,13 @@ Package epstopdf Info: Source file: <Orbits/GJ4287AB.eps>
 (epstopdf)                    size: 338749 bytes
 (epstopdf)             Command: <repstopdf --outfile=./GJ4287AB-eps-converted-t
 o.pdf Orbits/GJ4287AB.eps>
-(epstopdf)             \includegraphics on input line 801.
+(epstopdf)             \includegraphics on input line 806.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ4287AB-eps-converted-to.pdf, id=1542, 426.59375pt x 426.59375pt>
+<./GJ4287AB-eps-converted-to.pdf, id=1545, 426.59375pt x 426.59375pt>
 File: ./GJ4287AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ4287AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ4287AB-eps-converted-to.pdf  used on input line 80
-1.
+6.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl8934AB.eps>
 (epstopdf)                    date: 2018-06-10 14:01:54
@@ -2024,13 +2040,13 @@ Package epstopdf Info: Source file: <Orbits/Gl8934AB.eps>
 (epstopdf)                    size: 344157 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl8934AB-eps-converted-t
 o.pdf Orbits/Gl8934AB.eps>
-(epstopdf)             \includegraphics on input line 802.
+(epstopdf)             \includegraphics on input line 807.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl8934AB-eps-converted-to.pdf, id=1543, 426.59375pt x 426.59375pt>
+<./Gl8934AB-eps-converted-to.pdf, id=1546, 426.59375pt x 426.59375pt>
 File: ./Gl8934AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl8934AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl8934AB-eps-converted-to.pdf  used on input line 80
-2.
+7.
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl900AB.eps>
 (epstopdf)                    date: 2018-06-10 14:04:12
@@ -2040,12 +2056,12 @@ Package epstopdf Info: Source file: <Orbits/Gl900AB.eps>
 (epstopdf)                    size: 317084 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl900AB-eps-converted-to
 .pdf Orbits/Gl900AB.eps>
-(epstopdf)             \includegraphics on input line 803.
+(epstopdf)             \includegraphics on input line 808.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl900AB-eps-converted-to.pdf, id=1544, 426.59375pt x 426.59375pt>
+<./Gl900AB-eps-converted-to.pdf, id=1547, 426.59375pt x 426.59375pt>
 File: ./Gl900AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl900AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl900AB-eps-converted-to.pdf  used on input line 803
+Package pdftex.def Info: ./Gl900AB-eps-converted-to.pdf  used on input line 808
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 Package epstopdf Info: Source file: <Orbits/Gl913AB.eps>
@@ -2056,12 +2072,12 @@ Package epstopdf Info: Source file: <Orbits/Gl913AB.eps>
 (epstopdf)                    size: 324887 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Gl913AB-eps-converted-to
 .pdf Orbits/Gl913AB.eps>
-(epstopdf)             \includegraphics on input line 804.
+(epstopdf)             \includegraphics on input line 809.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl913AB-eps-converted-to.pdf, id=1545, 426.59375pt x 426.59375pt>
+<./Gl913AB-eps-converted-to.pdf, id=1548, 426.59375pt x 426.59375pt>
 File: ./Gl913AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl913AB-eps-converted-to.pdf>
-Package pdftex.def Info: ./Gl913AB-eps-converted-to.pdf  used on input line 804
+Package pdftex.def Info: ./Gl913AB-eps-converted-to.pdf  used on input line 809
 .
 (pdftex.def)             Requested size: 164.20132pt x 164.2033pt.
 (./astrom_table.tex [38 <./HIP11542AB-eps-converted-to.pdf> <./Gl125AB-eps-conv
@@ -2099,11 +2115,11 @@ $\OML/cmm/m/it/9 a$
  []
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 814.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 819.
  [70]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 814.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 819.
  (./Masses_1.aux)
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 814.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 819.
  )
 (\end occurred when \ifx on line 99 was incomplete)
 (\end occurred when \ifx on line 99 was incomplete)
@@ -2151,54 +2167,54 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 814.
 (\end occurred when \ifx on line 74 was incomplete)
 (\end occurred when \iffalse on line 10 was incomplete) 
 Here is how much of TeX's memory you used:
- 13712 strings out of 492982
- 208795 string characters out of 6132527
- 1063585 words of memory out of 5000000
- 16374 multiletter control sequences out of 15000+600000
- 34939 words of font info for 205 fonts, out of 8000000 for 9000
+ 13729 strings out of 492982
+ 209210 string characters out of 6132527
+ 1064117 words of memory out of 5000000
+ 16400 multiletter control sequences out of 15000+600000
+ 34684 words of font info for 200 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,38p,2587b,1163s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017
-/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm
--super/sfbx0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-s
-uper/sfbx0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-sup
-er/sfbx1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super
-/sfcc0600.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
-fcc0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfc
-c0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfcc1
-000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm060
-0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0700.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on Masses_1.pdf (70 pages, 23523042 bytes).
+ 39i,11n,38p,2587b,1124s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016
+/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm
+-super/sfbx0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-s
+uper/sfbx0900.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-sup
+er/sfbx1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super
+/sfcc0600.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/s
+fcc0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfc
+c0900.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfcc1
+000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm060
+0.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0700.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on Masses_1.pdf (70 pages, 23524482 bytes).
 PDF statistics:
- 3370 PDF objects out of 3580 (max. 8388607)
- 2312 compressed objects within 24 object streams
+ 3373 PDF objects out of 3580 (max. 8388607)
+ 2315 compressed objects within 24 object streams
  383 named destinations out of 1000 (max. 500000)
  35172 words of extra memory for PDF output out of 35830 (max. 10000000)
 
