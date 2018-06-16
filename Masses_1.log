@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.21)  12 JUN 2018 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.21)  16 JUN 2018 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -659,6 +659,10 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 112--112
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
+
+Package natbib Warning: Citation `Dieterich2014' on page 3 undefined on input l
+ine 133.
+
 Package epstopdf Info: Source file: <Model_age2.eps>
 (epstopdf)                    date: 2018-05-29 15:22:25
 (epstopdf)                    size: 13526 bytes
@@ -669,13 +673,13 @@ Package epstopdf Info: Source file: <Model_age2.eps>
 -to.pdf Model_age2.eps>
 (epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
-<./Model_age2-eps-converted-to.pdf, id=165, 426.59375pt x 426.59375pt>
+<./Model_age2-eps-converted-to.pdf, id=168, 426.59375pt x 426.59375pt>
 File: ./Model_age2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Model_age2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Model_age2-eps-converted-to.pdf  used on input line 
 137.
 (pdftex.def)             Requested size: 241.16582pt x 241.16911pt.
- [3 <./Model_age2-eps-converted-to.pdf>] [4]
+[3 <./Model_age2-eps-converted-to.pdf>] [4]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 165.
 
 
@@ -698,7 +702,7 @@ Package epstopdf Info: Source file: <Orbits/Gl301BAB.eps>
 o.pdf Orbits/Gl301BAB.eps>
 (epstopdf)             \includegraphics on input line 256.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl301BAB-eps-converted-to.pdf, id=398, 426.59375pt x 426.59375pt>
+<./Gl301BAB-eps-converted-to.pdf, id=402, 426.59375pt x 426.59375pt>
 File: ./Gl301BAB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl301BAB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl301BAB-eps-converted-to.pdf  used on input line 25
@@ -714,7 +718,7 @@ Package epstopdf Info: Source file: <Orbits/Gl469AB.eps>
 .pdf Orbits/Gl469AB.eps>
 (epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl469AB-eps-converted-to.pdf, id=399, 426.59375pt x 426.59375pt>
+<./Gl469AB-eps-converted-to.pdf, id=403, 426.59375pt x 426.59375pt>
 File: ./Gl469AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl469AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl469AB-eps-converted-to.pdf  used on input line 257
@@ -730,7 +734,7 @@ Package epstopdf Info: Source file: <Orbits/GJ3454AB.eps>
 o.pdf Orbits/GJ3454AB.eps>
 (epstopdf)             \includegraphics on input line 258.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ3454AB-eps-converted-to.pdf, id=400, 426.59375pt x 426.59375pt>
+<./GJ3454AB-eps-converted-to.pdf, id=404, 426.59375pt x 426.59375pt>
 File: ./GJ3454AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ3454AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ3454AB-eps-converted-to.pdf  used on input line 25
@@ -748,7 +752,7 @@ Package epstopdf Info: Source file: <errors.eps>
 pdf errors.eps>
 (epstopdf)             \includegraphics on input line 308.
 Package epstopdf Info: Output file is already uptodate.
-<./errors-eps-converted-to.pdf, id=519, 505.89pt x 361.35pt>
+<./errors-eps-converted-to.pdf, id=524, 505.89pt x 361.35pt>
 File: ./errors-eps-converted-to.pdf Graphic file (type pdf)
 <use ./errors-eps-converted-to.pdf>
 Package pdftex.def Info: ./errors-eps-converted-to.pdf  used on input line 308.
@@ -781,7 +785,7 @@ Package epstopdf Info: Source file: <metallicity_effect.eps>
 onverted-to.pdf metallicity_effect.eps>
 (epstopdf)             \includegraphics on input line 332.
 Package epstopdf Info: Output file is already uptodate.
-<./metallicity_effect-eps-converted-to.pdf, id=539, 568.1225pt x 226.8475pt>
+<./metallicity_effect-eps-converted-to.pdf, id=543, 568.1225pt x 226.8475pt>
 File: ./metallicity_effect-eps-converted-to.pdf Graphic file (type pdf)
 <use ./metallicity_effect-eps-converted-to.pdf>
 Package pdftex.def Info: ./metallicity_effect-eps-converted-to.pdf  used on inp
@@ -798,7 +802,7 @@ Package epstopdf Info: Source file: <LHS6167_corner.eps>
 rted-to.pdf LHS6167_corner.eps>
 (epstopdf)             \includegraphics on input line 367.
 Package epstopdf Info: Output file is already uptodate.
-<./LHS6167_corner-eps-converted-to.pdf, id=583, 568.1225pt x 568.1225pt>
+<./LHS6167_corner-eps-converted-to.pdf, id=587, 568.1225pt x 568.1225pt>
 File: ./LHS6167_corner-eps-converted-to.pdf Graphic file (type pdf)
 <use ./LHS6167_corner-eps-converted-to.pdf>
 Package pdftex.def Info: ./LHS6167_corner-eps-converted-to.pdf  used on input l
@@ -814,7 +818,7 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 377.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<output_7_eMs.pdf, id=607, 1156.32pt x 1156.32pt>
+<output_7_eMs.pdf, id=611, 1156.32pt x 1156.32pt>
 File: output_7_eMs.pdf Graphic file (type pdf)
 <use output_7_eMs.pdf>
 Package pdftex.def Info: output_7_eMs.pdf  used on input line 383.
@@ -829,7 +833,7 @@ Package epstopdf Info: Source file: <MK_mass_0_7_1.eps>
 ted-to.pdf MK_mass_0_7_1.eps>
 (epstopdf)             \includegraphics on input line 391.
 Package epstopdf Info: Output file is already uptodate.
-<./MK_mass_0_7_1-eps-converted-to.pdf, id=612, 625.33624pt x 312.16624pt>
+<./MK_mass_0_7_1-eps-converted-to.pdf, id=616, 625.33624pt x 312.16624pt>
 File: ./MK_mass_0_7_1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./MK_mass_0_7_1-eps-converted-to.pdf>
 Package pdftex.def Info: ./MK_mass_0_7_1-eps-converted-to.pdf  used on input li
@@ -845,7 +849,7 @@ Package epstopdf Info: Source file: <Mass_mass_7_0.eps>
 ted-to.pdf Mass_mass_7_0.eps>
 (epstopdf)             \includegraphics on input line 399.
 Package epstopdf Info: Output file is already uptodate.
-<./Mass_mass_7_0-eps-converted-to.pdf, id=615, 505.89pt x 361.35pt>
+<./Mass_mass_7_0-eps-converted-to.pdf, id=619, 505.89pt x 361.35pt>
 File: ./Mass_mass_7_0-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Mass_mass_7_0-eps-converted-to.pdf>
 Package pdftex.def Info: ./Mass_mass_7_0-eps-converted-to.pdf  used on input li
@@ -866,7 +870,7 @@ Package epstopdf Info: Source file: <order.eps>
 df order.eps>
 (epstopdf)             \includegraphics on input line 412.
 Package epstopdf Info: Output file is already uptodate.
-<./order-eps-converted-to.pdf, id=620, 568.1225pt x 426.59375pt>
+<./order-eps-converted-to.pdf, id=624, 568.1225pt x 426.59375pt>
 File: ./order-eps-converted-to.pdf Graphic file (type pdf)
 <use ./order-eps-converted-to.pdf>
 Package pdftex.def Info: ./order-eps-converted-to.pdf  used on input line 412.
@@ -900,7 +904,7 @@ Package epstopdf Info: Source file: <Model_metal_0.eps>
 ted-to.pdf Model_metal_0.eps>
 (epstopdf)             \includegraphics on input line 502.
 Package epstopdf Info: Output file is already uptodate.
-<./Model_metal_0-eps-converted-to.pdf, id=665, 505.89pt x 361.35pt>
+<./Model_metal_0-eps-converted-to.pdf, id=670, 505.89pt x 361.35pt>
 File: ./Model_metal_0-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Model_metal_0-eps-converted-to.pdf>
 Package pdftex.def Info: ./Model_metal_0-eps-converted-to.pdf  used on input li
@@ -916,7 +920,7 @@ Package epstopdf Info: Source file: <residual_metal7.eps>
 erted-to.pdf residual_metal7.eps>
 (epstopdf)             \includegraphics on input line 512.
 Package epstopdf Info: Output file is already uptodate.
-<./residual_metal7-eps-converted-to.pdf, id=669, 426.59375pt x 426.59375pt>
+<./residual_metal7-eps-converted-to.pdf, id=674, 426.59375pt x 426.59375pt>
 File: ./residual_metal7-eps-converted-to.pdf Graphic file (type pdf)
 <use ./residual_metal7-eps-converted-to.pdf>
 Package pdftex.def Info: ./residual_metal7-eps-converted-to.pdf  used on input 
@@ -936,7 +940,7 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 525.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<output_8feh_eMs.pdf, id=807, 1307.36427pt x 1307.36427pt>
+<output_8feh_eMs.pdf, id=811, 1307.36427pt x 1307.36427pt>
 File: output_8feh_eMs.pdf Graphic file (type pdf)
 <use output_8feh_eMs.pdf>
 Package pdftex.def Info: output_8feh_eMs.pdf  used on input line 530.
@@ -972,7 +976,7 @@ Package epstopdf Info: Source file: <F_plot.eps>
 pdf F_plot.eps>
 (epstopdf)             \includegraphics on input line 542.
 Package epstopdf Info: Output file is already uptodate.
-<./F_plot-eps-converted-to.pdf, id=851, 505.89pt x 361.35pt>
+<./F_plot-eps-converted-to.pdf, id=855, 505.89pt x 361.35pt>
 File: ./F_plot-eps-converted-to.pdf Graphic file (type pdf)
 <use ./F_plot-eps-converted-to.pdf>
 Package pdftex.def Info: ./F_plot-eps-converted-to.pdf  used on input line 542.
@@ -1002,7 +1006,7 @@ Package epstopdf Info: Source file: <Delfosse_comp.eps>
 ted-to.pdf Delfosse_comp.eps>
 (epstopdf)             \includegraphics on input line 566.
 Package epstopdf Info: Output file is already uptodate.
-<./Delfosse_comp-eps-converted-to.pdf, id=1035, 505.89pt x 361.35pt>
+<./Delfosse_comp-eps-converted-to.pdf, id=1039, 505.89pt x 361.35pt>
 File: ./Delfosse_comp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Delfosse_comp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Delfosse_comp-eps-converted-to.pdf  used on input li
@@ -1018,7 +1022,7 @@ Package epstopdf Info: Source file: <Mann_comp.eps>
 to.pdf Mann_comp.eps>
 (epstopdf)             \includegraphics on input line 580.
 Package epstopdf Info: Output file is already uptodate.
-<./Mann_comp-eps-converted-to.pdf, id=1057, 505.89pt x 361.35pt>
+<./Mann_comp-eps-converted-to.pdf, id=1061, 505.89pt x 361.35pt>
 File: ./Mann_comp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Mann_comp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Mann_comp-eps-converted-to.pdf  used on input line 5
@@ -1044,7 +1048,7 @@ Package epstopdf Info: Source file: <Benedict_comp.eps>
 ted-to.pdf Benedict_comp.eps>
 (epstopdf)             \includegraphics on input line 597.
 Package epstopdf Info: Output file is already uptodate.
-<./Benedict_comp-eps-converted-to.pdf, id=1119, 505.89pt x 361.35pt>
+<./Benedict_comp-eps-converted-to.pdf, id=1123, 505.89pt x 361.35pt>
 File: ./Benedict_comp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Benedict_comp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Benedict_comp-eps-converted-to.pdf  used on input li
@@ -1180,7 +1184,7 @@ Package epstopdf Info: Source file: <NACO_Ks.eps>
 .pdf NACO_Ks.eps>
 (epstopdf)             \includegraphics on input line 709.
 Package epstopdf Info: Output file is already uptodate.
-<./NACO_Ks-eps-converted-to.pdf, id=1350, 505.89pt x 361.35pt>
+<./NACO_Ks-eps-converted-to.pdf, id=1354, 505.89pt x 361.35pt>
 File: ./NACO_Ks-eps-converted-to.pdf Graphic file (type pdf)
 <use ./NACO_Ks-eps-converted-to.pdf>
 Package pdftex.def Info: ./NACO_Ks-eps-converted-to.pdf  used on input line 709
@@ -1196,7 +1200,7 @@ Package epstopdf Info: Source file: <NIRC2_BrG.eps>
 to.pdf NIRC2_BrG.eps>
 (epstopdf)             \includegraphics on input line 710.
 Package epstopdf Info: Output file is already uptodate.
-<./NIRC2_BrG-eps-converted-to.pdf, id=1351, 505.89pt x 361.35pt>
+<./NIRC2_BrG-eps-converted-to.pdf, id=1355, 505.89pt x 361.35pt>
 File: ./NIRC2_BrG-eps-converted-to.pdf Graphic file (type pdf)
 <use ./NIRC2_BrG-eps-converted-to.pdf>
 Package pdftex.def Info: ./NIRC2_BrG-eps-converted-to.pdf  used on input line 7
@@ -1212,7 +1216,7 @@ Package epstopdf Info: Source file: <KIR_Kp.eps>
 pdf KIR_Kp.eps>
 (epstopdf)             \includegraphics on input line 711.
 Package epstopdf Info: Output file is already uptodate.
-<./KIR_Kp-eps-converted-to.pdf, id=1352, 505.89pt x 361.35pt>
+<./KIR_Kp-eps-converted-to.pdf, id=1356, 505.89pt x 361.35pt>
 File: ./KIR_Kp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./KIR_Kp-eps-converted-to.pdf>
 Package pdftex.def Info: ./KIR_Kp-eps-converted-to.pdf  used on input line 711.
@@ -1228,7 +1232,7 @@ Package epstopdf Info: Source file: <NIRC2_Kcont.eps>
 d-to.pdf NIRC2_Kcont.eps>
 (epstopdf)             \includegraphics on input line 712.
 Package epstopdf Info: Output file is already uptodate.
-<./NIRC2_Kcont-eps-converted-to.pdf, id=1353, 505.89pt x 361.35pt>
+<./NIRC2_Kcont-eps-converted-to.pdf, id=1357, 505.89pt x 361.35pt>
 File: ./NIRC2_Kcont-eps-converted-to.pdf Graphic file (type pdf)
 <use ./NIRC2_Kcont-eps-converted-to.pdf>
 Package pdftex.def Info: ./NIRC2_Kcont-eps-converted-to.pdf  used on input line
@@ -1246,7 +1250,7 @@ Package epstopdf Info: Source file: <Orbits/GJ1005AB.eps>
 o.pdf Orbits/GJ1005AB.eps>
 (epstopdf)             \includegraphics on input line 728.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ1005AB-eps-converted-to.pdf, id=1409, 426.59375pt x 426.59375pt>
+<./GJ1005AB-eps-converted-to.pdf, id=1413, 426.59375pt x 426.59375pt>
 File: ./GJ1005AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ1005AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ1005AB-eps-converted-to.pdf  used on input line 72
@@ -1262,7 +1266,7 @@ Package epstopdf Info: Source file: <Orbits/GJ2005AB.eps>
 o.pdf Orbits/GJ2005AB.eps>
 (epstopdf)             \includegraphics on input line 729.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ2005AB-eps-converted-to.pdf, id=1410, 426.59375pt x 426.59375pt>
+<./GJ2005AB-eps-converted-to.pdf, id=1414, 426.59375pt x 426.59375pt>
 File: ./GJ2005AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ2005AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ2005AB-eps-converted-to.pdf  used on input line 72
@@ -1278,7 +1282,7 @@ Package epstopdf Info: Source file: <Orbits/GJ22AB.eps>
 pdf Orbits/GJ22AB.eps>
 (epstopdf)             \includegraphics on input line 730.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ22AB-eps-converted-to.pdf, id=1411, 426.59375pt x 426.59375pt>
+<./GJ22AB-eps-converted-to.pdf, id=1415, 426.59375pt x 426.59375pt>
 File: ./GJ22AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ22AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ22AB-eps-converted-to.pdf  used on input line 730.
@@ -1294,7 +1298,7 @@ Package epstopdf Info: Source file: <Orbits/Gl54AB.eps>
 pdf Orbits/Gl54AB.eps>
 (epstopdf)             \includegraphics on input line 731.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl54AB-eps-converted-to.pdf, id=1412, 426.59375pt x 426.59375pt>
+<./Gl54AB-eps-converted-to.pdf, id=1416, 426.59375pt x 426.59375pt>
 File: ./Gl54AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl54AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl54AB-eps-converted-to.pdf  used on input line 731.
@@ -1310,7 +1314,7 @@ Package epstopdf Info: Source file: <Orbits/GJ1038AB.eps>
 o.pdf Orbits/GJ1038AB.eps>
 (epstopdf)             \includegraphics on input line 732.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ1038AB-eps-converted-to.pdf, id=1413, 426.59375pt x 426.59375pt>
+<./GJ1038AB-eps-converted-to.pdf, id=1417, 426.59375pt x 426.59375pt>
 File: ./GJ1038AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ1038AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ1038AB-eps-converted-to.pdf  used on input line 73
@@ -1326,7 +1330,7 @@ Package epstopdf Info: Source file: <Orbits/GJ65AB.eps>
 pdf Orbits/GJ65AB.eps>
 (epstopdf)             \includegraphics on input line 733.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ65AB-eps-converted-to.pdf, id=1414, 426.59375pt x 426.59375pt>
+<./GJ65AB-eps-converted-to.pdf, id=1418, 426.59375pt x 426.59375pt>
 File: ./GJ65AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ65AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ65AB-eps-converted-to.pdf  used on input line 733.
@@ -1342,7 +1346,7 @@ Package epstopdf Info: Source file: <Orbits/HIP9724AB.eps>
 to.pdf Orbits/HIP9724AB.eps>
 (epstopdf)             \includegraphics on input line 734.
 Package epstopdf Info: Output file is already uptodate.
-<./HIP9724AB-eps-converted-to.pdf, id=1415, 426.59375pt x 426.59375pt>
+<./HIP9724AB-eps-converted-to.pdf, id=1419, 426.59375pt x 426.59375pt>
 File: ./HIP9724AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HIP9724AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HIP9724AB-eps-converted-to.pdf  used on input line 7
@@ -1358,7 +1362,7 @@ Package epstopdf Info: Source file: <Orbits/PMJ02133+3648AB.eps>
 erted-to.pdf Orbits/PMJ02133+3648AB.eps>
 (epstopdf)             \includegraphics on input line 735.
 Package epstopdf Info: Output file is already uptodate.
-<./PMJ02133+3648AB-eps-converted-to.pdf, id=1416, 426.59375pt x 426.59375pt>
+<./PMJ02133+3648AB-eps-converted-to.pdf, id=1420, 426.59375pt x 426.59375pt>
 File: ./PMJ02133+3648AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./PMJ02133+3648AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./PMJ02133+3648AB-eps-converted-to.pdf  used on input 
@@ -1374,7 +1378,7 @@ Package epstopdf Info: Source file: <Orbits/HD15285AB.eps>
 to.pdf Orbits/HD15285AB.eps>
 (epstopdf)             \includegraphics on input line 736.
 Package epstopdf Info: Output file is already uptodate.
-<./HD15285AB-eps-converted-to.pdf, id=1417, 426.59375pt x 426.59375pt>
+<./HD15285AB-eps-converted-to.pdf, id=1421, 426.59375pt x 426.59375pt>
 File: ./HD15285AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HD15285AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HD15285AB-eps-converted-to.pdf  used on input line 7
@@ -1390,7 +1394,7 @@ Package epstopdf Info: Source file: <Orbits/HIP11542AB.eps>
 -to.pdf Orbits/HIP11542AB.eps>
 (epstopdf)             \includegraphics on input line 744.
 Package epstopdf Info: Output file is already uptodate.
-<./HIP11542AB-eps-converted-to.pdf, id=1418, 426.59375pt x 426.59375pt>
+<./HIP11542AB-eps-converted-to.pdf, id=1422, 426.59375pt x 426.59375pt>
 File: ./HIP11542AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HIP11542AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HIP11542AB-eps-converted-to.pdf  used on input line 
@@ -1406,7 +1410,7 @@ Package epstopdf Info: Source file: <Orbits/Gl125AB.eps>
 .pdf Orbits/Gl125AB.eps>
 (epstopdf)             \includegraphics on input line 745.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl125AB-eps-converted-to.pdf, id=1419, 426.59375pt x 426.59375pt>
+<./Gl125AB-eps-converted-to.pdf, id=1423, 426.59375pt x 426.59375pt>
 File: ./Gl125AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl125AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl125AB-eps-converted-to.pdf  used on input line 745
@@ -1422,7 +1426,7 @@ Package epstopdf Info: Source file: <Orbits/Gl190AB.eps>
 .pdf Orbits/Gl190AB.eps>
 (epstopdf)             \includegraphics on input line 746.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl190AB-eps-converted-to.pdf, id=1420, 426.59375pt x 426.59375pt>
+<./Gl190AB-eps-converted-to.pdf, id=1424, 426.59375pt x 426.59375pt>
 File: ./Gl190AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl190AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl190AB-eps-converted-to.pdf  used on input line 746
@@ -1438,7 +1442,7 @@ Package epstopdf Info: Source file: <Orbits/GJ1081AB.eps>
 o.pdf Orbits/GJ1081AB.eps>
 (epstopdf)             \includegraphics on input line 747.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ1081AB-eps-converted-to.pdf, id=1421, 426.59375pt x 426.59375pt>
+<./GJ1081AB-eps-converted-to.pdf, id=1425, 426.59375pt x 426.59375pt>
 File: ./GJ1081AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ1081AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ1081AB-eps-converted-to.pdf  used on input line 74
@@ -1454,7 +1458,7 @@ Package epstopdf Info: Source file: <Orbits/GJ234AB.eps>
 .pdf Orbits/GJ234AB.eps>
 (epstopdf)             \includegraphics on input line 748.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ234AB-eps-converted-to.pdf, id=1422, 426.59375pt x 426.59375pt>
+<./GJ234AB-eps-converted-to.pdf, id=1426, 426.59375pt x 426.59375pt>
 File: ./GJ234AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ234AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ234AB-eps-converted-to.pdf  used on input line 748
@@ -1470,7 +1474,7 @@ Package epstopdf Info: Source file: <Orbits/GJ3412AB.eps>
 o.pdf Orbits/GJ3412AB.eps>
 (epstopdf)             \includegraphics on input line 749.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ3412AB-eps-converted-to.pdf, id=1423, 426.59375pt x 426.59375pt>
+<./GJ3412AB-eps-converted-to.pdf, id=1427, 426.59375pt x 426.59375pt>
 File: ./GJ3412AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ3412AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ3412AB-eps-converted-to.pdf  used on input line 74
@@ -1486,7 +1490,7 @@ Package epstopdf Info: Source file: <Orbits/GJ3421AB.eps>
 o.pdf Orbits/GJ3421AB.eps>
 (epstopdf)             \includegraphics on input line 750.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ3421AB-eps-converted-to.pdf, id=1424, 426.59375pt x 426.59375pt>
+<./GJ3421AB-eps-converted-to.pdf, id=1428, 426.59375pt x 426.59375pt>
 File: ./GJ3421AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ3421AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ3421AB-eps-converted-to.pdf  used on input line 75
@@ -1502,7 +1506,7 @@ Package epstopdf Info: Source file: <Orbits/Gl263AB.eps>
 .pdf Orbits/Gl263AB.eps>
 (epstopdf)             \includegraphics on input line 751.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl263AB-eps-converted-to.pdf, id=1425, 426.59375pt x 426.59375pt>
+<./Gl263AB-eps-converted-to.pdf, id=1429, 426.59375pt x 426.59375pt>
 File: ./Gl263AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl263AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl263AB-eps-converted-to.pdf  used on input line 751
@@ -1518,7 +1522,7 @@ Package epstopdf Info: Source file: <Orbits/Gl277AB.eps>
 .pdf Orbits/Gl277AB.eps>
 (epstopdf)             \includegraphics on input line 752.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl277AB-eps-converted-to.pdf, id=1426, 426.59375pt x 426.59375pt>
+<./Gl277AB-eps-converted-to.pdf, id=1430, 426.59375pt x 426.59375pt>
 File: ./Gl277AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl277AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl277AB-eps-converted-to.pdf  used on input line 752
@@ -1564,7 +1568,7 @@ Package epstopdf Info: Source file: <Orbits/Gl310AB.eps>
 .pdf Orbits/Gl310AB.eps>
 (epstopdf)             \includegraphics on input line 755.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl310AB-eps-converted-to.pdf, id=1427, 426.59375pt x 426.59375pt>
+<./Gl310AB-eps-converted-to.pdf, id=1431, 426.59375pt x 426.59375pt>
 File: ./Gl310AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl310AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl310AB-eps-converted-to.pdf  used on input line 755
@@ -1588,7 +1592,7 @@ Package epstopdf Info: Source file: <Orbits/Gl330AB.eps>
 .pdf Orbits/Gl330AB.eps>
 (epstopdf)             \includegraphics on input line 764.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl330AB-eps-converted-to.pdf, id=1517, 426.59375pt x 426.59375pt>
+<./Gl330AB-eps-converted-to.pdf, id=1521, 426.59375pt x 426.59375pt>
 File: ./Gl330AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl330AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl330AB-eps-converted-to.pdf  used on input line 764
@@ -1604,7 +1608,7 @@ Package epstopdf Info: Source file: <Orbits/LHS6167AB.eps>
 to.pdf Orbits/LHS6167AB.eps>
 (epstopdf)             \includegraphics on input line 765.
 Package epstopdf Info: Output file is already uptodate.
-<./LHS6167AB-eps-converted-to.pdf, id=1518, 426.59375pt x 426.59375pt>
+<./LHS6167AB-eps-converted-to.pdf, id=1522, 426.59375pt x 426.59375pt>
 File: ./LHS6167AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./LHS6167AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./LHS6167AB-eps-converted-to.pdf  used on input line 7
@@ -1620,7 +1624,7 @@ Package epstopdf Info: Source file: <Orbits/GJ340AB.eps>
 .pdf Orbits/GJ340AB.eps>
 (epstopdf)             \includegraphics on input line 766.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ340AB-eps-converted-to.pdf, id=1519, 426.59375pt x 426.59375pt>
+<./GJ340AB-eps-converted-to.pdf, id=1523, 426.59375pt x 426.59375pt>
 File: ./GJ340AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ340AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ340AB-eps-converted-to.pdf  used on input line 766
@@ -1636,7 +1640,7 @@ Package epstopdf Info: Source file: <Orbits/HIP46706AB.eps>
 -to.pdf Orbits/HIP46706AB.eps>
 (epstopdf)             \includegraphics on input line 767.
 Package epstopdf Info: Output file is already uptodate.
-<./HIP46706AB-eps-converted-to.pdf, id=1520, 426.59375pt x 426.59375pt>
+<./HIP46706AB-eps-converted-to.pdf, id=1524, 426.59375pt x 426.59375pt>
 File: ./HIP46706AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HIP46706AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HIP46706AB-eps-converted-to.pdf  used on input line 
@@ -1652,7 +1656,7 @@ Package epstopdf Info: Source file: <Orbits/Gl381AB.eps>
 .pdf Orbits/Gl381AB.eps>
 (epstopdf)             \includegraphics on input line 768.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl381AB-eps-converted-to.pdf, id=1521, 426.59375pt x 426.59375pt>
+<./Gl381AB-eps-converted-to.pdf, id=1525, 426.59375pt x 426.59375pt>
 File: ./Gl381AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl381AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl381AB-eps-converted-to.pdf  used on input line 768
@@ -1668,7 +1672,7 @@ Package epstopdf Info: Source file: <Orbits/GJ416AB.eps>
 .pdf Orbits/GJ416AB.eps>
 (epstopdf)             \includegraphics on input line 769.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ416AB-eps-converted-to.pdf, id=1522, 426.59375pt x 426.59375pt>
+<./GJ416AB-eps-converted-to.pdf, id=1526, 426.59375pt x 426.59375pt>
 File: ./GJ416AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ416AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ416AB-eps-converted-to.pdf  used on input line 769
@@ -1699,7 +1703,7 @@ Package epstopdf Info: Source file: <Orbits/Gl473AB.eps>
 .pdf Orbits/Gl473AB.eps>
 (epstopdf)             \includegraphics on input line 771.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl473AB-eps-converted-to.pdf, id=1523, 426.59375pt x 426.59375pt>
+<./Gl473AB-eps-converted-to.pdf, id=1527, 426.59375pt x 426.59375pt>
 File: ./Gl473AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl473AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl473AB-eps-converted-to.pdf  used on input line 771
@@ -1715,7 +1719,7 @@ Package epstopdf Info: Source file: <Orbits/Gl494AB.eps>
 .pdf Orbits/Gl494AB.eps>
 (epstopdf)             \includegraphics on input line 772.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl494AB-eps-converted-to.pdf, id=1524, 426.59375pt x 426.59375pt>
+<./Gl494AB-eps-converted-to.pdf, id=1528, 426.59375pt x 426.59375pt>
 File: ./Gl494AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl494AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl494AB-eps-converted-to.pdf  used on input line 772
@@ -1731,7 +1735,7 @@ Package epstopdf Info: Source file: <Orbits/GJ570AB.eps>
 .pdf Orbits/GJ570AB.eps>
 (epstopdf)             \includegraphics on input line 773.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ570AB-eps-converted-to.pdf, id=1525, 426.59375pt x 426.59375pt>
+<./GJ570AB-eps-converted-to.pdf, id=1529, 426.59375pt x 426.59375pt>
 File: ./GJ570AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ570AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ570AB-eps-converted-to.pdf  used on input line 773
@@ -1747,7 +1751,7 @@ Package epstopdf Info: Source file: <Orbits/GJ600AB.eps>
 .pdf Orbits/GJ600AB.eps>
 (epstopdf)             \includegraphics on input line 774.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ600AB-eps-converted-to.pdf, id=1526, 426.59375pt x 426.59375pt>
+<./GJ600AB-eps-converted-to.pdf, id=1530, 426.59375pt x 426.59375pt>
 File: ./GJ600AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ600AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ600AB-eps-converted-to.pdf  used on input line 774
@@ -1763,7 +1767,7 @@ Package epstopdf Info: Source file: <Orbits/GJ623AB.eps>
 .pdf Orbits/GJ623AB.eps>
 (epstopdf)             \includegraphics on input line 775.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ623AB-eps-converted-to.pdf, id=1527, 426.59375pt x 426.59375pt>
+<./GJ623AB-eps-converted-to.pdf, id=1531, 426.59375pt x 426.59375pt>
 File: ./GJ623AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ623AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ623AB-eps-converted-to.pdf  used on input line 775
@@ -1783,7 +1787,7 @@ Package epstopdf Info: Source file: <Orbits/GJ1210AB.eps>
 o.pdf Orbits/GJ1210AB.eps>
 (epstopdf)             \includegraphics on input line 783.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ1210AB-eps-converted-to.pdf, id=1529, 426.59375pt x 426.59375pt>
+<./GJ1210AB-eps-converted-to.pdf, id=1533, 426.59375pt x 426.59375pt>
 File: ./GJ1210AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ1210AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ1210AB-eps-converted-to.pdf  used on input line 78
@@ -1799,7 +1803,7 @@ Package epstopdf Info: Source file: <Orbits/Gl660AB.eps>
 .pdf Orbits/Gl660AB.eps>
 (epstopdf)             \includegraphics on input line 784.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl660AB-eps-converted-to.pdf, id=1530, 426.59375pt x 426.59375pt>
+<./Gl660AB-eps-converted-to.pdf, id=1534, 426.59375pt x 426.59375pt>
 File: ./Gl660AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl660AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl660AB-eps-converted-to.pdf  used on input line 784
@@ -1815,7 +1819,7 @@ Package epstopdf Info: Source file: <Orbits/GJ661AB.eps>
 .pdf Orbits/GJ661AB.eps>
 (epstopdf)             \includegraphics on input line 785.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ661AB-eps-converted-to.pdf, id=1531, 426.59375pt x 426.59375pt>
+<./GJ661AB-eps-converted-to.pdf, id=1535, 426.59375pt x 426.59375pt>
 File: ./GJ661AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ661AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ661AB-eps-converted-to.pdf  used on input line 785
@@ -1831,7 +1835,7 @@ Package epstopdf Info: Source file: <Orbits/GJ4024AB.eps>
 o.pdf Orbits/GJ4024AB.eps>
 (epstopdf)             \includegraphics on input line 786.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ4024AB-eps-converted-to.pdf, id=1532, 426.59375pt x 426.59375pt>
+<./GJ4024AB-eps-converted-to.pdf, id=1536, 426.59375pt x 426.59375pt>
 File: ./GJ4024AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ4024AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ4024AB-eps-converted-to.pdf  used on input line 78
@@ -1847,7 +1851,7 @@ Package epstopdf Info: Source file: <Orbits/Gl695AB.eps>
 .pdf Orbits/Gl695AB.eps>
 (epstopdf)             \includegraphics on input line 787.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl695AB-eps-converted-to.pdf, id=1533, 426.59375pt x 426.59375pt>
+<./Gl695AB-eps-converted-to.pdf, id=1537, 426.59375pt x 426.59375pt>
 File: ./Gl695AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl695AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl695AB-eps-converted-to.pdf  used on input line 787
@@ -1863,7 +1867,7 @@ Package epstopdf Info: Source file: <Orbits/Gl747AB.eps>
 .pdf Orbits/Gl747AB.eps>
 (epstopdf)             \includegraphics on input line 788.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl747AB-eps-converted-to.pdf, id=1534, 426.59375pt x 426.59375pt>
+<./Gl747AB-eps-converted-to.pdf, id=1538, 426.59375pt x 426.59375pt>
 File: ./Gl747AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl747AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl747AB-eps-converted-to.pdf  used on input line 788
@@ -1879,7 +1883,7 @@ Package epstopdf Info: Source file: <Orbits/GJ748AB.eps>
 .pdf Orbits/GJ748AB.eps>
 (epstopdf)             \includegraphics on input line 789.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ748AB-eps-converted-to.pdf, id=1535, 426.59375pt x 426.59375pt>
+<./GJ748AB-eps-converted-to.pdf, id=1539, 426.59375pt x 426.59375pt>
 File: ./GJ748AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ748AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ748AB-eps-converted-to.pdf  used on input line 789
@@ -1895,7 +1899,7 @@ Package epstopdf Info: Source file: <Orbits/HIP95995AB.eps>
 -to.pdf Orbits/HIP95995AB.eps>
 (epstopdf)             \includegraphics on input line 790.
 Package epstopdf Info: Output file is already uptodate.
-<./HIP95995AB-eps-converted-to.pdf, id=1536, 426.59375pt x 426.59375pt>
+<./HIP95995AB-eps-converted-to.pdf, id=1540, 426.59375pt x 426.59375pt>
 File: ./HIP95995AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HIP95995AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HIP95995AB-eps-converted-to.pdf  used on input line 
@@ -1911,7 +1915,7 @@ Package epstopdf Info: Source file: <Orbits/HIP96656AB.eps>
 -to.pdf Orbits/HIP96656AB.eps>
 (epstopdf)             \includegraphics on input line 791.
 Package epstopdf Info: Output file is already uptodate.
-<./HIP96656AB-eps-converted-to.pdf, id=1537, 426.59375pt x 426.59375pt>
+<./HIP96656AB-eps-converted-to.pdf, id=1541, 426.59375pt x 426.59375pt>
 File: ./HIP96656AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HIP96656AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HIP96656AB-eps-converted-to.pdf  used on input line 
@@ -1927,7 +1931,7 @@ Package epstopdf Info: Source file: <Orbits/GJ1245AB.eps>
 o.pdf Orbits/GJ1245AB.eps>
 (epstopdf)             \includegraphics on input line 792.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ1245AB-eps-converted-to.pdf, id=1538, 426.59375pt x 426.59375pt>
+<./GJ1245AB-eps-converted-to.pdf, id=1542, 426.59375pt x 426.59375pt>
 File: ./GJ1245AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ1245AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ1245AB-eps-converted-to.pdf  used on input line 79
@@ -1943,7 +1947,7 @@ Package epstopdf Info: Source file: <Orbits/Gl7912AB.eps>
 o.pdf Orbits/Gl7912AB.eps>
 (epstopdf)             \includegraphics on input line 793.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl7912AB-eps-converted-to.pdf, id=1539, 426.59375pt x 426.59375pt>
+<./Gl7912AB-eps-converted-to.pdf, id=1543, 426.59375pt x 426.59375pt>
 File: ./Gl7912AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl7912AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl7912AB-eps-converted-to.pdf  used on input line 79
@@ -1959,7 +1963,7 @@ Package epstopdf Info: Source file: <Orbits/Gl804AB.eps>
 .pdf Orbits/Gl804AB.eps>
 (epstopdf)             \includegraphics on input line 794.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl804AB-eps-converted-to.pdf, id=1540, 426.59375pt x 426.59375pt>
+<./Gl804AB-eps-converted-to.pdf, id=1544, 426.59375pt x 426.59375pt>
 File: ./Gl804AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl804AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl804AB-eps-converted-to.pdf  used on input line 794
@@ -1978,7 +1982,7 @@ Package epstopdf Info: Source file: <Orbits/Gl831AB.eps>
 .pdf Orbits/Gl831AB.eps>
 (epstopdf)             \includegraphics on input line 803.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl831AB-eps-converted-to.pdf, id=1542, 426.59375pt x 426.59375pt>
+<./Gl831AB-eps-converted-to.pdf, id=1546, 426.59375pt x 426.59375pt>
 File: ./Gl831AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl831AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl831AB-eps-converted-to.pdf  used on input line 803
@@ -1994,7 +1998,7 @@ Package epstopdf Info: Source file: <Orbits/Gl844AB.eps>
 .pdf Orbits/Gl844AB.eps>
 (epstopdf)             \includegraphics on input line 804.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl844AB-eps-converted-to.pdf, id=1543, 426.59375pt x 426.59375pt>
+<./Gl844AB-eps-converted-to.pdf, id=1547, 426.59375pt x 426.59375pt>
 File: ./Gl844AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl844AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl844AB-eps-converted-to.pdf  used on input line 804
@@ -2010,7 +2014,7 @@ Package epstopdf Info: Source file: <Orbits/HD239960AB.eps>
 -to.pdf Orbits/HD239960AB.eps>
 (epstopdf)             \includegraphics on input line 805.
 Package epstopdf Info: Output file is already uptodate.
-<./HD239960AB-eps-converted-to.pdf, id=1544, 426.59375pt x 426.59375pt>
+<./HD239960AB-eps-converted-to.pdf, id=1548, 426.59375pt x 426.59375pt>
 File: ./HD239960AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./HD239960AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./HD239960AB-eps-converted-to.pdf  used on input line 
@@ -2026,7 +2030,7 @@ Package epstopdf Info: Source file: <Orbits/GJ4287AB.eps>
 o.pdf Orbits/GJ4287AB.eps>
 (epstopdf)             \includegraphics on input line 806.
 Package epstopdf Info: Output file is already uptodate.
-<./GJ4287AB-eps-converted-to.pdf, id=1545, 426.59375pt x 426.59375pt>
+<./GJ4287AB-eps-converted-to.pdf, id=1549, 426.59375pt x 426.59375pt>
 File: ./GJ4287AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GJ4287AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./GJ4287AB-eps-converted-to.pdf  used on input line 80
@@ -2042,7 +2046,7 @@ Package epstopdf Info: Source file: <Orbits/Gl8934AB.eps>
 o.pdf Orbits/Gl8934AB.eps>
 (epstopdf)             \includegraphics on input line 807.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl8934AB-eps-converted-to.pdf, id=1546, 426.59375pt x 426.59375pt>
+<./Gl8934AB-eps-converted-to.pdf, id=1550, 426.59375pt x 426.59375pt>
 File: ./Gl8934AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl8934AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl8934AB-eps-converted-to.pdf  used on input line 80
@@ -2058,7 +2062,7 @@ Package epstopdf Info: Source file: <Orbits/Gl900AB.eps>
 .pdf Orbits/Gl900AB.eps>
 (epstopdf)             \includegraphics on input line 808.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl900AB-eps-converted-to.pdf, id=1547, 426.59375pt x 426.59375pt>
+<./Gl900AB-eps-converted-to.pdf, id=1551, 426.59375pt x 426.59375pt>
 File: ./Gl900AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl900AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl900AB-eps-converted-to.pdf  used on input line 808
@@ -2074,7 +2078,7 @@ Package epstopdf Info: Source file: <Orbits/Gl913AB.eps>
 .pdf Orbits/Gl913AB.eps>
 (epstopdf)             \includegraphics on input line 809.
 Package epstopdf Info: Output file is already uptodate.
-<./Gl913AB-eps-converted-to.pdf, id=1548, 426.59375pt x 426.59375pt>
+<./Gl913AB-eps-converted-to.pdf, id=1552, 426.59375pt x 426.59375pt>
 File: ./Gl913AB-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Gl913AB-eps-converted-to.pdf>
 Package pdftex.def Info: ./Gl913AB-eps-converted-to.pdf  used on input line 809
@@ -2115,10 +2119,18 @@ $\OML/cmm/m/it/9 a$
  []
 
 )
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 819.
- [70]
+[70]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 819.
- (./Masses_1.aux)
+ (./Masses_1.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 819.
  )
 (\end occurred when \ifx on line 99 was incomplete)
@@ -2167,13 +2179,13 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 819.
 (\end occurred when \ifx on line 74 was incomplete)
 (\end occurred when \iffalse on line 10 was incomplete) 
 Here is how much of TeX's memory you used:
- 13729 strings out of 492982
- 209210 string characters out of 6132527
- 1064117 words of memory out of 5000000
- 16400 multiletter control sequences out of 15000+600000
- 34684 words of font info for 200 fonts, out of 8000000 for 9000
+ 13737 strings out of 492982
+ 209330 string characters out of 6132527
+ 1064160 words of memory out of 5000000
+ 16403 multiletter control sequences out of 15000+600000
+ 34786 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,38p,2587b,1124s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,11n,38p,2587b,1121s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016
 /texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/te
@@ -2211,10 +2223,10 @@ local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on Masses_1.pdf (70 pages, 23524482 bytes).
+Output written on Masses_1.pdf (70 pages, 23525541 bytes).
 PDF statistics:
- 3373 PDF objects out of 3580 (max. 8388607)
- 2315 compressed objects within 24 object streams
- 383 named destinations out of 1000 (max. 500000)
+ 3377 PDF objects out of 3580 (max. 8388607)
+ 2319 compressed objects within 24 object streams
+ 384 named destinations out of 1000 (max. 500000)
  35172 words of extra memory for PDF output out of 35830 (max. 10000000)
 
