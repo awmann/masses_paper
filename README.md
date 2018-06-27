@@ -1,3 +1,3 @@
 # masses_paper
 
-This is in prep, and the result should be treated as such for now. You are welcome to use the associated code in the mean time (https://github.com/awmann/M_-M_K-)
+Paper has been submitted. If you find yourself here you are welcome to look and provide comments. You are also welcome to use the associated code (https://github.com/awmann/M_-M_K-), with the caveat that things might change in review.

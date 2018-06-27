@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.21)  26 JUN 2018 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.21)  27 JUN 2018 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2140,9 +2140,12 @@ nverted-to.pdf> <./GJ1245AB-eps-converted-to.pdf> <./Gl7912AB-eps-converted-to.
 pdf> <./Gl804AB-eps-converted-to.pdf>] [42 <./Gl831AB-eps-converted-to.pdf> <./
 Gl844AB-eps-converted-to.pdf> <./HD239960AB-eps-converted-to.pdf> <./GJ4287AB-e
 ps-converted-to.pdf> <./Gl8934AB-eps-converted-to.pdf> <./Gl900AB-eps-converted
--to.pdf> <./Gl913AB-eps-converted-to.pdf>] [43] [44] [45] [46] [47] [48]
-[49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
-[64] [65] [66] [67] [68] [69] [70]
+-to.pdf> <./Gl913AB-eps-converted-to.pdf>]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 5 on input line 1248.
+
+
 Underfull \hbox (badness 10000) detected at line 1250
 $\OML/cmm/m/it/9 b$
  []
@@ -2158,11 +2161,19 @@ $\OML/cmm/m/it/9 a$
  []
 
 )
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 823.
- [71]
+[43]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 823.
  (./Masses_1.aux)
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 823.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
  )
 (\end occurred when \ifx on line 99 was incomplete)
 (\end occurred when \ifx on line 99 was incomplete)
@@ -2210,9 +2221,9 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 823.
 (\end occurred when \ifx on line 74 was incomplete)
 (\end occurred when \iffalse on line 10 was incomplete) 
 Here is how much of TeX's memory you used:
- 13792 strings out of 492982
- 210665 string characters out of 6132527
- 1066488 words of memory out of 5000000
+ 13764 strings out of 492982
+ 210469 string characters out of 6132527
+ 512881 words of memory out of 5000000
  16441 multiletter control sequences out of 15000+600000
  35067 words of font info for 206 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2254,10 +2265,10 @@ local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on Masses_1.pdf (71 pages, 23612822 bytes).
+Output written on Masses_1.pdf (43 pages, 23529264 bytes).
 PDF statistics:
- 3421 PDF objects out of 3580 (max. 8388607)
- 2360 compressed objects within 24 object streams
- 393 named destinations out of 1000 (max. 500000)
+ 2182 PDF objects out of 2487 (max. 8388607)
+ 1711 compressed objects within 18 object streams
+ 365 named destinations out of 1000 (max. 500000)
  35177 words of extra memory for PDF output out of 35830 (max. 10000000)
 
