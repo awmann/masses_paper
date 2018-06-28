@@ -1,0 +1,31 @@
+if pi[j] eq '072.C-0570(A) Beuzit
+073.C-0155(A) Beuzit
+075.C-0147(A) Bouy
+075.C-0521(A) Chauvin
+075.C-0733(A) Beuzit
+077.C-0783(A) Forveille
+078.C-0441(A) Forveille
+079.C-0216(A) Montagnier
+080.C-0424(A) Vogt
+081.C-0430(A) Apai
+082.C-0518(A) Apai
+082.C-0518(B) Apai
+085.C-0867(B) Montagnier
+086.C-0515(A) Montagnier
+086.C-0515(B) Montagnier
+089.C-0494(A) Kurtev
+090.C-0448(A) Vogt
+091.C-0501(A) Kurtev
+091.D-0804(A) De Rosa
+098.C-0597(A) Koehler
+382.C-0324(A) Ratzka
+382.D-0754(A) Bean
+71.C-0388(A)  Beuzit
+R.Lenzen&G.Rousset
+
+GN-2004B-Q-14 Lafreniere
+GN-2005B-Q-4  Doyon
+GN-2008B-Q-57 Henry
+GN-2009B-Q-10 Dieterich
+GN-2010B-Q-9 Dieterich
+GN-2011A-Q-26 Dieterich

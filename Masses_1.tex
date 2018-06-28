@@ -40,8 +40,8 @@
 
 \author[0000-0003-3654-1602]{Andrew W. Mann}
 \altaffiliation{Hubble Fellow}
-\affiliation{Columbia University, Department of Astronomy, 550 West 120th Street, New York, NY 10027}
 \affiliation{Department of Physics and Astronomy, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599-3255, USA}
+\affiliation{Columbia University, Department of Astronomy, 550 West 120th Street, New York, NY 10027}
 
 \author[0000-0001-9823-1445]{Trent Dupuy}
 \affiliation{Gemini Observatory, Northern Operations Center, 670 N. Aohoku Place, Hilo, HI 96720, USA}
@@ -52,10 +52,6 @@
 \author[0000-0002-5258-6846]{Eric Gaidos}
 \affiliation{Department of Geology \& Geophysics, University of Hawaii at M\={a}noa, Honolulu, Hawaii 96822 USA}
 
-\author[0000-0001-9982-1332]{Aaron Rizzuto}
-\altaffiliation{51 Peg b Fellow}
-\affiliation{Department of Astronomy, The University of Texas at Austin, Austin, TX 78712, USA}
-
 \author[0000-0002-6194-043X]{Michael Ireland}%
 \affiliation{Research School of Astronomy \& Astrophysics, Australian National University, Canberra ACT 2611, Australia}
 
@@ -63,11 +59,9 @@
 \affiliation{Center for Integrative Planetary Science, Berkely, CA 94720, USA}
 \affiliation{Department of Astronomy, University of California at Berkeley, Berkeley, CA 94720, USA}
 
-%\author{Jean-Luc Beuzit}
-%\affiliation{Observatoire de Grenoble, Institut de Planetologie et d'Astrophysique de Grenoble, BP 53, 38041 Grenoble Cedex 9, France}
-
-\author[0000-0002-2012-7215]{Gregory Feiden}
-\affiliation{Department of Physics, University of North Georgia, Dahlonega, GA 30597, USA}
+\author[0000-0001-9982-1332]{Aaron Rizzuto}
+\altaffiliation{51 Peg b Fellow}
+\affiliation{Department of Astronomy, The University of Texas at Austin, Austin, TX 78712, USA}
 
 \author[0000-0002-6879-3639]{Chao-Ling Hung}
 \affiliation{Department of Physics, Manhattan College, 4513 Manhattan College Parkway, Riverdale, NY 10471, USA}
@@ -79,8 +73,8 @@
 \author[0000-0002-8332-8516]{Samuel Factor}
 \affiliation{Department of Astronomy, The University of Texas at Austin, Austin, TX 78712, USA}
 
-%\author[0000-0003-0536-4607]{Thierry Forveille}
-%\affiliation{Observatoire de Grenoble, Institut de Planetologie et d'Astrophysique de Grenoble, BP 53, 38041 Grenoble Cedex 9, France}
+\author[0000-0002-2012-7215]{Gregory Feiden}
+\affiliation{Department of Physics, University of North Georgia, Dahlonega, GA 30597, USA}
 
 \author[0000-0001-6301-896X]{Raquel A. Martinez}
 \affiliation{Department of Astronomy, The University of Texas at Austin, Austin, TX 78712, USA}
@@ -104,7 +98,7 @@ The mass-luminosity relation for late-type stars has long been a critical tool f
 
 %% to do:
 %% list of systems we dumped
-%% make the corner plots not suck
+%% make the corner plots not suck...
 
 
 \section{Introduction}\label{sec:intro}
@@ -126,7 +120,7 @@ Empirical $M_K-M_*$ relations from \citet{Henry:1993fk} and \citet{Delfosse2000}
 
 Here we present a revised empirical relation between $M_*$, $M_{K_S}$, and [Fe/H], spanning almost an order of magnitude in mass, from 0.075$M_\odot$ to 0.70$M_\odot$ and typical metallicities in the Solar neighborhood ($-0.6<$[Fe/H]$<+0.4$). The relation is built on orbital fits to visual binaries from a combination of adaptive optics imaging and astrometric measurements in the literature with metallicities estimated from the stars' near-infrared spectra. In Section~\ref{sec:targets} we detail our selection of nearby late-type binaries with orbits amenable to mass determinations. We overview our astrometric and spectroscopic observations in Section~\ref{sec:obs}, including those from telescope archives and the literature. Our orbit-fitting procedure is explained in Section~\ref{sec:orbit}. We describe our method to determine other parameters of each system ([Fe/H], distance, and \mks) in Section~\ref{sec:params}. Our technique to fit the \mmk\ relation from these binaries is described in Section~\ref{sec:relation}, including an analysis of the errors as a function of \mks, a detailed look at the effects of [Fe/H], and a comparison to earlier relations. We conclude in Section~\ref{sec:discussion} with a brief summary, and a discussion of the important caveats and complications to consider when using our relation, as well as future directions we are taking to expand on the work given here.
 
- {\bf If you want to use the relations in this manuscript, we advise at least reading Section~\ref{sec:caveats} to understand the potential limitations of the \href{https://github.com/awmann/M_-M_K-}{program and posteriors} we provide.}%% Obviously I want you to read the whole paper, but let's be realistic here: it's like 70 pages!
+ {\bf If you want to use the relations in this manuscript, we advise at least reading Section~\ref{sec:caveats} to understand the potential limitations of the \href{https://github.com/awmann/M_-M_K-}{program and posteriors} we provide.}%% Obviously I want you to read the whole paper, but let's be realistic here: it's like 30 pages even without the tables.
 
 
 \section{Sample Selection}\label{sec:targets}
@@ -215,7 +209,7 @@ As part of the PSF fit, both methods provide a flux ratio of the PSF normalizati
 
 PSF fitting provides pixel-position ($x$, $y$) measurements of each component, but converting these to separation ($\rho$) and position angle (PA) on the sky requires an astrometric calibration of the instrument. For the NIRC2 narrow camera, we used the \citet{Yelda2010} distortion solution for data taken before 2015 Apr 13 UT, and \citet{2016PASP..128i5004S} for data taken after this. These calibrations include a pixel scale and orientation determination of 9.952$\pm$0.002 mas\,pixel$^{-1}$ and $0.252\pm0.009\,deg$ for the former, and 9.971$\pm$0.004 mas\,pixel$^{-1}$ and $0.262\pm0.020\,deg$ for the latter. For the NIRC2 wide camera we used the solution from Fu et al. (2012, priv. comm.)\footnote{\href{http://homepage.physics.uiowa.edu/~haifu/idl/nirc2wide/}{http://homepage.physics.uiowa.edu/$\sim$haifu/idl/nirc2wide/}}, with a pixel scale of $39.686\pm0.008$ mas\,pixel$^{-1}$ and the same orientation as the narrow camera. For the f/32 camera on NIRI, we used the distortion solution from the Gemini webpage\footnote{\href{http://www.gemini.edu/sciops/instruments/niri/undistort.pro}{http://www.gemini.edu/sciops/instruments/niri/undistort.pro}}. 
 
-For other instruments and cameras, data were always taken following a dither pattern to sample different regions of the CCD distortion pattern. So the RMS between dithered images should reflect errors due to uncorrected distortion (which is included in our errors; see below). For KIR, we adopted a pixel scale of 34.8$\pm$0.1 mas pixel$^{-1}$ \citep{2003ApJ...589..410S} and an orientation of $0\pm2$~deg\footnote{\href{http://www.cfht.hawaii.edu/Instruments/Detectors/IR/KIR/}{KIR specifications, filters, and performance.}}. For NaCo, we assumed a pixel scale of 13.24$\pm0.05$ mas pixel$^{-1}$ for the S13 camera \citep{2003A&A...411..157M,2005A&A...435L..13N} and the values given in the ESO documentation for all others\footnote{\href{http://www.eso.org/sci/facilities/paranal/instruments/naco/doc.html}{NaCo Documentation, user manual, calibration, and reduction.}} (with the same error). The rotation taken from the NaCo headers was assumed to be correct to 0.4~deg. \citep{Sef2008}. For NIRI observations, we used a pixel scale provided in the Gemini documentation\footnote{\href{http://www.gemini.edu/sciops/instruments/niri/imaging/pixel-scales-fov-and-field-orientation}{NIRI pixel scales, field of view, and field orientation.}} for each camera (117.1, 49.9, and 21.9 mas pixel$^{-1}$ for f/6, f/14, and f/32, respectively), with a global uncertainty of 0.05 mas pixel$^{-1}$ on the pixel scale and 0.7~deg. on the orientation. The NIRI orientation error was determined using observations of the same target between observing runs (separated by weeks to months), but over which no orbital motion should have been visible ($P\gg50$ years). This comparison also yielded a pixel scale error of 0.06 mas pixel$^{-1}$, consistent with our adopted value.
+For other instruments and cameras, data were always taken following a dither pattern to sample different regions of the CCD distortion pattern. So the RMS between dithered images should reflect errors due to uncorrected distortion (which is included in our errors; see below). For KIR, we adopted a pixel scale of 34.8$\pm$0.1 mas pixel$^{-1}$ \citep{2003ApJ...589..410S} and an orientation of $0\pm2$~deg\footnote{\href{http://www.cfht.hawaii.edu/Instruments/Detectors/IR/KIR/}{KIR specifications, filters, and performance.}}. For NaCo, we assumed a pixel scale of 13.24$\pm0.05$ mas pixel$^{-1}$ for the S13 camera \citep{2003A&A...411..157M,2005A&A...435L..13N} and the values given in the ESO documentation for all others\footnote{\href{http://www.eso.org/sci/facilities/paranal/instruments/naco/doc.html}{NaCo Documentation, user manual, calibration, and reduction.}} (with the same error). The rotation taken from the NaCo headers was assumed to be correct to 0.4~deg. \citep{Sef2008}. For NIRI observations, we used a pixel scale provided in the Gemini documentation\footnote{\href{http://www.gemini.edu/sciops/instruments/niri/imaging/pixel-scales-fov-and-field-orientation}{NIRI pixel scales, field of view, and field orientation.}} for each camera (117.1, 49.9, and 21.9 mas pixel$^{-1}$ for f/6, f/14, and f/32, respectively), with a global uncertainty of 0.05 mas pixel$^{-1}$ on the pixel scale and 0.5~deg. on the orientation \citep{2004ApJ...614..235B}. 
 
 Calculation of separations and position angles from non-redundant masking (NRM) observations followed the procedures in the appendix of \citet{Kraus2008} with the aid of the latest version of the ``Sydney'' aperture-masking interferometry code\footnote{\href{https://github.com/mikeireland/idlnrm}{https://github.com/mikeireland/idlnrm}}. To remove systematics, each NRM observation of a science star was paired with that of a single calibrator star taken in the same night with a similar magnitude and airmass. Binary system profiles were then fit to the closure phases to produce estimates of the separation, position angle, and contrast of the binary components. More details on the analysis of masking data can be found in \citet{2006ApJ...650L.131L}, \citet{Kraus2008}, and \citet{2012ApJ...744..120E}.
 
@@ -665,7 +659,7 @@ Ages of our binary sample are not known, preventing any study into the effects o
 
 
 \acknowledgements
-
+The authors thank Meg Schwamb for her help with analysis of the NIRI data.
 
 AWM was supported through Hubble Fellowship grant 51364 awarded by the Space Telescope Science Institute, which is operated by the Association of Universities for Research in Astronomy, Inc., for NASA, under contract NAS 5-26555. T.J.D.\ acknowledges research support from Gemini Observatory. This work was supported by a NASA Keck PI Data Award (award numbers 1554237, 1544189, 1535910, and 1521162), administered by the NASA Exoplanet Science Institute. 
 
@@ -689,8 +683,8 @@ This work presents results from the European Space Agency (ESA) space mission Ga
 
 \facilities{Keck:II (NIRC2), IRTF (SpeX), CFHT (PUEO, aobir), VLT:Antu (NaCo); Gemini:North (NIRI)}
 
-%\bibliography{$HOME/Dropbox/fullbiblio}
-\input{Masses_1.bbl}
+\bibliography{$HOME/Dropbox/fullbiblio}
+%\input{Masses_1.bbl}
 
 \input{sample.tex}
 
