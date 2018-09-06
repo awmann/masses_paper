@@ -8,6 +8,7 @@
 \newcommand{\av}{$A_V$}
 \newcommand{\mks}{$M_{K_S}$}
 \newcommand{\mmk}{$M_{K_S}$\textendash$M_*$}
+\newcommand{\mmkc}{$M_{K}$\textendash$M_*$}
 \newcommand{\order}{5}
 \newcommand{\degree}{$^{\circ}$}
 \usepackage{mathrsfs}
@@ -120,7 +121,7 @@ Empirical $M_K-M_*$ relations from \citet{Hen1993} and \citet{Delfosse2000} prov
 
 Here we present a revised empirical relation between $M_*$, $M_{K_S}$, and [Fe/H], spanning almost an order of magnitude in mass, from 0.075$M_\odot$ to 0.70$M_\odot$ covering $-0.6<$[Fe/H]$<+0.4$. The relation is built on orbital fits to visual binaries from a combination of adaptive optics imaging and astrometric measurements in the literature with metallicities estimated from the stars' near-infrared spectra. In Section~\ref{sec:targets} we detail our selection of nearby late-type binaries with orbits amenable to mass determinations. We overview our astrometric and spectroscopic observations in Section~\ref{sec:obs}, including those from telescope archives. We explain our procedure to computing separations and position angles, and incorporating similar measurements from the literature in Section~\ref{sec:astrometry}. Our orbit-fitting procedure is explained in Section~\ref{sec:orbit}. We describe our method to determine other parameters of each system ([Fe/H], distance, and \mks) in Section~\ref{sec:params}. Our technique to fit the \mmk\ relation from these binaries is described in Section~\ref{sec:relation}, including an analysis of the errors as a function of \mks, testing our relation on binaries with individual masses, a detailed look at the effects of [Fe/H], and a comparison to earlier similar mass-luminosity relations. We conclude in Section~\ref{sec:discussion} with a brief summary and a discussion of the important caveats and complications to consider when using our relation, as well as future directions we are taking to expand on the work given here.
 
- {\bf If you want to use the relations in this manuscript, we advise at least reading Section~\ref{sec:caveats} to understand the potential limitations of the provided program and posteriors\footnote{\href{https://github.com/awmann/M_-M_K-}{https://github.com/awmann/M\_-M\_K-}}.}%% Obviously I want you to read the whole paper, but let's be realistic here: it's >30 pages even without the tables.
+ {\textit If you want to use the relations in this manuscript, we advise at least reading Section~\ref{sec:caveats} to understand the potential limitations of the provided program and posteriors\footnote{\href{https://github.com/awmann/M_-M_K-}{https://github.com/awmann/M\_-M\_K-}}.}%% Obviously I want you to read the whole paper, but let's be realistic here: it's >30 pages even without the tables.
 
 
 \section{Sample Selection}\label{sec:targets}
@@ -571,9 +572,23 @@ The discrepancy between MIST model masses and dynamical masses cannot be explain
 
 \subsection{Comparison to previous relations}\label{sec:other}
 
+\subsubsection{\citet{Hen1993}}
+
+\citet{Hen1993} provided one of the first \mmkc\ available. Although the least precise (scatter of 15-20\% in mass), it covered a large mass range ($0.08M_\odot<M_*1M_\odot$). Most of the mass measurements used for the \citet{Hen1993} relation have since been improved, and most of the astrometric binaries in their sample are included in our sample, except those at the high-mass end ($>0.7M_\odot$). 
+
+We show the comparison in Figure~\ref{fig:henry}. The \citet{Hen1993} relation is split into three sections by mass, as can be seen in the sharp change at $\simeq0.2M_\odot$ and $0.5M_\odot$. The scatter in masses from \citet{Hen1993} is large, with some points deviating from the fit by $>50\%$ in mass. However, the two relations track each other to within 10-20\% over the entire overlapping mass range, consistent with the 15-20\% uncertainties given by \citet{Hen1993}
+
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=0.47\textwidth]{HenryMcCarthy_comp.eps}
+\caption{Absolute $K_S$-band magnitude as a function of mass for astrometric binaries analyzed by \citet{Hen1993} (red circles). The relation from \citet{Hen1993} is shown as a teal dashed line (converted from $M_K$ to $M_{K_S}$), while the best-fit relation from this paper is shown as a blacked dashed line (with error in grey as in Figure~\ref{fig:relation}). The bottom panel shows the residual of the \citet{Hen1993} points compared to our relation. Note that some extreme outlier masses are not shown in the residual plot. }
+\label{fig:henry}
+\end{center}
+\end{figure}
+
 \subsubsection{\citet{Delfosse2000}}
 
-\citet{Delfosse2000} provided one of the most commonly used \mmk\ relations, covering $0.1M_\odot<M_*<0.6M_\odot$. Like our work, the calibration was built primarily on astrometric binaries. \citet{Delfosse2000} used a mix of individual (targets with radial velocities and/or absolute astrometry) and total masses, with the latter case converted to individual masses using models available at the time. Nearly all the targets in \citet{Delfosse2000} were included in our sample, with the exception of triple systems and eclipsing binaries, both of which we avoided because of the complexity of computing total masses in the first scenario and estimating \mks\ in the latter. Because of the sample overlap, consistency is expected. However, a comparison can be useful to see how past use of \citet{Delfosse2000} may change with our more precise results.
+\citet{Delfosse2000} provided one of the most commonly used \mmkc\ relations, covering $0.1M_\odot<M_*<0.6M_\odot$. Like our work, the calibration was built primarily on astrometric binaries. \citet{Delfosse2000} used a mix of individual (targets with radial velocities and/or absolute astrometry) and total masses, with the latter case converted to individual masses using models available at the time. Nearly all the targets in \citet{Delfosse2000} were included in our sample, with the exception of triple systems and eclipsing binaries, both of which we avoided because of the complexity of computing total masses in the first scenario and estimating \mks\ in the latter. Because of the sample overlap, consistency is expected. However, a comparison can be useful to see how past use of \citet{Delfosse2000} may change with our more precise results.
 
 We show the comparison in Figure~\ref{fig:delfosse}, including the points used in the \citet{Delfosse2000} calibration as well as the two fit lines. Given errors often quoted for the \citet{Delfosse2000} relation (5-10\%), the two fits are in remarkable ($<$5\%) agreement over most of the mass range ($0.15M_\odot \lesssim M_* \lesssim 0.5M_\odot$). Only at the high-mass end do the two relations diverge by as much as 10\%, but \citet{Delfosse2000} had few calibrators in this regime. While the two relations are in excellent agreement, the relation presented here is a factor of 3-5$\times$ more precise over the whole mass regime. 
 
