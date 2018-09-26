@@ -50,9 +50,7 @@
 \email{awmann@unc.edu}
 
 \author[0000-0003-3654-1602]{Andrew W. Mann}
-%\altaffiliation{Hubble Fellow}
 \affiliation{Department of Physics and Astronomy, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599-3255, USA}
-%\affiliation{Columbia University, Department of Astronomy, 550 West 120th Street, New York, NY 10027}
 
 \author[0000-0001-9823-1445]{Trent Dupuy}
 \affiliation{Gemini Observatory, Northern Operations Center, 670 N. Aohoku Place, Hilo, HI 96720, USA}
@@ -101,14 +99,14 @@ Rochester Institute of Technology, 54 Lomb Memorial Drive, Rochester NY 14623 US
 %\watermark{Draft}
 
 \begin{abstract}
-The mass-luminosity relation for late-type stars has long been a critical tool for estimating stellar masses. However, there is growing need for both a higher-precision relation and a better understanding of systematic effects (e.g., metallicity). Here we present an empirical relationship between \mks\ and $M_*$ spanning $0.075M_\odot<M_*<0.70M_\odot$. The relation is derived from 62 nearby binaries, whose orbits we determine using a combination of Keck/NIRC2 imaging, archival adaptive optics data, and literature astrometry. From their orbital parameters, we determine the total mass of each system, with a precision better than 1\% in the best cases. We use these total masses, in combination with resolved $K_S$ magnitudes and system parallaxes, to calibrate the \mmk\ relation within a Monte Carlo Markov Chain framework. The resulting posteriors can be used to determine masses of single stars with a precision of 2-3\%, which we confirm by testing the relation on stars with individual dynamical masses from the literature. The precision is limited by scatter around the best-fit relation beyond measured $M_*$ uncertainties, perhaps driven by intrinsic variation in the \mmk\ relation or underestimated uncertainties in the input parallaxes. We find the effect of [Fe/H] on the \mmk\ relation is likely negligible for metallicities in the Solar neighborhood (0.8$\pm$2.4\% change in mass per dex change in [Fe/H]). This weak effect is consistent with predictions from the Dartmouth Stellar Evolution Database, but inconsistent with those from MESA Isochrones and Stellar Tracks (at $5\sigma$). A sample of binaries with a wider range of abundances will be required to discern the importance of metallicity in extreme populations (e.g., in the Galactic Halo or thick disk). 
+The mass-luminosity relation for late-type stars has long been a critical tool for estimating stellar masses. However, there is growing need for both a higher-precision relation and a better understanding of systematic effects (e.g., metallicity). Here we present an empirical relationship between \mks\ and $M_*$ spanning $0.075M_\odot<M_*<0.70M_\odot$. The relation is derived from 62 nearby binaries, whose orbits we determine using a combination of Keck/NIRC2 imaging, archival adaptive optics data, and literature astrometry. From their orbital parameters, we determine the total mass of each system, with a precision better than 1\% in the best cases. We use these total masses, in combination with resolved $K_S$ magnitudes and system parallaxes, to calibrate the \mmk\ relation. The resulting posteriors can be used to determine masses of single stars with a precision of 2-3\%, which we confirm by testing the relation on stars with individual dynamical masses from the literature. The precision is limited by scatter around the best-fit relation beyond measured $M_*$ uncertainties, perhaps driven by intrinsic variation in the \mmk\ relation or underestimated uncertainties in the input parallaxes. We find the effect of [Fe/H] on the \mmk\ relation is likely negligible for metallicities in the Solar neighborhood (0.0$\pm$2.2\% change in mass per dex change in [Fe/H]). This weak effect is consistent with predictions from the Dartmouth Stellar Evolution Database, but inconsistent with those from MESA Isochrones and Stellar Tracks (at $5\sigma$). A sample of binaries with a wider range of abundances will be required to discern the importance of metallicity in extreme populations (e.g., in the Galactic Halo or thick disk). 
 \end{abstract}
 
 \keywords{stars: fundamental parameters; stars: low-mass; stars: luminosity function, mass function}
 \NewPageAfterKeywords
 
 % without latex:
-%
+%The mass-luminosity relation for late-type stars has long been a critical tool for estimating stellar masses. However, there is growing need for both a higher-precision relation and a better understanding of systematic effects (e.g., metallicity). Here we present an empirical relationship between Mks and mass spanning 0.075Msun<M<0.70Msun. The relation is derived from 62 nearby binaries, whose orbits we determine using a combination of Keck/NIRC2 imaging, archival adaptive optics data, and literature astrometry. From their orbital parameters, we determine the total mass of each system, with a precision better than 1% in the best cases. We use these total masses, in combination with resolved Ks magnitudes and system parallaxes, to calibrate the mass-Mks relation. The result can be used to determine masses of single stars with a precision of 2-3%, which we confirm by a comparison to dynamical masses from the literature. The precision is limited by scatter around the best-fit relation beyond mass uncertainties, perhaps driven by intrinsic variation in the mass-Mks relation or underestimated measurement errors. We find the effect of [Fe/H] on the mass-Mks relation is likely negligible for metallicities in the Solar neighborhood (0.0+/-2.2% change in mass per dex change in [Fe/H]). This weak effect is consistent with predictions from the Dartmouth Stellar Evolution Database, but inconsistent with those from MESA Isochrones and Stellar Tracks. A sample of binaries with a wider range of abundances will be required to discern the importance of metallicity in extreme populations (e.g., in the Galactic Halo or thick disk). 
 
 
 
@@ -317,7 +315,7 @@ For 22 of the systems, we drew parallaxes from the new reduction of Hipparcos da
 
 About half (29) of our targets do not have entries in the second data release of Gaia \citep[DR2, ][]{GaiaDr2,Gaia-Collaboration:2018aa}. They were likely excluded because centroid shifts from orbital motion prevented a five-parameter (single-star) solution (a requirement to be included in DR2). We also found significant differences between the Gaia DR2 values and earlier measurements \citep[including from TGAS, ][]{2015A&A...574A.115M,gaiadr1} even when measurements were available. Many wide triples in Gaia DR2 (where the third star is several arc seconds away, and hence easily resolved) have significantly different parallaxes reported for the unresolved pair than for the wider companion. For example, GJ 2069A has a Gaia parallax of 60.237$\pm$0.080\,mas, while GJ 2069C has a Gaia parallax of 62.02$\pm$0.21\,mas, a difference of 1.8\,mas (7.9$\sigma$). Orbital motion is likely impacting the parallax values or uncertainties, an issue that should be resolved in future Gaia data releases that will include fits for orbital motion. We found no such issues with our other parallax sources.
 
-We adopted Gaia DR2 parallaxes for five systems, GJ 1245AC, GJ 277AC, Gl 570BC, Gl 667AB, and HIP 111685AB. In each case we used the parallax of their wider common proper motion companion. The wider associated stars are not known to harbor another unresolved star, and hence they should not be impacted by the same binarity issue. Gl 695BC, GJ 2005BC, Gl 22AC, and 2M1047+40 also have nearby associated stars. However, GJ 2005A has no entries in Gaia DR2, the {\it HST} parallax for Gl 695BC is more precise the the Gaia DR2 value for Gl 695A, GJ 22B does not pass the cuts on Gaia astrometry suggested in \citet{GaiaDr2} and \citet{Dr2_HR}, and the wide companion to 2M1047+40 is itself a tight binary \citep[LP 213-67AB,][]{Dupuy2017} with a large reported excess astrometric noise in Gaia \citep[a sign of binarity, ][]{2018RNAAS...2...20E}.
+We adopted Gaia DR2 parallaxes for five systems, GJ 1245AC, GJ 277AC, Gl 570BC, Gl 667AB, and HIP 111685AB. In each case we used the parallax of their wider common proper motion companion. The wider associated stars are not known to harbor another unresolved star, and hence they should not be impacted by the same binarity issue. Gl 695BC, GJ 2005BC, Gl 22AC, and 2M1047+40 also have nearby associated stars. However, GJ 2005A has no entry in Gaia DR2, the {\it HST} parallax for Gl 695BC is more precise than the Gaia DR2 value for Gl 695A, GJ 22B does not pass the cuts on Gaia astrometry suggested in \citet{GaiaDr2} and \citet{Dr2_HR}, and the wide companion to 2M1047+40 is itself a tight binary \citep[LP 213-67AB,][]{Dupuy2017} with a large reported excess astrometric noise in Gaia \citep[a sign of binarity, ][]{2018RNAAS...2...20E}.
 
 For three systems we derived new parallaxes using MEarth astrometry \citep{Nutzman:2008gf}. Updated parallaxes were measured following the procedure from \citet{2014ApJ...784..156D}. The only difference was that we used $\simeq$two additional years of data, which helps average out systematic errors arising from centroid motion due to the binary orbit, and significantly reduces the overall uncertainties. 
 
@@ -391,8 +389,6 @@ Equation~\ref{eqn:mass} provides only {\it total} mass of a given binary system,
 \begin{eqnarray}\label{eqn:mmk2}
 M_{\rm{tot,pre}} &&= 10^{\sum_{i=0}^{n} a_i(M_{K_S,2}-zp)^i} \nonumber \\
 && + 10^{\sum_{i=0}^{n} a_i(M_{K_S,1}-zp)^i}, 
-%M_{\rm{tot,pre}} &=& 10^{b_1} + 10^{b_2}, \nonumber \\
-%b_j &=& \sum_{i=0}^{n} a_i(M_{K_S,j}-zp)^i, \label{eqn:mmk2_b}
 \end{eqnarray}
 where \mks$_{,1}$ and \mks$_{,2}$ are the primary and companion absolute $K_S$-band magnitudes derived from our measured $\Delta K_S$ and unresolved $K_S$ magnitudes (Section~\ref{sec:mags}). Note that while the \mmk\ relation is designed to make predictions for the masses of single stars from their \mks\ magnitudes, because we have resolved magnitudes we can combine predictions for the individual mass of each component into a prediction for \mpred\ that can be compared directly to \mdyn. In this way we could solve for the $a_i$ coefficients in the \mmk\ relation without using individual masses or mass ratios. We also note that Equation~\ref{eqn:mmk2} could be modified for arbitrarily higher-order star systems, providing individual \mks\ magnitudes and the total mass of the system are known. 
 
@@ -400,8 +396,8 @@ We fit for the $a_i$ terms in Equation~\ref{eqn:mmk2} using the MCMC code {\tt e
 
 
 Errors on \mdyn\ and \mpred\ values are correlated to each other due to a common parallax. \mdyn\ estimates scale with the cube of the parallax (Equation~\ref{eqn:mass}). As a result, the parallax was a major source of uncertainty on \mdyn\ for many systems. Similarly, our $K_S$ magnitudes had relatively small errors (0.01-0.03\,mag), so \mks\ errors tended to be dominated by the parallax. Because this correlation is usually along (parallel to) the direction of the \mmk\ relation (a greater distance increases both \mdyn\ and \mpred), it can tighten the fit if properly taken into account (when compared to assuming uncorrelated errors). 
-
-We wanted the MCMC to explore the full ellipse representing the correlation between \mks\ and $M_*$ for each binary. To this end, in each MCMC step we drew a parallax for each system from a Gaussian distribution defined by the measured parallax and uncertainty (the values in Table~\ref{tab:sample}, see Section~\ref{sec:plx}). The MCMC function was given $\alpha_{\rm{ang}}^3/P^2$ and $K_S$ (with uncertainties) for each system, from which \mdyn\ and \mks\ were calculated using the common parallax. We converted \mks\ into a \mpred\ for each binary, which we compared to the corresponding \mdyn\ values within the likelihood function. Thus the MCMC is forced to explore the range of possible parallaxes consistent with the input Gaussian uncertainties, while both \mdyn\ and \mpred\ shifted in a correlated way due to changes in the (shared) parallax. 
+ 
+We wanted the MCMC to explore the full `ellipse' representing the correlation between \mks\ and $M_*$ for each binary. To this end, we treated the distance of each system as a free parameter, letting each evolve under a prior from the observed parallaxes. The MCMC was provided $a\arcsec^3/P^2$ and $K_S$ (with uncertainties) for each system, from which \mdyn\ and \mks\ were calculated using the common parallax. We converted \mks\ into a \mpred\ for each binary, which we compared to the corresponding \mdyn\ values within the likelihood function. Thus the MCMC is forced to explore the range of possible parallaxes consistent with the input Gaussian uncertainties, while both \mdyn\ and \mpred\ shifted in a correlated way due to changes in the (shared) parallax. Since the orbital information provides no direct constraint on the distances, this method effectively forced the MCMC to explore a distribution along the input prior. 
 
 For computational efficiency, we assumed Gaussian errors on $\alpha_{\rm{ang}}^3/P^2$. Although $\alpha_{\rm{ang}}$ and $P$ were often correlated and non-Gaussian, posteriors of $\alpha_{\rm{ang}}^3/P^2$ were all well described by a Gaussian (Figure~\ref{fig:correlated}). 
 
@@ -415,19 +411,19 @@ For computational efficiency, we assumed Gaussian errors on $\alpha_{\rm{ang}}^3
 
 For main-sequence dwarfs at fixed metallicity, more massive stars should always be brighter. Thus we required that the resulting fit have a negative derivative (higher \mks\ always gives a smaller \mpred) over the full range of input objects considered. We tested running without this constraint, and found similar results over most of the parameter range considered. The major difference was near the edges of the input sample. Without the negative derivative constraint, the fit could become double valued where there were few points.
 
-To handle any variation not included in our formalism, we fit for an additional dimensionless parameter $\sigma_e$. The $\sigma_e$ parameter can be interpreted as accounting for missing physics (e.g., age, detailed abundances, and/or activity/rotation) giving rise to intrinsic scatter in the \mmk\ relation, or as underestimated uncertainties in our input parallaxes or orbital parameters (and hence the final assigned mass). We implemented $\sigma_e$ as a fractional uncertainty in the total mass, added to the measurement uncertainty (from the orbit and parallax errors) in quadrature. We also tested included $\sigma_e$ as an additional uncertainty in the $K_S$-band magnitudes. We discuss the differences between these two implementations in Section~\ref{sec:res}. We initialized $\sigma_e$ to a small but non-zero value ($\simeq$0.01\%).
+To handle any variation not included in our formalism, we fit for an additional dimensionless parameter $\sigma_e$. $\sigma_e$ can be interpreted as missing physics (e.g., age, detailed abundances, and/or activity/rotation) driving an intrinsic scatter in the \mmk, or as underestimated uncertainties in our input parallaxes or orbital parameters (and hence the final assigned mass). We implemented $\sigma_e$ as a fractional uncertainty in the total mass, added to the measurement uncertainty (from the orbit and parallax errors) in quadrature. We also tested included $\sigma_e$ as an additional uncertainty in the parallax (broadening the priors), or in the assigned $K$-band magnitudes. We discuss the differences between these implementations in Section~\ref{sec:res}.%%??! did you?
+
 
 To briefly summarize, each step of the MCMC chain included the following components. 
 \begin{itemize}
 \item We assumed an \mmk\ relation following Equation~\ref{eqn:mmk}. The first iteration used seed guesses for the $a_i$ coefficients from a least-squared fit. 
-\item We drew a parallax for each binary system from a Gaussian distribution determined by the literature or MEarth parallaxes and their uncertainties.
-\item From the measured $\Delta K_S$, unresolved $K_S$ magnitudes, and parallaxes from the previous step, we computed \mks\ for each of the 124 stars, as well as uncertainties arising from errors in $\Delta K_S$ and $K_S$.
+\item From the measured $\Delta K_S$, unresolved $K_S$ magnitudes, and input parallaxes, we computed \mks\ for each of the 124 stars, as well as uncertainties arising from errors in $\Delta K_S$ and $K_S$.
 \item We applied the \mmk\ relation from the first step to compute 124 individual mass estimates.
 \item We summed the component masses in each binary, providing predictions for the total masses (\mpred) of each of the 62 systems and corresponding uncertainties.
 \item To handle any missing uncertainties or intrinsic variation in the \mmk\ relation, we inflated uncertainties on \mpred\ by a fraction, $\sigma_e$. $\sigma_e$ was treated as a free parameter and was initially set to $\simeq$0. 
-\item Using the input orbital parameters ($\alpha_{\rm{ang}}^3/P^2$) for each system and the parallax above, we computed a total dynamical mass (\mdyn) for each binary system (see Equation~\ref{eqn:mass}). 
-\item We calculated the likelihood, which is the $\chi^2$ difference between all predicted total masses (from the relation) and total dynamical masses multiplied by uniform priors.
-\item Based on the log-likelihood, {\tt emcee} adjusted the $a_i$ and $\sigma_e$ values and repeated the process.
+\item Using the input orbital parameters ($\alpha_{\rm{ang}}^3/P^2$) for each system and the same parallaxes used for computing each \mks, we computed a total dynamical mass (\mdyn) for each binary system (see Equation~\ref{eqn:mass}). 
+\item We calculated the likelihood, which is the $\chi^2$ difference between all predicted total masses (from the relation) and total dynamical masses multiplied by uniform priors for $a_i$ and $\sigma_e$ and the Gaussian priors on each parallax.
+\item Based on the log-likelihood, {\tt emcee} adjusted the $a_i$ coefficients, $\sigma_e$, and parallaxes for all systems and repeated the process.
 \end{itemize}
 We emphasize that the comparison was done completely in {\it total mass}; the fitting method included no assumptions about the mass ratio, nor were mass ratios needed to fit the $a_i$ coefficients or $\sigma_e$. The fit was done using just $\pi$, $\alpha_{\rm{ang}}^3/P^2$, $K_S$, and $\Delta_{K_S}$ for each system. We address potential biases from using total masses (instead of individual masses) in Sections~\ref{sec:totalvsind} and \ref{sec:test}.
 
@@ -472,7 +468,7 @@ We adopted $n=\order$ as the preferred solution based on both the AIC values and
 \end{center}
 \end{figure}
 
-The different implementations of $\sigma_e$ were broadly consistent with each other. Implementing $\sigma_e$ as an error on the total mass best explained the data. Taking $\sigma_e$ as an error on the $K_S$-band magnitude led to a $\chi^2_\nu$ value too low when just considering stars below 0.25$M_\odot$, and too high for stars above 0.5$M_\odot$, while applying $\chi^2_\nu$ as an error on the total mass yielded $\chi^2_\nu$ closer to one over the whole mass range. Taking $\sigma_e$ as an error on $M_*$ is also easily implemented when applying the relation. 
+The three different implementations of $\sigma_e$ were broadly consistent with each other. For example, applying it as broadening on the parallax prior yielded an extra error $\gtrsim$1/3 that of implementing it on the final mass. Since the parallax term is cubed in the total mass calculation (Equation~\ref{eqn:mass}) these are functionally equivalent (although parameter correlation forces a slightly larger error in the parallax). However, we found that implementing $\sigma_e$ as an error on the total mass best explained the data. Taking $\sigma_e$ as an error on the $K$-band magnitude led to a $\chi^2_\nu$ value too low when just considering stars below 0.25$M_\odot$, and too high for stars above 0.5$M_\odot$, while applying $\chi^2_\nu$ as an error on the total mass yielded $\chi^2_\nu$ closer to one over the whole mass range. Taking $\sigma_e$ as an error on $M_*$ is also easily implemented when applying the relation. 
 
 We list the best-fit (highest likelihood) coefficient values in Table~\ref{tab:coeff}, as well as the median value of $\sigma_e$. We also provided trimmed posteriors for each coefficient and $\sigma_e$ for our suggested relations\footnote{\href{https://github.com/awmann/M_-M_K-/tree/master/resources}{https://github.com/awmann/M\_-M\_K-/tree/master/resources}}. Fits using $n=4$ and $n=6$ are included in Table~\ref{tab:coeff} for reference, although we suggest only using the $n=\order$ relation. 
 
@@ -500,7 +496,7 @@ All parameters were then randomly perturbed by their assigned uncertainties (ass
 
 We ran the 62 synthetic binaries through our MCMC framework, exactly as we did with the real sample (Section~\ref{sec:methods}). The only change was that we ran the MCMC chain for only 10,000 steps for computational efficiency. We repeated this process 100 times, each time generating a new binary sample and re-running our MCMC analysis. After each run, we saved the best-fit $a_i$ values and median $\sigma_e$. The shorter chain meant that not all fits passed our requirements for convergence, but we are mostly interested in the best-fit values and not a full exploration of the uncertainties that require a long chain. 
 
-We show the resulting distribution of \mmk\ relations using our synthetic binary sample alongside the input (`true') relation in Figure~\ref{fig:inject}. The fits using the synthetic binaries followed input distribution closely in all cases. The range of solutions deviated from the input by $\simeq\sigma_e$, as expected, with the exception of $<0.1M_\odot$ where there were a wider range of possible solutions. However, this same larger scatter is reflected in our MCMC fit to the calibration binaries (Figure~\ref{fig:relation}) and is well described by our adopted uncertainties ($\simeq3\%$) in the very low-mass regime. Since the fits using synthetic binaries used no information about the individual component masses, the consistency between the input and output \mmk\ relation confirms our use of total masses does not significantly bias our result.
+We show the resulting distribution of \mmk\ relations using our synthetic binary sample alongside the input (`true') relation in Figure~\ref{fig:inject}. The fits using the synthetic binaries followed input distribution closely in all cases. The range of solutions deviated from the input by $\simeq\sigma_e$, as expected, with the exception of $<0.1M_\odot$ where there were a wider range of possible solutions. However, the larger scatter is reflected in our MCMC fit to the calibration binaries (Figure~\ref{fig:relation}) and is well described by our adopted uncertainties ($\simeq3\%$) in the very low-mass regime. Since the fits using synthetic binaries used no information about the individual component masses, the consistency between the input and output \mmk\ relation in this test confirms our use of total masses does not significantly bias our result.
 
 \begin{figure}[h]
 \begin{center}
@@ -568,7 +564,7 @@ We show the \mks\ values versus literature dynamical masses for these systems in
 \end{center}
 \end{figure}
 
-Of the 29 stars, only one had a literature mass $>2\sigma$ off from the \mmk\ predicted value (Kepler-16A), and the $\chi^2_\nu$ of predicted and dynamical masses was 1.06 ($\chi^2=30.8$). The RMS of the residuals was 3.6\%, although this is driven primarily by the points with the largest errors in $M_*$ or $K_S$. If we restrict the sample to targets with 3\% uncertainties in $M_*$ the RMS is only 2.6\%, in agreement with our estimated uncertainties in the \mmk\ relation. 
+Of the 29 stars, only one had a literature mass $>2\sigma$ off from the \mmk\ predicted value (Kepler-16A), and the $\chi^2_\nu$ of predicted and dynamical masses was 1.02 ($\chi^2=29.6$). The RMS of the residuals was 3.6\%, although this is driven primarily by the points with the largest errors in $M_*$ or $K_S$. If we restrict the sample to targets with 3\% uncertainties in $M_*$ the RMS is only 2.8\%, in agreement with our estimated uncertainties in the \mmk\ relation. 
 
 Figure~\ref{fig:ind} also suggests a small ($\simeq$2\%) systematic offset, such that literature dynamical masses for eclipsing binaries are preferentially higher than those predicted from the \mmk\ relation. This difference is comparable in size to $\sigma_e$ and our overall precision, and hence is within systematic uncertainties (further verified by a $\chi^2_\nu$ near unity). The difference could be due to, for example, a $<1$\% systematic error in the parallaxes due to binary motion. 
 
@@ -623,16 +619,16 @@ We show the output coefficient posteriors including $f$ in Figure~\ref{fig:fitpo
 \end{center}
 \end{figure*}
 
-In agreement with our previous analyses, our derived $f$ value is consistent with zero (a 0.8$\pm$2.4\% change in mass per dex change in [Fe/H]). This suggests our relation will work reasonably well even on more extreme metallicity samples. However, it is also possible that [Fe/H] is less important than abundances of elements that specifically impact the strength of molecular features in M dwarf spectra. Higher C/O, for example, suppresses available Oxygen for TiO formation, weakling a major source of opacity in the optical \citep[e.g., C, O, Ti,][]{2012ApJ...747L..27F,2015ApJ...804...40G,Veyette2016a}. This also might explain some of the extra scatter in the relation ($\sigma_e$) if there is sufficient variance of these abundances in the given sample. Testing this will require a means to determine more detailed abundances of M dwarfs \citep[e.g.,][]{Veyette2017}, and/or to add in subdwarf binaries or other systems with more extreme abundances to provide increased leverage on any metallicity effects. 
+In agreement with our previous analyses, our derived $f$ value is consistent with zero (a 0.0$\pm$2.2\% change in mass per dex change in [Fe/H]). This suggests our relation will work reasonably well even on more extreme metallicity samples. However, it is also possible that [Fe/H] is less important than abundances of elements that specifically impact the strength of molecular features in M dwarf spectra. Higher C/O, for example, suppresses available Oxygen for TiO formation, weakling a major source of opacity in the optical \citep[e.g., C, O, Ti,][]{2012ApJ...747L..27F,2015ApJ...804...40G,Veyette2016a}. This also might explain some of the extra scatter in the relation ($\sigma_e$) if there is sufficient variance of these abundances in the given sample. Testing this will require a means to determine more detailed abundances of M dwarfs \citep[e.g.,][]{Veyette2017}, and/or to add in subdwarf binaries or other systems with more extreme abundances to provide increased leverage on any metallicity effects. 
 
 To compare to the models, we fit the MIST and DSEP grid points in the same manner as the empirical dataset following Equation~\ref{eqn:mmk3}. Our binary sample is not uniformly spaced in [Fe/H] and \mks, so to ensure a fair comparison, we resample the model grid to match the binary sample. For every target, we generated a model-predicted mass at fixed age (5\,Gyr), and alpha abundance (Solar) by linearly interpolating over \mks\ and [Fe/H] (using the assigned values for that target). We used the resulting (model-based) masses with the input \mks\ and [Fe/H] values to fit for a model $f$ value that can be compared to our empirical determination.
 
-In Figure~\ref{fig:f}, we show the posterior on $f$ from the model grids compared to that from the dynamical masses. MIST models predict a larger [Fe/H] effect then suggested by our binary sample, while DSEP predictions are quite consistent with our own. The difference between the two posteriors ($f_{\rm{model}}-f_{\rm{dynamical}}$) is inconsistent with zero at $5.1\sigma$ for MIST, while for DSEP the difference is only $1.6\sigma$. 
+In Figure~\ref{fig:f}, we show the posterior on $f$ from the model grids compared to that from the dynamical masses. MIST models predict a larger [Fe/H] effect then suggested by our binary sample, while DSEP predictions are quite consistent with our own. The difference between the two posteriors ($f_{\rm{model}}-f_{\rm{dynamical}}$) is inconsistent with zero at $5.1\sigma$ for MIST, while for DSEP the difference is $2\sigma$. 
 
 \begin{figure}[htp]
 \begin{center}
 \includegraphics[width=0.47\textwidth]{F_plot.eps}
-\caption{Comparison of the posterior on $f$ (fractional change in $M_*$ per dex in metallicity for a fixed \mks; Equation~\ref{eqn:mmk3}) predicted by the MIST models (black) and DSEP (blue) compared to that using our dynamical masses (red). The MIST models significantly overpredict the role of [Fe/H] on the relation, although our results are quite consistent with predictions from DSEP. There are an identical number of points in each posterior and the bin sizes are the same. }
+\caption{Comparison of the posterior on $f$ (fractional change in $M_*$ per dex in metallicity for a fixed \mks; Equation~\ref{eqn:mmk3}) predicted by the MIST models (black) and DSEP (blue) compared to that using our dynamical masses (red). The MIST models significantly overpredict the role of [Fe/H] on the relation, although our results are consistent with predictions from DSEP (at 2$\sigma$). There are an identical number of points in each posterior and the bin sizes are the same. }
 \label{fig:f}
 \end{center}
 \end{figure}
@@ -935,13 +931,13 @@ Here we show diagnostic plots of each of the binaries in our sample. Details of 
 \colhead{$n$} & \colhead{$a_0$} & \colhead{$a_1$} & \colhead{$a_2$} & \colhead{$a_3$} & \colhead{$a_4$} & \colhead{$a_5$} & \colhead{$a_6$} & \colhead{f} & \colhead{$\sigma_e$ }
 }
 \startdata
-4 & -0.65417 & -0.19830 & $  4.8376\rm{x}10^{-3}$ & $  3.9782\rm{x}10^{-3}$ & $ -2.2848\rm{x}10^{-4}$ & \nodata & \nodata & \nodata &  0.025\\
-5 & -0.63770 & -0.21125 & $ -5.0137\rm{x}10^{-3}$ & $  8.6686\rm{x}10^{-3}$ & $  5.7932\rm{x}10^{-4}$ & $ -2.7138\rm{x}10^{-4}$ & \nodata & \nodata &  0.019\\
-6 & -0.63468 & -0.21985 & $ -1.3845\rm{x}10^{-2}$ & $  9.6222\rm{x}10^{-3}$ & $  2.4257\rm{x}10^{-3}$ & $ -2.5752\rm{x}10^{-4}$ & $ -9.4088\rm{x}10^{-5}$ & \nodata &  0.019\\
+4 & -0.64919 & -0.20232 & $  5.1565\rm{x}10^{-3}$ & $  4.9146\rm{x}10^{-3}$ & $ -3.5432\rm{x}10^{-4}$ & \nodata & \nodata & \nodata &  0.025\\
+5 & -0.64220 & -0.20814 & $ -8.4340\rm{x}10^{-4}$ & $  7.8721\rm{x}10^{-3}$ & $  1.4205\rm{x}10^{-4}$ & $ -2.1318\rm{x}10^{-4}$ & \nodata & \nodata &  0.020\\
+6 & -0.64226 & -0.20947 & $ -5.1093\rm{x}10^{-3}$ & $  7.2450\rm{x}10^{-3}$ & $  1.4474\rm{x}10^{-3}$ & $ -1.3046\rm{x}10^{-4}$ & $ -7.6144\rm{x}10^{-5}$ & \nodata &  0.020\\
 \hline
-4 & -0.64879 & -0.20537 & $  4.3484\rm{x}10^{-3}$ & $  4.9806\rm{x}10^{-3}$ & $ -2.8208\rm{x}10^{-4}$ & \nodata & \nodata &  0.0087 &  0.026\\
-5 & -0.64581 & -0.20860 & $  2.8137\rm{x}10^{-4}$ & $  7.1699\rm{x}10^{-3}$ & $  6.9717\rm{x}10^{-5}$ & $ -1.3345\rm{x}10^{-4}$ & \nodata &  0.0084 &  0.020\\
-6 & -0.63937 & -0.22072 & $ -8.0933\rm{x}10^{-3}$ & $  1.1894\rm{x}10^{-2}$ & $  1.5615\rm{x}10^{-3}$ & $ -4.2360\rm{x}10^{-4}$ & $ -7.3715\rm{x}10^{-5}$ &  0.0079 &  0.020\\
+4 & -0.64262 & -0.19945 & $  7.3633\rm{x}10^{-4}$ & $  4.4524\rm{x}10^{-3}$ & $ -7.6916\rm{x}10^{-5}$ & \nodata & \nodata &  0.0076 &  0.026\\
+5 & -0.64714 & -0.20683 & $ -6.5349\rm{x}10^{-4}$ & $  7.1331\rm{x}10^{-3}$ & $  1.8378\rm{x}10^{-4}$ & $ -1.6040\rm{x}10^{-4}$ & \nodata & -0.0035 &  0.021\\
+6 & -0.64359 & -0.22115 & $ -5.5143\rm{x}10^{-3}$ & $  1.1309\rm{x}10^{-2}$ & $  1.1776\rm{x}10^{-3}$ & $ -4.2537\rm{x}10^{-4}$ & $ -4.7077\rm{x}10^{-5}$ & -0.0010 &  0.020\\
 \enddata
 \label{tab:coeff}
 \tablecomments{Fits follow the form: $\log_{10}\left( \frac{M_*}{M_\odot} \right) = \sum_{i=0}^{n} a_i(M_{K_S}-zp)^i$, where $zp\equiv7.5$.\\
@@ -959,37 +955,37 @@ The $n=5$ fit is preferred, while the others are listed for reference. }
 \startdata
 \multicolumn{7}{c}{No [Fe/H] term ($f=0$), 5th order} \\
 \hline
- 4.0 & 0.753 & K4.5 & 0.027 &  3.6\\
- 4.5 & 0.673 & K7.0 & 0.016 &  2.4\\
- 5.0 & 0.6016 & M0.0 & 0.014 &  2.4\\
- 5.5 & 0.5258 & M1.5 & 0.012 &  2.3\\
- 6.0 & 0.4445 & M2.5 & 0.0095 &  2.1\\
- 6.5 & 0.3631 & M3.0 & 0.0077 &  2.1\\
- 7.0 & 0.2885 & M3.5 & 0.0061 &  2.1\\
- 8.0 & 0.1767 & M4.5 & 0.0037 &  2.1\\
- 8.5 & 0.1403 & M5.0 & 0.0030 &  2.1\\
- 9.0 & 0.1146 & M6.0 & 0.0025 &  2.2\\
- 9.5 & 0.0974 & M6.5 & 0.0022 &  2.3\\
-10.0 & 0.0862 & M7.5 & 0.0021 &  2.5\\
-10.5 & 0.0792 & M9.0 & 0.0020 &  2.5\\
-11.0 & 0.0743 & L1.0 & 0.0023 &  3.2\\
+ 4.0 & 0.754 & K4.5 & 0.028 &  3.7\\
+ 4.5 & 0.6739 & K7.0 & 0.016 &  2.4\\
+ 5.0 & 0.6020 & M0.0 & 0.015 &  2.4\\
+ 5.5 & 0.5255 & M1.5 & 0.012 &  2.3\\
+ 6.0 & 0.4440 & M2.5 & 0.0099 &  2.2\\
+ 6.5 & 0.3630 & M3.0 & 0.0081 &  2.2\\
+ 7.0 & 0.2890 & M3.5 & 0.0064 &  2.2\\
+ 8.0 & 0.1776 & M4.5 & 0.0039 &  2.2\\
+ 8.5 & 0.1411 & M5.0 & 0.0032 &  2.2\\
+ 9.0 & 0.1153 & M6.0 & 0.0026 &  2.3\\
+ 9.5 & 0.0977 & M6.5 & 0.0023 &  2.4\\
+10.0 & 0.0863 & M7.5 & 0.0022 &  2.6\\
+10.5 & 0.0791 & M9.0 & 0.0021 &  2.6\\
+11.0 & 0.0742 & L1.0 & 0.0024 &  3.2\\
 \hline
 \multicolumn{7}{c}{[Fe/H] term ($f$), 5th order} \\
 \hline
- 4.0 & 0.755 & K4.5 & 0.029 &  3.8\\
- 4.5 & 0.673 & K7.0 & 0.017 &  2.5\\
- 5.0 & 0.6010 & M0.0 & 0.015 &  2.5\\
- 5.5 & 0.5252 & M1.5 & 0.012 &  2.4\\
- 6.0 & 0.4441 & M2.5 & 0.0100 &  2.2\\
- 6.5 & 0.3630 & M3.0 & 0.0081 &  2.2\\
- 7.0 & 0.2886 & M3.5 & 0.0064 &  2.2\\
- 8.0 & 0.1768 & M4.5 & 0.0039 &  2.2\\
- 8.5 & 0.1404 & M5.0 & 0.0032 &  2.2\\
- 9.0 & 0.1148 & M6.0 & 0.0026 &  2.3\\
- 9.5 & 0.0975 & M6.5 & 0.0024 &  2.4\\
-10.0 & 0.0863 & M7.5 & 0.0022 &  2.6\\
-10.5 & 0.0793 & M9.0 & 0.0021 &  2.6\\
-11.0 & 0.0744 & L1.0 & 0.0025 &  3.3\\
+ 4.0 & 0.753 & K4.5 & 0.029 &  3.9\\
+ 4.5 & 0.6734 & K7.0 & 0.017 &  2.5\\
+ 5.0 & 0.6017 & M0.0 & 0.015 &  2.5\\
+ 5.5 & 0.5255 & M1.5 & 0.012 &  2.4\\
+ 6.0 & 0.4441 & M2.5 & 0.010 &  2.3\\
+ 6.5 & 0.3630 & M3.0 & 0.0082 &  2.3\\
+ 7.0 & 0.2889 & M3.5 & 0.0065 &  2.3\\
+ 8.0 & 0.1775 & M4.5 & 0.0040 &  2.3\\
+ 8.5 & 0.1411 & M5.0 & 0.0033 &  2.3\\
+ 9.0 & 0.1152 & M6.0 & 0.0027 &  2.4\\
+ 9.5 & 0.0977 & M6.5 & 0.0024 &  2.5\\
+10.0 & 0.0863 & M7.5 & 0.0023 &  2.6\\
+10.5 & 0.0791 & M9.0 & 0.0021 &  2.7\\
+11.0 & 0.0742 & L1.0 & 0.0025 &  3.3\\
 \enddata
 \label{tab:err}
 \tablecomments{This table assumes \mks\ (and [Fe/H]) are known perfectly. Total errors on $M_*$ should take into account errors in the measured parameters and the relation. }
